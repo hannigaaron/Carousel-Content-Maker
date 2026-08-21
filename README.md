@@ -45,3 +45,30 @@ nicht wiederholen und dein Feedback tatsächlich ankommt.
 
 Einfach in einer Session sagen: *"Führ den Wochenlauf aus"* — dann wird
 `prompts/weekly-run.md` sofort abgearbeitet, unabhängig vom Zeitplan.
+
+## Slides als Bild rendern
+
+Der Text allein reicht nicht zum Hochladen — deshalb erzeugt das System die
+Slides gleich als fertige PNGs im Format aus `config/carousel-format.md`
+(Foto formatfüllend, dunkler Verlauf, Zähler oben links, Headline mit
+hellblauem Kursivwort, Trennlinie, Fließtext).
+
+```
+python3 scripts/render_slides.py posts/2026-W35/post-1.slides.json
+```
+
+Ergebnis: `posts/2026-W35/post-1-slides/slide-01.png` … in 1080×1350.
+
+Aufbau der JSON-Datei: siehe `scripts/beispiel-slides.json`. Kurz:
+
+- `type`: `"cover"` (größere Headline) oder `"point"`
+- `counter`: `"1/6"` bzw. `"DING 02 / 05"`
+- `headline`: `\n` für Zeilenumbrüche, `{Wort}` für das hellblaue Kursivwort
+- `body` (bzw. `subline` auf dem Cover): der Fließtext
+- `photo`: Pfad relativ zur JSON-Datei; fehlt er, kommt ein grauer Verlauf
+- `focus`: Bildausschnitt, z. B. `"top"` oder `"30% 20%"`, falls der Text über
+  einem unruhigen Bildbereich steht
+
+Gebraucht wird nur Chromium — keine Zusatzpakete. HEIC-Dateien vom iPhone
+müssen vorher als JPG exportiert werden; das Skript sagt es dir, statt still
+etwas Kaputtes zu erzeugen.

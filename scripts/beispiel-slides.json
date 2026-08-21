@@ -1,0 +1,23 @@
+{
+  "_hinweis": "Beispiel-Spezifikation. {geschweifte Klammern} markieren das hellblaue Kursivwort. 'photo' ist relativ zu dieser Datei; fehlt es, wird ein grauer Verlauf gerendert. 'focus' steuert den Bildausschnitt (z. B. 'center', 'top', '30% 20%').",
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/6",
+      "headline": "5 Dinge,\ndie ich meinen\n{Kunden}\nzuerst beibringe.",
+      "subline": "Bevor wir auch nur eine\nÜbung besprechen."
+    },
+    {
+      "type": "point",
+      "counter": "DING 02 / 05",
+      "headline": "Protein first,\n{immer}",
+      "body": "Jede Mahlzeit, jeder Tag. Wer zu wenig Protein isst, verliert im Defizit zuerst Muskeln. 1,5-2g pro Kilo Körpergewicht - das ist nicht verhandelbar."
+    },
+    {
+      "type": "point",
+      "counter": "DING 03 / 05",
+      "headline": "Schlaf ist dein\nbestes {Supplement}",
+      "body": "Kein Pre-Workout der Welt schlägt 7-8h Schlaf. Chronischer Schlafmangel = mehr Cortisol, mehr Hunger, schlechtere Insulinsensitivität. Kein Training kompensiert das."
+    }
+  ]
+}

@@ -15,12 +15,10 @@ bewusst so geschrieben, dass sie ohne jeden Vorkontext funktioniert.
 6. Die letzten **4 Wochenordner** unter `posts/` — für Themen-, Foto- und
    Formulierungs-Wiederholungen
 
-**Abbruchbedingung:** Enthalten `config/profile.md` oder
-`config/carousel-format.md` noch `TODO`-Platzhalter an den Stellen Zielgruppe,
-Tonalität oder Slide-Aufbau, dann **keine Posts generieren**. Stattdessen eine
-kurze Notiz in `posts/JJJJ-Wxx/_REVIEW.md` schreiben, welche Angaben fehlen, und
-committen. Erfundene Zielgruppen-Annahmen produzieren nur Arbeit statt sie zu
-sparen.
+Zielgruppe, Tonalität und Slide-Aufbau sind ausgefüllt — der Lauf startet also.
+Fehlt die Bildquelle (`config/photo-sources.md` ohne Ordner-ID), werden die
+Posts trotzdem vollständig getextet; die Fotos bleiben dann als beschriebene
+Leerstellen offen. Nichts erfinden, nichts beschönigen.
 
 ## Feedback der letzten Woche verarbeiten
 
@@ -59,6 +57,30 @@ Nach den Auswahlregeln in `config/photo-sources.md`. Für jedes Foto eine
 Ein-Satz-Begründung. Kein passendes Foto → `KEIN PASSENDES FOTO` plus
 Beschreibung, was aufgenommen werden müsste. Niemals ein unpassendes Foto
 danebenlegen, damit die Lücke gefüllt aussieht.
+
+## Slides rendern
+
+Für jeden Post zusätzlich eine Datei `post-N.slides.json` nach dem Muster in
+`scripts/beispiel-slides.json` schreiben und rendern:
+
+```
+python3 scripts/render_slides.py posts/JJJJ-Wxx/post-N.slides.json
+```
+
+Damit liegen die fertigen 1080×1350-PNGs in
+`posts/JJJJ-Wxx/post-N-slides/` — Aaron kann sie direkt hochladen.
+
+Regeln dafür:
+
+- `{geschweifte Klammern}` markieren das hellblaue Kursivwort. Genau eines pro
+  Slide, und zwar das Wort, auf das es ankommt.
+- Zeilenumbrüche in der Headline (`\n`) bewusst setzen: 2 Zeilen, der Umbruch
+  darf keine Sinneinheit zerreißen.
+- Ohne Foto rendert der Slide auf grauem Verlauf. Das ist als Platzhalter
+  gedacht und im Post als offener Punkt zu vermerken, nicht als fertig zu
+  verkaufen.
+- Nach dem Rendern die PNGs ansehen und prüfen: Steht Text über einem unruhigen
+  Bildbereich? Dann `focus` anpassen (z. B. `"focus": "top"`) und neu rendern.
 
 ## Review-Datei schreiben
 

@@ -17,19 +17,46 @@ weiteren Post besser.
 
 ## Zielgruppe
 
-- **Wer:** <!-- TODO: Alter, Geschlecht, Beruf/Lebenssituation -->
+- **Wer:** Vielbeschäftigte Berufstätige mit hohem Stresslevel und wenig
+  Freizeit. Menschen, die mit möglichst wenig Zeitaufwand große und vor allem
+  **langfristige** Ergebnisse wollen.
 - **Wo stehen sie:** Keine Anfänger im Sinne von "war noch nie im Gym", sondern
   Leute mit Vorgeschichte — sie kennen Push-Pull-Legs, sie kennen Pre-Workout,
   sie haben schon Pläne abgebrochen. (erschlossen)
-- **Was sie nachts wach hält** (erschlossen aus den Slide-Inhalten):
-  - "Ich fange an, mache drei Wochen, dann bricht es weg."
+- **Was sie nachts wach hält:**
+  - "Ich habe schlicht keine Zeit für fünf Trainings die Woche."
+  - "Ich fange an, mache drei Wochen, dann kommt Arbeit und Stress dazwischen."
   - "Ich trainiere ja — warum passiert trotzdem nichts?"
   - "Im Gym kriege ich es hin. Abends auf der Couch nicht."
   - "Ich brauche wahrscheinlich den besseren Plan." (falsche Diagnose, die du
     im Post korrigierst)
 - **Was sie schon 100x gehört haben** (= vermeiden): Supplement-Tipps,
   Plan-Optimierung, "du musst nur konsequenter sein" ohne Erklärung warum es
-  bisher nicht klappte
+  bisher nicht klappte, und jeder Ratschlag, der stillschweigend voraussetzt,
+  dass sie Zeit im Überfluss haben.
+
+### Was das für jeden Post heißt
+
+Der Zeitaufwand ist bei dieser Zielgruppe **kein Nebenaspekt, sondern der
+entscheidende Filter**. Ein Tipp, der zwei zusätzliche Stunden pro Woche
+kostet, ist für sie kein Tipp, sondern ein weiterer Grund aufzugeben.
+
+Daher gilt für jeden Punkt in jedem Post:
+
+1. **Zeitaufwand benennen, wo es einen gibt** — "2x 30 Minuten pro Woche",
+   "eine Mahlzeit umstellen, nicht alle". Nie offenlassen, wie teuer ein
+   Ratschlag in Lebenszeit ist.
+2. **Nichts vorschlagen, was Freizeit voraussetzt**, die es nicht gibt:
+   Meal Prep am Sonntag über drei Stunden, 6er-Split, tägliches Cardio.
+3. **Stress als Rahmenbedingung behandeln, nicht als Ausrede.** Die Zielgruppe
+   hat den Stress wirklich — Ratschläge müssen unter Stress funktionieren, nicht
+   nur im Idealfall.
+4. **Langfristigkeit vor schnellem Ergebnis.** Das Versprechen ist: es hält,
+   nicht: es geht schnell.
+
+Der Referenz-Post macht das schon richtig ("Selbst 2x 30 Minuten pro Woche
+bringen dir mehr als der Push-Pull-Legs-Plan, den du nach drei Wochen
+abbrichst"). Genau diese Bauart ist gemeint.
 
 ## Tonalität
 
