@@ -17,6 +17,13 @@ TEMPLATE = os.path.join(ROOT, "templates", "slide.html.tpl")
 
 WIDTH, HEIGHT = 1080, 1350  # Instagram 4:5
 
+# Der Textblock sitzt im unteren Drittel. Wird dieser Bereich zu hell, geht
+# weiße Schrift darauf unter — dann wird der Verlauf verstärkt und neu
+# gerendert, statt zu hoffen, dass es schon passt.
+TEXT_ZONE = dict(top_frac=.62, bottom_frac=.97, left_frac=.06, right_frac=.94)
+MAX_TEXT_LUMINANCE = 82        # 0-255; darüber ist weiße Schrift nicht mehr ruhig lesbar
+VEIL_STEPS = [(.35, .82), (.48, .90), (.60, .95)]  # (Mitte, unten)
+
 # Cover trägt eine größere Headline als die Inhaltsslides.
 # Schriftgrößen in vh, bezogen auf das 1350px hohe Referenzlayout
 # (1 px entspricht 0.0741vh). Das Cover trägt eine größere Headline.
@@ -94,7 +101,7 @@ def embed_photo(path, base_dir):
     return f'<img class="photo" src="data:{mime};base64,{data}">'
 
 
-def build_html(slide, base_dir):
+def build_html(slide, base_dir, veil=VEIL_STEPS[0]):
     kind = slide.get("type", "point")
     style = dict(STYLE.get(kind, STYLE["point"]))
     body = slide.get("body") or slide.get("subline") or ""
@@ -105,6 +112,8 @@ def build_html(slide, base_dir):
         "COUNTER": html.escape(slide.get("counter", "")),
         "HEADLINE": accent(slide.get("headline", "")),
         "BODY": f"<p>{accent(body)}</p>" if body else "",
+        "MID": f"{veil[0]:.2f}",
+        "BOTTOM": f"{veil[1]:.2f}",
     }
     for key, val in {**style, **fields}.items():
         tpl = tpl.replace(f"__{key}__", val)
@@ -127,12 +136,22 @@ def main():
 
     for i, slide in enumerate(slides, 1):
         png = os.path.join(out_dir, f"slide-{i:02d}.png")
-        with tempfile.TemporaryDirectory() as tmp:
-            page = os.path.join(tmp, "slide.html")
-            open(page, "w", encoding="utf-8").write(build_html(slide, base_dir))
-            shoot(chrome, page, png, window_height)
-        png_tools.crop_height(png, HEIGHT)
-        print(f"  {os.path.relpath(png, ROOT)}")
+        note = ""
+        for step, veil in enumerate(VEIL_STEPS):
+            with tempfile.TemporaryDirectory() as tmp:
+                page = os.path.join(tmp, "slide.html")
+                open(page, "w", encoding="utf-8").write(
+                    build_html(slide, base_dir, veil))
+                shoot(chrome, page, png, window_height)
+            png_tools.crop_height(png, HEIGHT)
+            luminance = png_tools.mean_luminance(png, **TEXT_ZONE)
+            if luminance <= MAX_TEXT_LUMINANCE:
+                if step:
+                    note = f"  (Verlauf verstärkt, Stufe {step + 1})"
+                break
+            note = (f"  (Textbereich bleibt hell: {luminance:.0f} — "
+                    f"anderes Foto oder anderer Ausschnitt nötig)")
+        print(f"  {os.path.relpath(png, ROOT)}{note}")
 
     print(f"{len(slides)} Slides gerendert nach {os.path.relpath(out_dir, ROOT)}/")
 

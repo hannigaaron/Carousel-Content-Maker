@@ -14,7 +14,7 @@
   .veil  { position:absolute; inset:0;
            background:linear-gradient(to bottom,
              rgba(0,0,0,.45) 0%, rgba(0,0,0,.10) 28%,
-             rgba(0,0,0,.35) 58%, rgba(0,0,0,.82) 100%); }
+             rgba(0,0,0,__MID__) 58%, rgba(0,0,0,__BOTTOM__) 100%); }
   .counter { position:absolute; top:4.6vh; left:6.3vw; font-weight:700;
              font-size:__CSIZE__; letter-spacing:__CTRACK__;
              color:__CCOLOR__; text-shadow:0 .15vh 1vh rgba(0,0,0,.5); }

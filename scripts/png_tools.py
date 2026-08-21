@@ -71,3 +71,23 @@ def crop_height(path, height):
     if current <= height:
         return
     encode(path, rows[:height], width, channels)
+
+
+def mean_luminance(path, top_frac, bottom_frac, left_frac, right_frac):
+    """Mittlere Helligkeit (0-255) eines rechteckigen Bildausschnitts.
+
+    Wird benutzt, um zu prüfen, ob der Textbereich hell genug ist, dass weiße
+    Schrift darauf untergehen würde.
+    """
+    rows, width, height, channels = decode(path)
+    y0, y1 = int(height * top_frac), int(height * bottom_frac)
+    x0, x1 = int(width * left_frac), int(width * right_frac)
+    total = count = 0
+    for y in range(y0, y1, 2):          # jede zweite Zeile/Spalte reicht
+        row = rows[y]
+        for x in range(x0, x1, 2):
+            off = x * channels
+            r, g, b = row[off], row[off + 1], row[off + 2]
+            total += (299 * r + 587 * g + 114 * b) // 1000
+            count += 1
+    return total / count if count else 0.0
