@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/6",
+     "headline":"5 Dinge,\ndie du {weglassen}\nkannst.",
+     "subline":"Ohne dass dein Fortschritt\ndarunter leidet.",
+     "photo":null},
+    {"type":"point","counter":"DING 01 / 05",
+     "headline":"Das {perfekte}\nTiming",
+     "body":"Ob dein Protein 30 Minuten oder 3 Stunden nach dem Training kommt, ändert an deinem Ergebnis nichts. Was zählt, ist die Menge über den ganzen Tag. Iss dann, wenn es in deinen Tag passt."},
+    {"type":"point","counter":"DING 02 / 05",
+     "headline":"Isolationsübungen\nals {Pflicht}",
+     "body":"Bei zwei Einheiten pro Woche gehört deine Zeit den großen Übungen: Kniebeuge, Kreuzheben, Drücken, Rudern. Curls sind kein Fehler - sie sind nur das Erste, was rausfliegt, wenn die Zeit knapp wird."},
+    {"type":"point","counter":"DING 03 / 05",
+     "headline":"Cardio {zusätzlich}\nzum Training",
+     "body":"Du musst nicht auch noch laufen gehen. Alltagsbewegung - Treppe, Weg zur Arbeit, Telefonat im Gehen - schlägt die Cardio-Einheit, die du in einer vollen Woche sowieso streichst."},
+    {"type":"point","counter":"DING 04 / 05",
+     "headline":"Meal Prep für die\n{ganze} Woche",
+     "body":"Drei Stunden am Sonntag sind der Grund, warum die meisten nach zwei Wochen aufhören. Bereite eine Komponente vor statt ganzer Menüs: eine Ladung Reis, eine Ladung Hähnchen. Das war's."},
+    {"type":"point","counter":"DING 05 / 05",
+     "headline":"Die {Suche} nach\ndem besseren Plan",
+     "body":"Der Plan ist selten das Problem. Wer dreimal im Jahr das Programm wechselt, hat am Jahresende weniger Trainings hinter sich als der, der bei einem mittelmäßigen geblieben ist."}
+  ]
+}

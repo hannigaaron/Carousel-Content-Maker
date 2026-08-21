@@ -28,3 +28,6 @@ was in den letzten 8 Wochen schon lief (siehe "Bereits gepostet").
 
 | Woche | Thema | Ordner |
 |---|---|---|
+| 2026-W35 | 5 Dinge, die du weglassen kannst | posts/2026-W35/post-1.md |
+| 2026-W35 | 4 Regeln für Wochen, in denen alles brennt | posts/2026-W35/post-2.md |
+| 2026-W35 | 5 Zeichen, dass es wirkt | posts/2026-W35/post-3.md |
