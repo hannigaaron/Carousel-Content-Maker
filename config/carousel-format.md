@@ -27,7 +27,7 @@ Kein separater CTA-Slide. Der letzte Punkt ist der stärkste und trägt den
   - Cover: `1/6` — weiß, fett
   - Inhaltsslides: `DING 02 / 05` — hellblau, Großbuchstaben, gesperrt
 - **Unten links, in dieser Reihenfolge:**
-  1. Headline, weiß fett, 2 Zeilen — **ein Wort oder eine Wortgruppe darin ist
+  1. Headline, weiß fett, 2 Zeilen (auf dem Cover auch 3–4) — **ein Wort oder eine Wortgruppe darin ist
      hellblau und kursiv** (`Kunden`, `immer`, `Supplement`, `schlägt`,
      `Lifestyle`)
   2. kurze hellblaue Trennlinie
@@ -44,7 +44,7 @@ vor: im Zähler und im kursiven Wort. Nirgends sonst.
 - Behauptung, kein Ratschlag. Kein "Warum du…", kein "So gehst du vor".
 - Das kursive Wort ist das Wort, auf das es ankommt — nicht irgendeins.
 
-**Fließtext (2–3 Zeilen):**
+**Fließtext (2–4 Zeilen):**
 - Erst die Aussage, dann die Begründung, dann die Konsequenz.
   *"Kein Pre-Workout der Welt schlägt 7-8h Schlaf. Chronischer Schlafmangel =
   mehr Cortisol, mehr Hunger, schlechtere Insulinsensitivität. Kein Training
@@ -62,7 +62,10 @@ vor: im Zähler und im kursiven Wort. Nirgends sonst.
   abgewogen. "Die meisten scheitern nicht im Gym."
 - **Gegen wen:** gegen Perfektionismus und Bro-Wissen — der aufgegebene
   Push-Pull-Legs-Plan, das Pre-Workout, der perfekte Plan in der Theorie.
-- **Keine Emojis.** Keine rhetorischen Fragen im Slide-Text.
+- **Auf den Slides keine Emojis.** In der Caption schon — siehe unten.
+- **Fragen im Slide-Text nur diagnostisch**, nie rhetorisch: "Was isst du
+  wirklich? Wie viel brauchst du tatsächlich?" führt den Leser zur eigenen
+  Lücke. "Kennst du das auch?" wäre Füllmaterial.
 - **Keine Weichmacher:** kein "kann helfen", "sollte man vielleicht".
 
 ## Fotos
@@ -89,7 +92,11 @@ nicht ein beliebiges gutes Bild von dir.
   Subline: "Bevor wir auch nur eine Übung besprechen."
   Foto: abends, schwarzes Hemd, Blick zur Seite
 
-- **Slide 2 · `DING 01 / 05`** — <!-- lag nicht bei, bitte nachreichen -->
+- **Slide 2 · `DING 01 / 05`** — "Ohne Zahl keine *Richtung*"
+  "Bevor du irgendetwas änderst: Versteh, wo dein Fehler liegt. Was isst du
+  wirklich? Wie viel brauchst du tatsächlich? Wer das nicht weiß, kämpft gegen
+  das falsche Problem."
+  Foto: Laptop mit dem Coaching-Dashboard — Gewichtsverlauf und Kalorien
 
 - **Slide 3 · `DING 02 / 05`** — "Protein first, *immer*"
   "Jede Mahlzeit, jeder Tag. Wer zu wenig Protein isst, verliert im Defizit
@@ -115,5 +122,44 @@ nicht ein beliebiges gutes Bild von dir.
 
 ## Caption
 
-<!-- TODO: Die Captions lagen nicht bei. Bitte die Caption von 1-2 Posts
-     einfügen, dann übernehme ich Aufbau, Länge und Hashtag-Strategie. -->
+Die Caption wiederholt die Slides **nicht**. Sie erzählt dieselbe Einsicht noch
+einmal von vorn — persönlicher, aus deiner Coaching-Erfahrung — und endet im
+Angebot. Fester Aufbau, aus dem Referenz-Post abgeleitet:
+
+| Block | Funktion | Beispiel |
+|---|---|---|
+| 1 | **Verbreiteter Irrtum**, als Beobachtung formuliert | "Die allermeisten denken immer, es geht nur ums Training." |
+| 2 | **Dein Widerspruch**, mit Erfahrungs-Autorität | "Aber ich kann dir sagen: In 99% aller Fälle liegt der Grund … wo ganz anders…" |
+| 3 | **Aufzählung der wahren Ursachen**, kommagetrennt, endet auf "usw." | "Lebensstil, Unwissenheit, schlechte Ernährungsgewohnheiten, Planungs- und Strukturprobleme, mentale Blockaden, usw." |
+| 4 | ❌ **Zuspitzung in einem Satz** | "Training ist nur ein minimaler Teil des Ganzen." |
+| 5 | 👉 **Überleitung auf dein Coaching** | "Und genau deshalb liegt der Fokus bei mir im Coaching gerade am Anfang viel mehr auf den anderen Dingen." |
+| 6 | **Warum das entscheidet** — Betonung auf *beibehalten* | "Denn diese Dinge entscheiden am Ende, ob du dein Ziel erreichst und vor allem auch beibehalten kannst." |
+| 7 | **CTA mit Codewort** | siehe unten |
+
+**Emojis:** genau drei, immer an derselben Stelle — `❌` vor der Zuspitzung,
+`👉` vor der Überleitung, `🤝` am Ende des CTA. Sonst keine.
+
+**Absätze:** jeder Block ist ein eigener Absatz mit Leerzeile. Kurze Zeilen.
+Im CTA wird bewusst mitten im Satz umgebrochen, damit er als Block lesbar ist.
+
+### Fester CTA
+
+> Wenn du merkst, dass auch bei dir einer oder mehrere dieser Punkte bei dir
+> zutrifft,
+> dann schreib mir mal
+> eine Nachricht mit „PLAN"
+> und ich analysiere mit dir kostenlos,
+> was deine größten Hebel sind, um dein Fitnessziel trotz stressigem Alltag
+> nachhaltig zu erreichen 🤝
+
+Das Codewort ist **PLAN**, das Versprechen eine kostenlose Analyse der größten
+Hebel. "Trotz stressigem Alltag" bleibt drin — das ist der Satzteil, der deine
+Zielgruppe adressiert. Der CTA wird pro Post höchstens leicht auf das Thema
+zugeschnitten, nie ersetzt.
+
+### Hashtags
+
+Im Referenz-Post **keine** — weder in der Caption noch sichtbar darunter.
+Solange nichts anderes hier steht, setzt der Wochenlauf ebenfalls keine, statt
+sich welche auszudenken.
+<!-- TODO: Falls du Hashtags im ersten Kommentar setzt, hier eintragen. -->

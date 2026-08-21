@@ -37,15 +37,13 @@ Damit du in 10 Sekunden entscheiden kannst, ob es passt.>
 
 ## Caption
 
-<Erste Zeile = eigenständiger Hook.>
-
-<3-6 Sätze.>
-
-<Abschlussfrage an die Community.>
+<7 Blöcke gemäß config/carousel-format.md: verbreiteter Irrtum → dein
+Widerspruch → Aufzählung der wahren Ursachen → ❌ Zuspitzung → 👉 Überleitung
+aufs Coaching → warum das entscheidet → CTA mit Codewort "PLAN" 🤝>
 
 ## Hashtags
 
-<gemäß config/carousel-format.md>
+<keine — siehe config/carousel-format.md>
 
 ## Offene Punkte
 

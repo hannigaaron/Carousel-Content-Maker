@@ -8,12 +8,16 @@ weiteren Post besser.
 ## Account
 
 - **Plattform:** Instagram
-- **Handle:** <!-- TODO -->
+- **Handle:** @coach.aaron.hannig
 - **Thema:** Personal Training, Ernährung, Lifestyle-Coaching
 - **Gym:** Young Athletic Nation
-- **Angebot dahinter:** 1:1-Coaching mit Kunden (erschlossen aus "meinen
-  Kunden", "fangen wir genau dort an")
-  <!-- TODO: auch Online-Coaching? Trainingspläne als Produkt? -->
+- **Angebot dahinter:** 1:1-Coaching. Einstieg über DM-Codewort **"PLAN"** →
+  kostenlose Analyse der größten Hebel.
+- **Tooling im Coaching:** nutrilize (Coaching-Zone, Gewichts- und
+  Kalorienverlauf), DaFiTs PT-Studio Ludwigsburg
+- **Positionierung:** Training ist nur ein kleiner Teil. Der Fokus liegt am
+  Anfang auf Lebensstil, Ernährungsgewohnheiten, Planung/Struktur und mentalen
+  Blockaden — weil diese Dinge entscheiden, ob das Ergebnis *bleibt*.
 
 ## Zielgruppe
 
