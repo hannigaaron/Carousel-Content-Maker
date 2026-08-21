@@ -18,6 +18,47 @@ Kontos.
 unter "Für mich freigegeben" und ist auflistbar. Alternativ das zweite
 Google-Konto auf claude.ai als eigenen Connector verbinden.
 
+## So kommen die Bilder in den Renderer
+
+Der Drive-Connector kann die Dateien zwar auflisten und herunterladen, schickt
+sie dabei aber als Base64 durch den Modell-Kontext. Gemessen: **ein einziges
+25-KB-Bild kostet rund 9.000 Tokens** — und ist mit 359×780 Pixeln ohnehin nur
+eine verkleinerte Kopie. Die brauchbaren Originale im Ordner sind 700–900 KB.
+Für 17 Slides pro Woche ist dieser Weg nicht tragbar.
+
+Der direkte Download über `drive.google.com` ist von hier aus gesperrt
+(Netzwerkrichtlinie der Umgebung). **Erreichbar ist aber
+`www.googleapis.com`** — die Drive-API. Ihr fehlt nur ein API-Key; für einen
+per Link freigegebenen Ordner genügt ein einfacher Key, kein OAuth.
+
+### Einrichtung (einmalig)
+
+1. In der [Google Cloud Console](https://console.cloud.google.com/) ein Projekt
+   anlegen (oder ein vorhandenes nehmen).
+2. Unter *APIs & Dienste → Bibliothek* die **Google Drive API** aktivieren.
+3. Unter *Anmeldedaten* einen **API-Schlüssel** erstellen. Sinnvoll einschränken:
+   Anwendung auf die Drive API begrenzen.
+4. Der Ordner muss auf **"Jeder mit dem Link — Betrachter"** stehen.
+5. Den Key als Umgebungsvariable `DRIVE_API_KEY` in der Umgebung hinterlegen
+   (Claude Code on the web → Environment → Umgebungsvariablen). **Nicht ins
+   Repo committen.**
+
+Danach:
+
+```
+DRIVE_API_KEY=... python3 scripts/fetch_drive_photos.py
+```
+
+Das lädt alle Bilder nach `assets/fotos/`, überspringt schon vorhandene und
+schreibt eine `index.json` mit Dateiname, ID und Bildmaßen. Von dort holt der
+Renderer sie direkt — ohne Kontextkosten.
+
+### Solange der Key fehlt
+
+Der Wochenlauf textet die Posts vollständig und beschreibt pro Slide, welches
+Foto gebraucht wird. Die Slides werden auf grauem Platzhalter gerendert. Das
+ist der dokumentierte Zwischenstand, kein stiller Fehler.
+
 ## Zugriff der Automatik
 
 Der Wochenlauf läuft in einem Container in der Cloud und hat keinen Zugriff auf
