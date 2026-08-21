@@ -1,54 +1,54 @@
 # Bildquelle
 
-## Deine Wahl
+## Aktive Quelle
 
-**Fotos aus der Bilder-Galerie von iPhone / Mac.**
+**Google-Drive-Ordner "Claude Carousel Pool Blanko Fotos"**
+`1tjgIb9c8dXdXgBLqYhBcS53jTsK_YSLh`
+https://drive.google.com/drive/folders/1tjgIb9c8dXdXgBLqYhBcS53jTsK_YSLh
 
-## Wichtig: die Automatik kommt da nicht direkt ran
+**Status: Inhalt noch nicht lesbar.** Der Ordner gehört
+`personalcoach.aaron@gmail.com`; verbunden ist in dieser Umgebung
+`hannigaaron@gmail.com`. Über die ID lässt sich der Ordner zwar auflösen (Name,
+Besitzer, Änderungsdatum), seine Dateien tauchen aber in keiner Suche auf — ein
+nur per Link freigegebener Ordner landet nicht im Datei-Index des anderen
+Kontos.
 
-Der wöchentliche Lauf läuft in einem Container in der Cloud, nicht auf deinem
-Mac. Er hat keinen Zugriff auf die Fotos-App, nicht auf deine iCloud-Mediathek
-und nicht auf das Dateisystem deines Rechners. Das ist keine Einstellungssache,
-sondern die Grenze der Umgebung.
+**Was das löst:** den Ordner aus dem Besitzer-Konto heraus **direkt an
+`hannigaaron@gmail.com` freigeben** (nicht nur "Link kopieren"). Danach steht er
+unter "Für mich freigegeben" und ist auflistbar. Alternativ das zweite
+Google-Konto auf claude.ai als eigenen Connector verbinden.
 
-Damit die Fotos trotzdem automatisch nutzbar sind, braucht es **eine Brücke**:
-einen Ordner, in den deine Bilder ohnehin landen und auf den die Automatik
-lesend zugreifen darf.
+## Zugriff der Automatik
 
-## Empfohlene Brücke: Drive-Ordner, per Sync gefüttert
+Der Wochenlauf läuft in einem Container in der Cloud und hat keinen Zugriff auf
+die Fotos-App oder die iCloud-Mediathek — nur auf Google Drive. Der Ordner oben
+ist deshalb die Brücke: Bilder vom iPhone über die Drive-App hochladen, vom Mac
+über Google Drive für Desktop im Finder ablegen.
 
-1. In Google Drive einen Ordner `Content-Fotos/` anlegen, gern mit Unterordnern:
+Wichtig für die Routine selbst: Sie wurde ohne Connector-Rechte angelegt und
+kommt damit **nicht** an Drive. Damit sie die Fotos eigenständig aussucht, muss
+sie einmal über die Routines-Oberfläche auf claude.ai neu angelegt und Google
+Drive dabei freigegeben werden.
 
-```
-Content-Fotos/
-  training-gym/
-  ernaehrung-essen/
-  portraits-mich/
-  alltag-behind-the-scenes/
-```
+## Lesbarkeit hat Vorrang vor Motiv
 
-2. Auf dem Mac **Google Drive für Desktop** installieren. Der Ordner erscheint
-   dann im Finder. Du markierst in der Fotos-App die Bilder, die für Content
-   taugen (z. B. mit einem Album "Content"), exportierst sie einmalig in den
-   Finder-Ordner — ab da synchronisiert Drive automatisch.
-3. Vom iPhone: die Google-Drive-App hat "Hochladen → Fotos". Bilder direkt nach
-   `Content-Fotos/` schieben, dauert Sekunden.
-4. Ordner-ID hier eintragen: `<TODO>`
+Der Text muss auf jedem Slide im Vordergrund stehen. Der Renderer prüft das
+selbst: Er misst nach dem Rendern die mittlere Helligkeit im Textbereich
+(unteres Drittel) und verstärkt den Verlauf automatisch in bis zu drei Stufen.
+Reicht auch die stärkste nicht, gibt er eine Warnung aus — dann braucht dieser
+Slide ein anderes Foto oder einen anderen Ausschnitt (`focus`).
 
-Aufwand für dich: einmal einrichten, danach nur noch gute Bilder in den Ordner
-schieben, wenn du eh gerade welche gemacht hast.
+Daraus folgt für die Fotoauswahl:
 
-## Alternative: Fotos ins Repo
-
-Bilder unter `assets/fotos/` ins Repo laden. Funktioniert ohne Drive, ist aber
-manueller und für große Mengen unpraktisch.
-
-## Was ich in deinem Drive vorgefunden habe
-
-Viele Bilder, aber verstreut und unsortiert: Kamera-Dumps von 2020–2022
-(`P10xxxxx.JPG`), geteilte Urlaubsordner, HEIC-Dateien von anderen Accounts.
-Nichts, was als Content-Galerie taugt. Deshalb der eigene Ordner — ohne ihn
-rät die Automatik, und das Ergebnis wäre zufällig statt passend.
+1. **Ruhiges unteres Drittel.** Dort sitzt der Text. Ein Foto mit Fenster,
+   Spiegelung, Beschriftung oder Gesicht genau dort ist ungeeignet, egal wie
+   gut es sonst ist.
+2. **Motiv verschieben statt Text.** Sitzt das Motiv im Bild unten, hilft
+   `"focus": "top"` — das Bild wird anders angeschnitten.
+3. **Kein harter Hell-Dunkel-Sprung hinter der Headline.** Das zerreißt die
+   Zeile optisch.
+4. Ein sehr helles Foto ist nicht verboten, kostet aber Verlaufsstärke — und
+   damit Bildwirkung. Bei zwei gleich passenden Motiven gewinnt das dunklere.
 
 ## Auswahlregeln (gelten, sobald die Quelle steht)
 

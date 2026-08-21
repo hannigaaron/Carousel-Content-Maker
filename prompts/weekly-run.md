@@ -53,10 +53,21 @@ Regeln, die über allem stehen:
 
 ## Fotos zuordnen
 
-Nach den Auswahlregeln in `config/photo-sources.md`. Für jedes Foto eine
-Ein-Satz-Begründung. Kein passendes Foto → `KEIN PASSENDES FOTO` plus
-Beschreibung, was aufgenommen werden müsste. Niemals ein unpassendes Foto
-danebenlegen, damit die Lücke gefüllt aussieht.
+Quelle und Regeln: `config/photo-sources.md`.
+
+1. Den Bildpool auflisten und **jedes in Frage kommende Foto tatsächlich
+   ansehen**, nicht nach Dateinamen raten. `IMG_9231.HEIC` sagt nichts über
+   das Motiv.
+2. Pro Slide das Foto wählen, das **die Situation zeigt, über die der Slide
+   spricht** — nicht das schönste Bild.
+3. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
+   `focus` setzen oder ein anderes Foto nehmen.
+4. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
+5. Kein passendes Foto → `KEIN PASSENDES FOTO` plus Beschreibung, was
+   aufgenommen werden müsste. Niemals ein unpassendes Foto danebenlegen, damit
+   die Lücke gefüllt aussieht.
+6. Meldet der Renderer, dass der Textbereich hell bleibt, wird das Foto
+   getauscht — nicht durchgewunken.
 
 ## Slides rendern
 
