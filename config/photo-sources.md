@@ -53,7 +53,29 @@ Das lädt alle Bilder nach `assets/fotos/`, überspringt schon vorhandene und
 schreibt eine `index.json` mit Dateiname, ID und Bildmaßen. Von dort holt der
 Renderer sie direkt — ohne Kontextkosten.
 
-### Solange der Key fehlt
+### Kostenfrage
+
+Der API-Key kostet nichts. Die Drive API hat keine kostenpflichtige Stufe,
+sondern nur Nutzungskontingente im Bereich von Tausenden Anfragen pro Tag —
+gebraucht werden hier ein paar Dutzend pro Woche. Ein Abrechnungskonto ist
+für einen API-Key nicht erforderlich.
+
+## Alternative ohne Google-Projekt: Fotos im Repo
+
+Genauso gut funktioniert es, die Bilder direkt unter `assets/fotos/` ins Repo
+zu legen — über die GitHub-Weboberfläche hochladen, ohne Terminal. Dann liegen
+sie bei jedem Klon des Wochenlaufs automatisch bereit, ohne API und ohne
+Kontextkosten. Der Renderer greift auf denselben Ordner zu, es ändert sich
+also nichts am Ablauf.
+
+Zwei Hinweise dazu:
+
+- **Kuratieren statt alles hochladen.** 30–40 gute Bilder reichen für Monate;
+  100 Originale à 800 KB blähen das Repo unnötig auf.
+- **Nachlegen ist Handarbeit.** Neue Fotos musst du selbst hochladen, während
+  der API-Weg den Drive-Ordner bei jedem Lauf automatisch abgleicht.
+
+### Solange weder Key noch Bilder im Repo vorliegen
 
 Der Wochenlauf textet die Posts vollständig und beschreibt pro Slide, welches
 Foto gebraucht wird. Die Slides werden auf grauem Platzhalter gerendert. Das
