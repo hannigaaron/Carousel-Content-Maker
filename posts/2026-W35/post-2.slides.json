@@ -1,20 +1,44 @@
 {
   "slides": [
-    {"type":"cover","counter":"1/5",
-     "headline":"4 Regeln für die\nWochen, in denen\nalles {brennt}.",
-     "subline":"Damit eine Stressphase nicht\ndrei Monate Arbeit kostet.",
-     "photo":null},
-    {"type":"point","counter":"REGEL 01 / 04",
-     "headline":"Runter auf das\n{Minimum}",
-     "body":"Nicht pausieren, reduzieren. Zwei kurze Einheiten statt der vier geplanten. In drei stressigen Wochen verlierst du keine Muskeln - aber die Gewohnheit, wenn du ganz aussetzt."},
-    {"type":"point","counter":"REGEL 02 / 04",
-     "headline":"Protein {zuerst}\nsichern",
-     "body":"Wenn alles wegbricht, halte eine Sache: genug Protein. Der Rest darf in solchen Wochen unsauber sein. Das ist kein Ideal, das ist Schadensbegrenzung - und sie funktioniert."},
-    {"type":"point","counter":"REGEL 03 / 04",
-     "headline":"Schlaf {vor}\nTraining",
-     "body":"Wenn du zwischen einer Stunde Training und einer Stunde Schlaf wählen musst, nimm den Schlaf. Übermüdet trainierst du schlechter, isst mehr und erholst dich langsamer."},
-    {"type":"point","counter":"REGEL 04 / 04",
-     "headline":"Termin {statt}\nVorsatz",
-     "body":"„Wenn ich Zeit habe“ heißt in einer vollen Woche: nie. Zwei feste Termine im Kalender, behandelt wie ein Meeting, das du nicht absagst."}
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "4 Regeln für die\nWochen, in denen\nalles {brennt}.",
+      "subline": "Damit eine Stressphase nicht\ndrei Monate Arbeit kostet.",
+      "photo": "../../assets/fotos/671CCEAB-51F2-49C6-B945-FD7CB465F033_1_105_c.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 01 / 04",
+      "headline": "Runter auf das\n{Minimum}",
+      "body": "Nicht pausieren, reduzieren. Zwei kurze Einheiten statt der vier geplanten. In drei stressigen Wochen verlierst du keine Muskeln - aber die Gewohnheit, wenn du ganz aussetzt.",
+      "photo": "../../assets/fotos/BDBFE79F-3BB7-49F7-A73A-54E69D5DA1D5.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 02 / 04",
+      "headline": "Protein {zuerst}\nsichern",
+      "body": "Wenn alles wegbricht, halte eine Sache: genug Protein. Der Rest darf in solchen Wochen unsauber sein. Das ist kein Ideal, das ist Schadensbegrenzung - und sie funktioniert.",
+      "photo": null,
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 03 / 04",
+      "headline": "Schlaf {vor}\nTraining",
+      "body": "Wenn du zwischen einer Stunde Training und einer Stunde Schlaf wählen musst, nimm den Schlaf. Übermüdet trainierst du schlechter, isst mehr und erholst dich langsamer.",
+      "photo": "../../assets/fotos/76CF5AF0-0CCD-4CA2-8C8B-E290793C91AF_1_102_o.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 04 / 04",
+      "headline": "Termin {statt}\nVorsatz",
+      "body": "„Wenn ich Zeit habe“ heißt in einer vollen Woche: nie. Zwei feste Termine im Kalender, behandelt wie ein Meeting, das du nicht absagst.",
+      "photo": "../../assets/fotos/E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg",
+      "focus": "top"
+    }
   ]
 }
