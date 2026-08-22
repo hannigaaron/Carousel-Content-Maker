@@ -110,6 +110,18 @@ Regeln dafür:
 - Nach dem Rendern die PNGs ansehen und prüfen: Steht Text über einem unruhigen
   Bildbereich? Dann `focus` anpassen (z. B. `"focus": "top"`) und neu rendern.
 
+## Ablage für Aaron bauen
+
+Zum Schluss die Woche in eine Form bringen, in der er nur noch nachsieht:
+
+```
+python3 scripts/build_upload_folder.py posts/JJJJ-Wxx
+```
+
+Das erzeugt `FERTIG-ZUM-HOCHLADEN/JJJJ-Wxx/` mit einem Ordner je Post, den
+Slides in Upload-Reihenfolge (`01.png`, `02.png`, …), der Caption als
+`caption.txt` zum Kopieren und `NOCH-ZU-PRUEFEN.txt`, wo etwas offen ist.
+
 ## Review-Datei schreiben
 
 `posts/JJJJ-Wxx/_REVIEW.md`:
