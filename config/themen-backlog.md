@@ -16,11 +16,33 @@ was in den letzten 8 Wochen schon lief (siehe "Bereits gepostet").
 
 ## Offene Themen
 
-<!-- TODO: hier reinschreiben, was du sowieso schon mal machen wolltest.
-     Je mehr hier steht, desto besser trifft der erste Lauf. -->
-- [ ]
-- [ ]
-- [ ]
+Vorrat für die nächsten Wochen. Alle treffen den Kern der Zielgruppe — wenig
+Zeit, viel Stress, langfristig dranbleiben — aus verschiedenen Richtungen.
+Aaron: streich raus, was dir nicht passt, und schreib eigene dazu. Was hier
+oben steht, wird zuerst genommen.
+
+**Zeit und Aufwand**
+- [ ] 5 Ausreden, die eigentlich Planungsprobleme sind
+- [ ] Was 20 Minuten Training wirklich bringen — und was nicht
+- [ ] 4 Wege, Bewegung in einen Bürotag zu schmuggeln, ohne Sport zu treiben
+- [ ] Warum "keine Zeit" fast nie an der Zeit liegt
+
+**Ernährung im Alltag**
+- [ ] 5 Situationen im Bürotag, die dich ausbremsen (Kantine, Meeting-Snacks, Feierabendhunger)
+- [ ] Auswärts essen, ohne die Woche zu ruinieren
+- [ ] 3 Frühstücke, die unter 5 Minuten fertig sind
+- [ ] Was du auf Geschäftsreise wirklich brauchst
+
+**Mindset und Struktur**
+- [ ] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
+- [ ] Der Unterschied zwischen Motivation und System
+- [ ] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
+- [ ] Warum ich am Anfang nicht über Training rede
+
+**Anlassbezogen**
+- [ ] September: zurück in die Routine nach dem Sommer
+- [ ] Dezember: die Feiertage überstehen, ohne im Januar neu anzufangen
+- [ ] Januar: warum Vorsätze scheitern und was stattdessen funktioniert
 
 ## Bereits gepostet
 
