@@ -29,9 +29,23 @@ Geduld. Keine Überschneidung mit deinem Referenz-Post.
 
 ## Verwendete Fotos
 
-**Keine.** Alle 17 Slides sind auf grauem Platzhalter gerendert. Was jeweils
-gebraucht wird, steht in jedem Post in der Slide-Tabelle. Sobald die Bildquelle
-steht (`config/photo-sources.md`), rendere ich neu.
+13 von 17 Slides sind bebildert, aus `assets/fotos/` (über GitHub hochgeladen).
+
+Von 110 hochgeladenen Dateien sind nur 18 groß genug für 1080×1350; der Rest
+sind verkleinerte Kopien mit 359×780 Pixeln. Das ist der Grund für die
+verbleibenden Lücken.
+
+**Noch ohne Foto — alles Essens- und Alltagsmotive:**
+
+| Post | Slide | Gebraucht wird |
+|---|---|---|
+| 1 | DING 01 Timing | Essen oder Shaker beiläufig, Uhr im Bild |
+| 1 | DING 04 Meal Prep | Eine Pfanne, eine Komponente |
+| 3 | ZEICHEN 02 Heißhunger | Ruhige Küche am Abend |
+| 3 | ZEICHEN 03 Waage/Kleidung | Hose oder Gürtel, Detailaufnahme |
+
+Diese vier rendern auf grauem Platzhalter, statt mit einem unpassenden Bild
+gefüllt zu werden.
 
 ## Was diesmal nicht gut lief
 

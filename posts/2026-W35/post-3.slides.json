@@ -1,23 +1,52 @@
 {
   "slides": [
-    {"type":"cover","counter":"1/6",
-     "headline":"5 Zeichen,\ndass es {wirkt}.",
-     "subline":"Lange bevor die Waage\nes dir zeigt.",
-     "photo":null},
-    {"type":"point","counter":"ZEICHEN 01 / 05",
-     "headline":"Dieselben Gewichte\nfühlen sich {leichter} an",
-     "body":"Bevor sich dein Körper sichtbar verändert, verändert sich deine Leistung. Dieselbe Hantel, dieselbe Wiederholungszahl, weniger Anstrengung: das ist Fortschritt, auch wenn ihn niemand sieht."},
-    {"type":"point","counter":"ZEICHEN 02 / 05",
-     "headline":"Der Abend {ohne}\nHeißhunger",
-     "body":"Wer tagsüber genug isst, sitzt abends nicht mehr vor dem Kühlschrank. Wenn die Abende ruhiger werden, stimmt an deiner Tagesstruktur etwas - auch wenn die Woche sonst chaotisch war."},
-    {"type":"point","counter":"ZEICHEN 03 / 05",
-     "headline":"Die Waage steht,\ndie {Kleidung} nicht",
-     "body":"Gewicht ist eine von vielen Zahlen und die trägste davon. Wenn die Hose anders sitzt, während die Waage sich nicht rührt, passiert genau das, was passieren soll."},
-    {"type":"point","counter":"ZEICHEN 04 / 05",
-     "headline":"Training braucht\nkeine {Überwindung}",
-     "body":"Am Anfang kostet jede Einheit eine Entscheidung. Irgendwann gehst du einfach hin, wie du auch zur Arbeit gehst. Ab da läuft es von selbst - und genau da hören die meisten vorher auf."},
-    {"type":"point","counter":"ZEICHEN 05 / 05",
-     "headline":"Eine schlechte Woche\nwirft dich nicht mehr {um}",
-     "body":"Früher war ein verpasstes Wochenende das Ende des Versuchs. Jetzt ist es eine verpasste Woche von 52. Wer das aushält, ist der Einzige, der nach einem Jahr noch dabei ist."}
+    {
+      "type": "cover",
+      "counter": "1/6",
+      "headline": "5 Zeichen,\ndass es {wirkt}.",
+      "subline": "Lange bevor die Waage\nes dir zeigt.",
+      "photo": "../../assets/fotos/IMG_7691.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "ZEICHEN 01 / 05",
+      "headline": "Dieselben Gewichte\nfühlen sich {leichter} an",
+      "body": "Bevor sich dein Körper sichtbar verändert, verändert sich deine Leistung. Dieselbe Hantel, dieselbe Wiederholungszahl, weniger Anstrengung: das ist Fortschritt, auch wenn ihn niemand sieht.",
+      "photo": "../../assets/fotos/9A9B4B84-C1E8-491C-B08E-83D49C89A138_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "ZEICHEN 02 / 05",
+      "headline": "Der Abend {ohne}\nHeißhunger",
+      "body": "Wer tagsüber genug isst, sitzt abends nicht mehr vor dem Kühlschrank. Wenn die Abende ruhiger werden, stimmt an deiner Tagesstruktur etwas - auch wenn die Woche sonst chaotisch war.",
+      "photo": null,
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "ZEICHEN 03 / 05",
+      "headline": "Die Waage steht,\ndie {Kleidung} nicht",
+      "body": "Gewicht ist eine von vielen Zahlen und die trägste davon. Wenn die Hose anders sitzt, während die Waage sich nicht rührt, passiert genau das, was passieren soll.",
+      "photo": null,
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "ZEICHEN 04 / 05",
+      "headline": "Training braucht\nkeine {Überwindung}",
+      "body": "Am Anfang kostet jede Einheit eine Entscheidung. Irgendwann gehst du einfach hin, wie du auch zur Arbeit gehst. Ab da läuft es von selbst - und genau da hören die meisten vorher auf.",
+      "photo": "../../assets/fotos/D1E8CC26-1A66-4182-A98E-A73289B48406_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "ZEICHEN 05 / 05",
+      "headline": "Eine schlechte Woche\nwirft dich nicht mehr {um}",
+      "body": "Früher war ein verpasstes Wochenende das Ende des Versuchs. Jetzt ist es eine verpasste Woche von 52. Wer das aushält, ist der Einzige, der nach einem Jahr noch dabei ist.",
+      "photo": "../../assets/fotos/270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg",
+      "focus": "top"
+    }
   ]
 }
