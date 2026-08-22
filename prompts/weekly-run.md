@@ -16,9 +16,9 @@ bewusst so geschrieben, dass sie ohne jeden Vorkontext funktioniert.
    Formulierungs-Wiederholungen
 
 Zielgruppe, Tonalität und Slide-Aufbau sind ausgefüllt — der Lauf startet also.
-Fehlt die Bildquelle (`config/photo-sources.md` ohne Ordner-ID), werden die
-Posts trotzdem vollständig getextet; die Fotos bleiben dann als beschriebene
-Leerstellen offen. Nichts erfinden, nichts beschönigen.
+Ist `assets/fotos/` leer, werden die Posts trotzdem vollständig getextet; die
+Fotos bleiben dann als beschriebene Leerstellen offen und die Slides rendern
+auf grauem Platzhalter. Nichts erfinden, nichts beschönigen.
 
 ## Feedback der letzten Woche verarbeiten
 
@@ -55,9 +55,10 @@ Regeln, die über allem stehen:
 
 Quelle und Regeln: `config/photo-sources.md`.
 
-1. Den Bildpool auflisten und **jedes in Frage kommende Foto tatsächlich
-   ansehen**, nicht nach Dateinamen raten. `IMG_9231.HEIC` sagt nichts über
-   das Motiv.
+1. Den Bildpool in `assets/fotos/` auflisten und **jedes in Frage kommende
+   Foto tatsächlich ansehen**, nicht nach Dateinamen raten — `IMG_9231.jpeg`
+   sagt nichts über das Motiv. Lokale Dateien anzusehen ist billig; das ist
+   der Grund, warum die Bilder im Repo liegen und nicht in Drive.
 2. Pro Slide das Foto wählen, das **die Situation zeigt, über die der Slide
    spricht** — nicht das schönste Bild.
 3. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
