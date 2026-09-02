@@ -1,0 +1,13 @@
+# OS-Artefakte
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporäre Dateien
+*.tmp
+*.log
