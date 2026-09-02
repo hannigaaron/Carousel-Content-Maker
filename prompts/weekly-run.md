@@ -56,12 +56,12 @@ Regeln, die über allem stehen:
 
 Quelle und Regeln: `config/photo-sources.md`.
 
-1. **Bildpool holen.** Die Fotos liegen auf dem Branch `assets/fotos`, nicht
-   im Arbeitsbranch:
+1. **Bildpool.** Die Fotos liegen bereits in `assets/fotos/` im Arbeitsbranch.
+   Nur falls der Ordner leer ist, vom separaten Branch nachladen:
 
    ```
    git fetch origin assets/fotos
-   mkdir -p assets/fotos && git archive origin/assets/fotos | tar -x -C assets/fotos/
+   git archive origin/assets/fotos | tar -x -C assets/fotos/
    ```
 
 2. **Nur brauchbare Auflösungen verwenden.** Ein großer Teil des Pools sind
