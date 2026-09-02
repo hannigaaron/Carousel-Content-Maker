@@ -80,10 +80,16 @@ Quelle und Regeln: `config/photo-sources.md`.
 6. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
    `focus` setzen oder ein anderes Foto nehmen.
 7. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
-8. Kein passendes Foto → `KEIN PASSENDES FOTO` plus Beschreibung, was
-   aufgenommen werden müsste. Niemals ein unpassendes Foto danebenlegen, damit
-   die Lücke gefüllt aussieht.
-9. Meldet der Renderer, dass der Textbereich hell bleibt, wird das Foto
+8. Findet sich im eigenen Pool nichts, ist für Slides **ohne Person**
+   (Essen, Küche, Schreibtisch, Details) ein Stock-Foto von Pixabay zulässig —
+   Regeln und Grenzen in `config/photo-sources.md`. Höchstens eines pro Post,
+   nie fürs Cover, nie mit fremden Gesichtern, und im Post als
+   `Foto: Stock (Pixabay)` kennzeichnen. Ist Pixabay nicht erreichbar, gilt
+   Punkt 9.
+9. Sonst `KEIN PASSENDES FOTO` plus Beschreibung, was aufgenommen werden
+   müsste. Niemals ein unpassendes Foto danebenlegen, damit die Lücke gefüllt
+   aussieht.
+10. Meldet der Renderer, dass der Textbereich hell bleibt, wird das Foto
    getauscht — nicht durchgewunken.
 
 ## Slides rendern

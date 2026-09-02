@@ -48,6 +48,41 @@ Daraus folgt für die Fotoauswahl:
 4. Ein sehr helles Foto ist nicht verboten, kostet aber Verlaufsstärke — und
    damit Bildwirkung. Bei zwei gleich passenden Motiven gewinnt das dunklere.
 
+## Stock-Fotos als Ergänzung (Pixabay)
+
+Zulässig, um Lücken zu füllen — aber sparsam und nur dort, wo keine Person ins
+Bild gehört.
+
+**Status:** `pixabay.com` ist von der Umgebung aus gesperrt (Netzwerkrichtlinie,
+403 beim Verbindungsaufbau). Freizugeben unter *Environment → Netzwerkrichtlinie*
+für `pixabay.com` und `cdn.pixabay.com`. Ohne Freigabe bleiben die betroffenen
+Slides auf Platzhalter.
+
+**Lizenz:** Die Pixabay Content License erlaubt kostenlose Nutzung auch
+kommerziell, ohne Namensnennung. Nicht erlaubt ist der Weiterverkauf der Bilder
+selbst — für Instagram-Slides unproblematisch.
+
+**Wann Stock erlaubt ist**
+
+| Erlaubt | Nicht erlaubt |
+|---|---|
+| Essen, Zutaten, Küche | Jeder Slide, auf dem Aaron zu sehen sein sollte |
+| Schreibtisch, Kalender, Alltagsgegenstände | Cover — die tragen sein Gesicht |
+| Details ohne Gesicht (Hantel, Schuhe, Gürtel) | Trainingsszenen |
+| | Bilder mit fremden Personen |
+
+**Harte Grenzen**
+
+1. **Höchstens ein Stock-Foto pro Post.** Aarons Format lebt davon, dass er
+   selbst drauf ist. Mischt sich Katalogoptik unter Handyfotos, merkt man den
+   Bruch sofort — das war bei der Overnight-Oats-Bowl schon grenzwertig.
+2. **Keine fremden Gesichter**, auch nicht angeschnitten. Model Releases sind
+   bei Pixabay nicht garantiert.
+3. **Im Post als Stock kennzeichnen**, damit Aaron es beim Review sofort sieht:
+   Zeile `Foto: Stock (Pixabay)` in der Slide-Tabelle.
+4. **Eigenes Foto schlägt Stock immer.** Stock nur, wenn im Pool nichts
+   Passendes liegt.
+
 ## Auswahlregeln
 
 1. **Passung vor Schönheit** — das Foto muss zum Slide-Inhalt gehören, nicht nur
