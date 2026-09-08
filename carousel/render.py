@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageOps
@@ -205,8 +206,11 @@ def render_slide(
     text_c, muted_c, accent_c = _rgb(theme.text), _rgb(theme.muted), _rgb(theme.accent)
     inner = W - 2 * M
 
-    if kind == "photo":
-        _photo_slide(canvas, slide, theme, inner, M, W, H)
+    if kind in ("photo", "summary"):
+        if kind == "photo":
+            _photo_slide(canvas, slide, theme, inner, M, W, H)
+        else:
+            _summary_slide(canvas, slide, theme, inner, M, W, H)
         if slide.get("footer", False):
             _footer(ImageDraw.Draw(canvas), theme, M, W, H, number, total, handle,
                     muted_c, accent_c, kind)
@@ -261,6 +265,93 @@ def _photo_slide(canvas, slide, theme, inner, M, W, H) -> None:
             y += line_h
 
     band = (int((W - box) / 2), int(y0), int((W + box) / 2), int(y0 + len(lines) * line_h))
+    ink, glow = ink_for(canvas, band, theme)
+    ink = slide.get("color", ink)
+
+    soft_shadow(canvas, paint, blur=theme.scaled(slide.get("shadow_blur", 30)),
+                opacity=slide.get("shadow", 205), color=glow)
+    paint(ImageDraw.Draw(canvas), _rgb(ink))
+
+
+def leaf(draw, cx: float, cy: float, size: int, fill) -> None:
+    """Blatt als Trennzeichen: zwei gespiegelte Bögen als Umriss, dazu die Ader.
+
+    Als Umriss statt gefüllt – gefüllt wird die Form in dieser Größe zum Klecks.
+    """
+    steps = 32
+    stroke = max(2, round(size / 14))
+    spine = [(cx - size / 2 + size * t / steps, cy) for t in range(steps + 1)]
+    upper = [(x, y - math.sin(math.pi * t / steps) ** 0.85 * size * 0.30)
+             for t, (x, y) in enumerate(spine)]
+    lower = [(x, cy + (cy - y)) for x, y in reversed(upper)]
+
+    outline = [_rotate(pt, (cx, cy), -0.72) for pt in upper + lower]
+    draw.line(outline + [outline[0]], fill=fill, width=stroke, joint="curve")
+    draw.line([_rotate(pt, (cx, cy), -0.72) for pt in spine], fill=fill, width=stroke)
+
+
+def _rotate(point, origin, angle: float):
+    (x, y), (ox, oy) = point, origin
+    cos_a, sin_a = math.cos(angle), math.sin(angle)
+    dx, dy = x - ox, y - oy
+    return (ox + dx * cos_a - dy * sin_a, oy + dx * sin_a + dy * cos_a)
+
+
+def _summary_slide(canvas, slide, theme, inner, M, W, H) -> None:
+    """Foto im Hintergrund, darauf ein kompakter Textblock: Überschrift,
+    Trennlinie, kurze Zeilen, Blatt, Schlusssatz."""
+    draw = ImageDraw.Draw(canvas)
+    tracking = theme.scaled(slide.get("tracking", theme.tracking))
+    box = inner - theme.scaled(40)
+
+    head_font = load(theme.font_display, theme.scaled(slide.get("size", 60)))
+    head_lines = wrap_tracked(draw, (slide.get("title") or "").upper(), head_font, box, tracking)
+    head_h = int(head_font.size * 1.28)
+
+    body_font = load(theme.font_display, theme.scaled(slide.get("body_size", 44)))
+    body_h = int(body_font.size * 1.42)
+    lines = slide.get("lines", [])
+    closing = slide.get("closing", [])
+
+    rule_gap = theme.scaled(34)
+    leaf_size = theme.scaled(slide.get("leaf", 52))
+    gap_after_rule = theme.scaled(38)
+    gap_before_leaf = theme.scaled(30)
+    gap_after_leaf = theme.scaled(46)
+
+    block = len(head_lines) * head_h + rule_gap * 2 + len(lines) * body_h + gap_after_rule
+    if closing:
+        block += gap_before_leaf + leaf_size + gap_after_leaf + len(closing) * body_h
+    y0 = H * slide.get("anchor", 0.44) - block / 2
+
+    def paint(target, fill):
+        y = y0
+        for line in head_lines:
+            x = (W - tracked_width(draw, line, head_font, tracking)) / 2
+            draw_tracked(target, (x, y), line, head_font, fill, tracking)
+            y += head_h
+
+        y += rule_gap
+        rule = theme.scaled(slide.get("rule", 300))
+        thickness = max(1, theme.scaled(2))
+        target.rectangle(((W - rule) / 2, y, (W + rule) / 2, y + thickness), fill=fill)
+        y += gap_after_rule
+
+        for line in lines:
+            x = (W - draw.textlength(line, font=body_font)) / 2
+            target.text((x, y), line, font=body_font, fill=fill)
+            y += body_h
+
+        if closing:
+            y += gap_before_leaf
+            leaf(target, W / 2, y + leaf_size / 2, leaf_size, fill)
+            y += leaf_size + gap_after_leaf
+            for line in closing:
+                x = (W - draw.textlength(line, font=body_font)) / 2
+                target.text((x, y), line, font=body_font, fill=fill)
+                y += body_h
+
+    band = (int((W - box) / 2), int(y0), int((W + box) / 2), int(y0 + block))
     ink, glow = ink_for(canvas, band, theme)
     ink = slide.get("color", ink)
 

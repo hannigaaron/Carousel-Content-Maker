@@ -28,7 +28,7 @@
     {
       "type": "photo",
       "title": "Weniger Heißhunger am Abend",
-      "image": "search:grilled salmon fillet vegetables plate",
+      "image": "search:salmon fillets baking sheet asparagus oven#1",
       "anchor": 0.5
     },
     {
@@ -48,6 +48,22 @@
       "title": "Und du verzichtest auf nichts",
       "image": "search:burger fries plate restaurant",
       "anchor": 0.5
+    },
+    {
+      "type": "summary",
+      "title": "Dein Körper mag einfache Entscheidungen",
+      "lines": [
+        "Weniger Verarbeitetes.",
+        "Mehr echte Zutaten.",
+        "Mehr Energie im Alltag.",
+        "Ein ruhigerer Kopf."
+      ],
+      "closing": [
+        "Kleine Schritte.",
+        "Große Wirkung."
+      ],
+      "image": "search:buddha bowl chickpeas vegetables#3",
+      "anchor": 0.44
     },
     {
       "type": "photo",

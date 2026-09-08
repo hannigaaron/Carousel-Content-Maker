@@ -56,12 +56,15 @@ unterschiedliche Fotos (Treffer 0, dann Treffer 1, …). Mit
 | `quote` | `quote`, `author` | Zitat |
 | `cta` | `kicker`, `title`, `body`, `button` | letzter Slide |
 | `photo` | `title` | Foto füllt den Slide, ein Satz in Versalien liegt mittig darauf |
+| `summary` | `title`, `lines[]`, `closing[]` | Überschrift, Trennlinie, kurze Zeilen, Blatt, Schlusssatz |
 
 Zusätzlich auf jedem Slide möglich: `image`, `scrim` (0–1, wie stark das Foto
 abgedunkelt wird) und `blur` (Weichzeichner in Pixeln).
 
 `photo` kennt zusätzlich `anchor` (0–1, Höhe des Textes im Bild), `size`,
-`tracking` (Sperrung), `max_lines` und `color`. Die Schriftfarbe wird sonst
+`tracking` (Sperrung), `max_lines` und `color`. `summary` nutzt dieselben
+Felder plus `body_size`, `rule` (Breite der Trennlinie) und `leaf` (Größe des
+Blattzeichens). Die Schriftfarbe wird sonst
 automatisch gewählt: Der Renderer misst die Helligkeit hinter dem Text und
 schreibt auf hellen Tellern dunkel statt weiß. Für dieses Format gehört
 `"footer": false` auf Deck-Ebene dazu – Instagram zeigt den Slide-Zähler selbst.
@@ -91,7 +94,7 @@ lange Texte brechen das Layout nicht, sie werden nur kleiner.
 Zwei Beispiele liegen bei:
 
 - `content/beispiel-fokus.json` – gemischte Slide-Typen, dunkles Theme
-- `content/ernaehrung-30-tage.json` – acht Foodfotos im `photo`-Format
+- `content/ernaehrung-30-tage.json` – neun Slides im `photo`- und `summary`-Format
 
 ## Struktur
 
