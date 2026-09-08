@@ -42,7 +42,8 @@ python3 -m carousel search "foggy forest morning path"
 ```
 
 Zweimal dasselbe Stichwort im selben Carousel liefert automatisch
-unterschiedliche Fotos (Treffer 0, dann Treffer 1, …).
+unterschiedliche Fotos (Treffer 0, dann Treffer 1, …). Mit
+`"search:burger fries plate#2"` wählst du einen Treffer gezielt aus.
 
 ## Slide-Typen
 
@@ -54,9 +55,16 @@ unterschiedliche Fotos (Treffer 0, dann Treffer 1, …).
 | `stat` | `value`, `label` | eine große Zahl |
 | `quote` | `quote`, `author` | Zitat |
 | `cta` | `kicker`, `title`, `body`, `button` | letzter Slide |
+| `photo` | `title` | Foto füllt den Slide, ein Satz in Versalien liegt mittig darauf |
 
 Zusätzlich auf jedem Slide möglich: `image`, `scrim` (0–1, wie stark das Foto
 abgedunkelt wird) und `blur` (Weichzeichner in Pixeln).
+
+`photo` kennt zusätzlich `anchor` (0–1, Höhe des Textes im Bild), `size`,
+`tracking` (Sperrung), `max_lines` und `color`. Die Schriftfarbe wird sonst
+automatisch gewählt: Der Renderer misst die Helligkeit hinter dem Text und
+schreibt auf hellen Tellern dunkel statt weiß. Für dieses Format gehört
+`"footer": false` auf Deck-Ebene dazu – Instagram zeigt den Slide-Zähler selbst.
 
 Schriftgrößen werden automatisch verkleinert, bis der Text in seine Box passt –
 lange Texte brechen das Layout nicht, sie werden nur kleiner.
@@ -77,7 +85,13 @@ lange Texte brechen das Layout nicht, sie werden nur kleiner.
 }
 ```
 
-`python3 -m carousel themes` listet die Themes mit ihren Farben.
+`python3 -m carousel themes` listet die Themes mit ihren Farben. Das Theme
+`serif` gehört zum `photo`-Format: Cormorant Garamond, Versalien, gesperrt.
+
+Zwei Beispiele liegen bei:
+
+- `content/beispiel-fokus.json` – gemischte Slide-Typen, dunkles Theme
+- `content/ernaehrung-30-tage.json` – acht Foodfotos im `photo`-Format
 
 ## Struktur
 

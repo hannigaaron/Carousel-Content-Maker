@@ -198,25 +198,40 @@ def fetch(query: str, *, index: int = 0, width: int = 1600) -> Photo | None:
     if index >= len(hits):
         print(f"  ! kein frei lizenziertes Bild für {query!r}")
         return None
-    hit = hits[index]
 
     CACHE.mkdir(parents=True, exist_ok=True)
-    path = CACHE / f"{hashlib.sha1(hit['url'].encode()).hexdigest()[:16]}.img"
-    if not path.exists():
-        blob = _download(hit["url"])
-        if blob is None:
-            print(f"  ! Download fehlgeschlagen für {query!r}")
-            return None
-        path.write_bytes(blob)
-    return Photo(path=path, query=query, **{k: hit[k] for k in ("title", "license", "author", "source")})
+    # Einzelne Dateien liefern trotz Backoff dauerhaft 429 – dann lieber den
+    # nächsten Treffer nehmen als den Slide ohne Foto zu lassen.
+    for hit in hits[index:]:
+        path = CACHE / f"{hashlib.sha1(hit['url'].encode()).hexdigest()[:16]}.img"
+        if not path.exists():
+            blob = _download(hit["url"])
+            if blob is None:
+                continue
+            path.write_bytes(blob)
+        return Photo(path=path, query=query,
+                     **{k: hit[k] for k in ("title", "license", "author", "source")})
+
+    print(f"  ! kein Foto ladbar für {query!r}")
+    return None
 
 
 def resolve(spec: str | None, *, index: int = 0) -> Photo | None:
-    """'search:bergsee' sucht online, alles andere ist ein Pfad im Repo."""
+    """'search:bergsee' sucht online, alles andere ist ein Pfad im Repo.
+
+    'search:bergsee#2' nimmt gezielt den dritten Treffer – praktisch, wenn
+    'carousel search' zeigt, dass das passende Foto nicht ganz oben steht.
+    """
     if not spec:
         return None
     if spec.startswith("search:"):
-        return fetch(spec.removeprefix("search:").strip(), index=index)
+        query = spec.removeprefix("search:").strip()
+        if "#" in query:
+            query, _, pick = query.rpartition("#")
+            if pick.isdigit():
+                return fetch(query.strip(), index=int(pick))
+            query = f"{query}#{pick}"
+        return fetch(query, index=index)
     path = Path(spec) if Path(spec).is_absolute() else ROOT / spec
     if not path.exists():
         print(f"  ! Bild nicht gefunden: {spec}")

@@ -30,6 +30,10 @@ class Theme:
     font_head: str = "Montserrat:700"
     font_body: str = "Inter:400"
     font_meta: str = "Inter:700"
+    # Serifenschrift für Slides, die nur aus Foto und einem Satz bestehen.
+    font_display: str = "Cormorant Garamond:700"
+    on_photo: str = "#ffffff"
+    tracking: int = 5
 
     margin: int = 84
     radius: int = 36
@@ -59,6 +63,21 @@ THEMES: dict[str, Theme] = {
         muted="#9db3a6",
         accent="#7dd3a0",
         on_accent="#0f1f18",
+    ),
+    # Für Foodfotos: der Text liegt auf dem Bild, der Hintergrund kommt nur
+    # bei Slides ohne Foto zum Vorschein.
+    "serif": Theme(
+        name="serif",
+        bg="#efece6",
+        surface="#ffffff",
+        text="#1c1b19",
+        muted="#7a766e",
+        accent="#1c1b19",
+        on_accent="#ffffff",
+        font_head="Cormorant Garamond:700",
+        font_body="Inter:400",
+        scrim=0.28,
+        scrim_top=0.6,
     ),
     "sunset": Theme(
         name="sunset",

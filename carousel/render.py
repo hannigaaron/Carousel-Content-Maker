@@ -92,6 +92,74 @@ def fit(
     return font, wrap(draw, text, font, max_w), int(minimum * leading)
 
 
+def tracked_width(draw, text: str, font, tracking: int) -> float:
+    """Breite inklusive Sperrung – Pillow kennt kein letter-spacing."""
+    if not text:
+        return 0.0
+    return sum(draw.textlength(ch, font=font) for ch in text) + tracking * (len(text) - 1)
+
+
+def draw_tracked(draw, xy, text: str, font, fill, tracking: int) -> None:
+    x, y = xy
+    for ch in text:
+        draw.text((x, y), ch, font=font, fill=fill)
+        x += draw.textlength(ch, font=font) + tracking
+
+
+def wrap_tracked(draw, text: str, font, max_w: int, tracking: int) -> list[str]:
+    lines: list[str] = []
+    for paragraph in text.split("\n"):
+        line = ""
+        for word in paragraph.split():
+            probe = f"{line} {word}".strip()
+            if tracked_width(draw, probe, font, tracking) <= max_w or not line:
+                line = probe
+            else:
+                lines.append(line)
+                line = word
+        lines.append(line)
+    return lines
+
+
+def ink_for(canvas: Image.Image, box: tuple[int, int, int, int], theme: Theme) -> tuple[str, tuple[int, int, int]]:
+    """Schriftfarbe nach der Helligkeit hinter dem Text wählen.
+
+    Weiße Schrift auf einem weißen Teller ist auch mit Schatten unlesbar –
+    dort wird der Text dunkel und der Schein hell.
+    """
+    left, top, right, bottom = box
+    left, top = max(0, left), max(0, top)
+    right, bottom = min(canvas.width, right), min(canvas.height, bottom)
+    if right <= left or bottom <= top:
+        return theme.on_photo, (0, 0, 0)
+
+    patch = canvas.crop((left, top, right, bottom)).convert("L")
+    brightness = sum(patch.getdata()) / max(1, patch.width * patch.height)
+    if brightness > 165:
+        return theme.text, (255, 255, 255)
+    return theme.on_photo, (0, 0, 0)
+
+
+def soft_shadow(canvas: Image.Image, paint, *, blur: int, opacity: int,
+                color: tuple[int, int, int] = (0, 0, 0)) -> Image.Image:
+    """Weichen Schatten unter den Text legen, bevor er scharf gezeichnet wird.
+
+    Ohne ihn verschwindet weiße Schrift in hellen Bildstellen wie Reis oder
+    einem weißen Teller. Ein Verlauf über das ganze Foto würde das Essen
+    dagegen stumpf machen, deshalb dunkelt nur die Schrift selbst ab.
+    Zwei Durchgänge: ein breiter Hof und ein enger, harter Rand darunter.
+    """
+    stencil = Image.new("L", canvas.size, 0)
+    paint(ImageDraw.Draw(stencil), 255)
+    veil = Image.new("RGB", canvas.size, color)
+
+    for radius, share in ((blur, 0.75), (max(2, blur // 5), 1.0)):
+        layer = stencil.filter(ImageFilter.GaussianBlur(radius))
+        alpha = int(opacity * share)
+        canvas.paste(veil, (0, 0), layer.point(lambda v: v * alpha // 255))
+    return canvas
+
+
 def draw_lines(draw, lines, font, x, y, line_h, fill) -> int:
     for line in lines:
         draw.text((x, y), line, font=font, fill=fill)
@@ -119,6 +187,7 @@ def render_slide(
     number: int,
     total: int,
     handle: str = "",
+    footer: bool = True,
 ) -> Image.Image:
     W, H = theme.width, theme.height
     M = theme.scaled(theme.margin)
@@ -136,6 +205,13 @@ def render_slide(
     text_c, muted_c, accent_c = _rgb(theme.text), _rgb(theme.muted), _rgb(theme.accent)
     inner = W - 2 * M
 
+    if kind == "photo":
+        _photo_slide(canvas, slide, theme, inner, M, W, H)
+        if slide.get("footer", False):
+            _footer(ImageDraw.Draw(canvas), theme, M, W, H, number, total, handle,
+                    muted_c, accent_c, kind)
+        return canvas
+
     if kind == "cover":
         _cover_slide(draw, slide, theme, inner, M, W, H, text_c, muted_c, accent_c)
     elif kind == "quote":
@@ -149,8 +225,48 @@ def render_slide(
     else:
         _text_slide(draw, slide, theme, inner, M, W, H, text_c, muted_c, accent_c)
 
-    _footer(draw, theme, M, W, H, number, total, handle, muted_c, accent_c, kind)
+    if slide.get("footer", footer):
+        _footer(draw, theme, M, W, H, number, total, handle, muted_c, accent_c, kind)
     return canvas
+
+
+def _photo_slide(canvas, slide, theme, inner, M, W, H) -> None:
+    """Foto füllt den Slide, ein kurzer Satz in Versalien liegt mittig darauf."""
+    text = (slide.get("title") or slide.get("body") or "").upper()
+    if not text:
+        return
+
+    draw = ImageDraw.Draw(canvas)
+    tracking = theme.scaled(slide.get("tracking", theme.tracking))
+    box = inner - theme.scaled(40)
+
+    size = theme.scaled(slide.get("size", 82))
+    while size > theme.scaled(40):
+        font = load(theme.font_display, size)
+        lines = wrap_tracked(draw, text, font, box, tracking)
+        if len(lines) <= slide.get("max_lines", 3):
+            break
+        size -= 3
+    line_h = int(size * 1.24)
+
+    # Standardmäßig knapp unter die Mitte – dort liegt bei Tellerfotos der Rand.
+    anchor = slide.get("anchor", 0.5)
+    y0 = H * anchor - len(lines) * line_h / 2
+
+    def paint(target, fill):
+        y = y0
+        for line in lines:
+            x = (W - tracked_width(draw, line, font, tracking)) / 2
+            draw_tracked(target, (x, y), line, font, fill, tracking)
+            y += line_h
+
+    band = (int((W - box) / 2), int(y0), int((W + box) / 2), int(y0 + len(lines) * line_h))
+    ink, glow = ink_for(canvas, band, theme)
+    ink = slide.get("color", ink)
+
+    soft_shadow(canvas, paint, blur=theme.scaled(slide.get("shadow_blur", 30)),
+                opacity=slide.get("shadow", 205), color=glow)
+    paint(ImageDraw.Draw(canvas), _rgb(ink))
 
 
 def _kicker(draw, slide, theme, M, y, accent_c) -> int:

@@ -47,7 +47,8 @@ def build(content_path: Path, out_dir: Path, *, quality: int = 92) -> list[Path]
         if photo and photo.license != "eigenes Material":
             credits.append(photo)
 
-        canvas = render_slide(slide, theme, photo, number=i, total=total, handle=handle)
+        canvas = render_slide(slide, theme, photo, number=i, total=total,
+                              handle=handle, footer=data.get("footer", True))
         target = out_dir / f"{slug}-{i:02d}.jpg"
         canvas.save(target, quality=quality, subsampling=0, optimize=True)
         written.append(target)
