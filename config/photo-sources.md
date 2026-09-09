@@ -98,6 +98,17 @@ selbst — für Instagram-Slides unproblematisch.
 4. **Eigenes Foto schlägt Stock immer.** Stock nur, wenn im Pool nichts
    Passendes liegt.
 
+## Gesperrte Fotos
+
+**Vor jeder Auswahl `config/gesperrte-fotos.md` lesen.** Dort stehen Dateien,
+die dauerhaft nicht verwendet werden dürfen, und die Regel dahinter: keine
+Unterwäsche, kein nackter Oberkörper, keine Umkleide- oder Badsituationen.
+Diese Regel steht über jeder anderen Erwägung — ein Slide bleibt lieber ohne
+Bild.
+
+Für Cover ohne Person eignen sich Gegenstände: Gymtasche, Trinkflasche,
+Schuhe, Hantel, Trainingsplan auf dem Handy.
+
 ## Auswahlregeln
 
 1. **Passung vor Schönheit** — das Foto muss zum Slide-Inhalt gehören, nicht nur

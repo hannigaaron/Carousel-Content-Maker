@@ -13,7 +13,9 @@ bewusst so geschrieben, dass sie ohne jeden Vorkontext funktioniert.
 4. `config/themen-backlog.md` — offene Themen + bereits gepostete
 5. `config/lessons.md` — Feedback aus vergangenen Wochen
 6. `config/foto-historie.md` — welche Bilder schon gelaufen sind
-7. Die letzten **4 Wochenordner** unter `posts/` — für Themen-, Foto- und
+7. `config/gesperrte-fotos.md` — **dauerhaft gesperrte Bilder und die Regel
+   dahinter. Vor jeder Fotoauswahl lesen; die Sperre gilt ohne Ausnahme.**
+8. Die letzten **4 Wochenordner** unter `posts/` — für Themen-, Foto- und
    Formulierungs-Wiederholungen
 
 Zielgruppe, Tonalität und Slide-Aufbau sind ausgefüllt — der Lauf startet also.
@@ -73,14 +75,19 @@ Quelle und Regeln: `config/photo-sources.md`.
    anzusehen ist billig; das ist der Grund, warum die Bilder im Repo liegen
    und nicht in Drive.
 
-4. **`config/foto-historie.md` beachten:** kein Bild, das in den letzten
+4. **`config/gesperrte-fotos.md` prüfen:** gesperrte Dateien scheiden aus,
+   und kein Foto verwenden, auf das die dortige Regel zutrifft — keine
+   Unterwäsche, kein nackter Oberkörper, keine Umkleide- oder Badsituation.
+   Im Zweifel: nicht verwenden. Lieber ein Cover mit Gymtasche, Flasche oder
+   Schuhen als eines mit einem grenzwertigen Motiv.
+5. **`config/foto-historie.md` beachten:** kein Bild, das in den letzten
    8 Wochen schon lief. Nach der Auswahl die neuen Einträge dort nachtragen.
-5. Pro Slide das Foto wählen, das **die Situation zeigt, über die der Slide
+6. Pro Slide das Foto wählen, das **die Situation zeigt, über die der Slide
    spricht** — nicht das schönste Bild.
-6. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
+7. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
    `focus` setzen oder ein anderes Foto nehmen.
-7. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
-8. Findet sich im eigenen Pool nichts, ist für Slides **ohne Person**
+8. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
+9. Findet sich im eigenen Pool nichts, ist für Slides **ohne Person**
    (Essen, Küche, Schreibtisch, Details) ein Stock-Foto von Pixabay zulässig —
    Regeln und Grenzen in `config/photo-sources.md`. Höchstens eines pro Post,
    nie fürs Cover, nie mit fremden Gesichtern, und im Post als
@@ -94,10 +101,10 @@ Quelle und Regeln: `config/photo-sources.md`.
    ansehen und nach denselben Regeln prüfen wie eigene Fotos: ruhiges unteres
    Drittel, kein fremdes Gesicht. Fehlt `PIXABAY_API_KEY` oder gibt es keine
    brauchbaren Treffer, gilt Punkt 9.
-9. Sonst `KEIN PASSENDES FOTO` plus Beschreibung, was aufgenommen werden
+10. Sonst `KEIN PASSENDES FOTO` plus Beschreibung, was aufgenommen werden
    müsste. Niemals ein unpassendes Foto danebenlegen, damit die Lücke gefüllt
    aussieht.
-10. Meldet der Renderer, dass der Textbereich hell bleibt, wird das Foto
+11. Meldet der Renderer, dass der Textbereich hell bleibt, wird das Foto
    getauscht — nicht durchgewunken.
 
 ## Slides rendern

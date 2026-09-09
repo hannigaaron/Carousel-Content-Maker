@@ -25,6 +25,20 @@ Fortschrittszeichen).
    Erfahrung, keine Studienangabe.
 4. **Nur zwei Posts statt drei** — Begründung unten.
 
+## Korrektur nach dem ersten Durchgang
+
+Das ursprüngliche Cover von Post 2 zeigte Aaron in Unterwäsche. Das hätte nie
+ausgewählt werden dürfen. Vier Bilder sind daraufhin dauerhaft gesperrt
+(`config/gesperrte-fotos.md`), zusammen mit der Regel dahinter: keine
+Unterwäsche, kein nackter Oberkörper, keine Umkleide- oder Badsituation.
+
+Neues Cover: die Beinpresse mit aufgelegten Scheiben, Schuhe im Bild — Gerät
+statt Person, genau das, was Aaron als Alternative genannt hat.
+
+**Auch aus Woche 35 betroffen:** Das Cover von Post 3 (`IMG_7691.jpeg`) ist ein
+Spiegelselfie mit nacktem Oberkörper und fällt unter dieselbe Regel. Dieser
+Post sollte so nicht hochgeladen werden; ein neues Cover ist nachzuziehen.
+
 ## Verwendete Fotos
 
 Elf Bilder, alle aus `assets/fotos/`, keines davon aus Woche 35. Eingetragen in

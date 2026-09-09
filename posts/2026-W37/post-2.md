@@ -21,7 +21,7 @@ Zielgruppe durchhält.
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/5` | Zurück in die *Routine*. | Spiegel-Selfie |
+| 1 | `1/5` | Zurück in die *Routine*. | Beinpresse mit aufgelegten Scheiben, Schuhe im Bild — Gerät statt Person |
 | 2 | `SCHRITT 01 / 04` | Fang bei *zwei* an | Du beim Schuhe binden auf der Bahn |
 | 3 | `SCHRITT 02 / 04` | Eine Mahlzeit *zuerst* | Frühstücksteller neben dem MacBook |
 | 4 | `SCHRITT 03 / 04` | Der Einkauf entscheidet den *Abend* | Dein Einkaufswagen |
@@ -57,6 +57,9 @@ nachhaltig zu erreichen 🤝
 keine
 
 ## Offene Punkte
+
+- Cover getauscht: das ursprüngliche Spiegel-Selfie ist dauerhaft gesperrt
+  (`config/gesperrte-fotos.md`).
 
 - Slide 5 sagt „sechs Wochen" als Bewertungshorizont. Das ist deine Erfahrung,
   keine Studienangabe — falls du eine andere Zahl nennst, sag Bescheid.
