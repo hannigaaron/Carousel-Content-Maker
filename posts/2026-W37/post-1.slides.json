@@ -1,0 +1,52 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/6",
+      "headline": "5 Ausreden,\ndie in Wahrheit\n{Planungsprobleme}\nsind.",
+      "subline": "Und was du stattdessen\nänderst.",
+      "photo": "../../assets/fotos/B1B63913-DD5A-4314-9EB6-11BC4244045E_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "AUSREDE 01 / 05",
+      "headline": "„Ich habe\n{keine} Zeit“",
+      "body": "Du hast 168 Stunden pro Woche. Zwei davon sind etwas über ein Prozent. Wer sagt, er habe keine Zeit, meint fast immer: Ich habe keinen festen Platz dafür im Kalender.",
+      "photo": "../../assets/fotos/F0B5C03B-8B03-43C0-8FC2-D765EA052564_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "AUSREDE 02 / 05",
+      "headline": "„Ich fange\nnächste {Woche} an“",
+      "body": "Nächste Woche ist genauso voll wie diese - du kennst sie nur noch nicht. Fang mit der schlechtesten Version an, die heute möglich ist. Zwanzig Minuten zählen, null Minuten nicht.",
+      "photo": "../../assets/fotos/3A2F8738-FAED-4568-ACC6-D0C8690205CB_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "AUSREDE 03 / 05",
+      "headline": "„Ich brauche erst\nden richtigen {Plan}“",
+      "body": "Zwei Einheiten, vier große Übungen, dieselben Gewichte notieren - das trägt dich über Monate. Planen fühlt sich nach Fortschritt an, ist aber keiner.",
+      "photo": "../../assets/fotos/EC5861F7-377D-496B-A3C8-E717D5A5FB4A_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "AUSREDE 04 / 05",
+      "headline": "„Wenn ich mehr\n{Energie} hätte“",
+      "body": "Energie kommt nach der Bewegung, nicht davor. Wer wartet, bis er Lust hat, wartet in einer vollen Woche vergeblich. Es entscheiden die ersten fünf Minuten, nicht die Motivation.",
+      "photo": "../../assets/fotos/70BA48D8-41D1-4457-86C2-761A13DD9924_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "AUSREDE 05 / 05",
+      "headline": "„Sobald es\nruhiger {wird}“",
+      "body": "Es wird nicht ruhiger. Es wird anders. Wer auf die ruhige Phase wartet, verschiebt den Anfang auf einen Zeitpunkt, den es im Kalender eines Berufstätigen nicht gibt.",
+      "photo": "../../assets/fotos/C604F6F2-1B4E-460C-A0EB-65A4FCE22D1E_1_105_c.jpeg",
+      "focus": "top"
+    }
+  ]
+}

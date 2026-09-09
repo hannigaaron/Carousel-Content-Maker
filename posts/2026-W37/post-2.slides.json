@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/5",
+     "headline":"Zurück in die\n{Routine}.",
+     "subline":"Vier Schritte, die nach\ndem Sommer funktionieren.",
+     "photo":"../../assets/fotos/4988C377-9E02-40FA-B165-F9E7A1DC969B_1_105_c.jpeg","focus":"center"},
+    {"type":"point","counter":"SCHRITT 01 / 04",
+     "headline":"Fang bei\n{zwei} an",
+     "body":"Nicht bei fünf. Zwei feste Einheiten pro Woche, sechs Wochen am Stück, schlagen jeden ambitionierten Plan, der nach zehn Tagen kippt.",
+     "photo":"../../assets/fotos/46B6A8FC-D835-4CB4-8F79-31F3F906CD3E_1_105_c.jpeg","focus":"top"},
+    {"type":"point","counter":"SCHRITT 02 / 04",
+     "headline":"Eine Mahlzeit\n{zuerst}",
+     "body":"Nicht die ganze Ernährung umstellen. Eine Mahlzeit, die jeden Tag gleich ist und genug Protein hat - meist das Frühstück, weil der Tag es noch nicht durcheinandergebracht hat.",
+     "photo":"../../assets/fotos/DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg","focus":"center"},
+    {"type":"point","counter":"SCHRITT 03 / 04",
+     "headline":"Der Einkauf\nentscheidet den {Abend}",
+     "body":"Was im Wagen liegt, landet abends auf dem Teller. Wer den Heißhunger um 21 Uhr bekämpfen will, hat ihn samstags im Supermarkt schon gewonnen oder verloren.",
+     "photo":"../../assets/fotos/CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg","focus":"center"},
+    {"type":"point","counter":"SCHRITT 04 / 04",
+     "headline":"Erst {sechs} Wochen,\ndann bewerten",
+     "body":"In den ersten zwei Wochen passiert sichtbar wenig - genau dort steigen die meisten aus. Gib dir sechs, bevor du entscheidest, ob es funktioniert.",
+     "photo":"../../assets/fotos/AE9C55CF-EC5C-426F-8D43-F41FFCD76933_1_105_c.jpeg","focus":"top"}
+  ]
+}

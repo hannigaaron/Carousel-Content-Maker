@@ -22,7 +22,6 @@ Aaron: streich raus, was dir nicht passt, und schreib eigene dazu. Was hier
 oben steht, wird zuerst genommen.
 
 **Zeit und Aufwand**
-- [ ] 5 Ausreden, die eigentlich Planungsprobleme sind
 - [ ] Was 20 Minuten Training wirklich bringen — und was nicht
 - [ ] 4 Wege, Bewegung in einen Bürotag zu schmuggeln, ohne Sport zu treiben
 - [ ] Warum "keine Zeit" fast nie an der Zeit liegt
@@ -40,7 +39,6 @@ oben steht, wird zuerst genommen.
 - [ ] Warum ich am Anfang nicht über Training rede
 
 **Anlassbezogen**
-- [ ] September: zurück in die Routine nach dem Sommer
 - [ ] Dezember: die Feiertage überstehen, ohne im Januar neu anzufangen
 - [ ] Januar: warum Vorsätze scheitern und was stattdessen funktioniert
 
@@ -53,3 +51,5 @@ oben steht, wird zuerst genommen.
 | 2026-W35 | 5 Dinge, die du weglassen kannst | posts/2026-W35/post-1.md |
 | 2026-W35 | 4 Regeln für Wochen, in denen alles brennt | posts/2026-W35/post-2.md |
 | 2026-W35 | 5 Zeichen, dass es wirkt | posts/2026-W35/post-3.md |
+| 2026-W37 | 5 Ausreden, die in Wahrheit Planungsprobleme sind | posts/2026-W37/post-1.md |
+| 2026-W37 | Zurück in die Routine | posts/2026-W37/post-2.md |

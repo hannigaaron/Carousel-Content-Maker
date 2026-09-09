@@ -20,6 +20,18 @@ die neu verwendeten Dateien ein.
 | 2026-W35 | D1E8CC26-1A66-4182-A98E-A73289B48406_1_105_c.jpeg | P3 Keine Überwindung |
 | 2026-W35 | 270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg | P3 Schlechte Woche |
 
+| 2026-W37 | B1B63913-DD5A-4314-9EB6-11BC4244045E_1_105_c.jpeg | P1 Cover |
+| 2026-W37 | F0B5C03B-8B03-43C0-8FC2-D765EA052564_1_105_c.jpeg | P1 Keine Zeit |
+| 2026-W37 | 3A2F8738-FAED-4568-ACC6-D0C8690205CB_1_105_c.jpeg | P1 Nächste Woche |
+| 2026-W37 | EC5861F7-377D-496B-A3C8-E717D5A5FB4A_1_105_c.jpeg | P1 Richtiger Plan |
+| 2026-W37 | 70BA48D8-41D1-4457-86C2-761A13DD9924_1_105_c.jpeg | P1 Mehr Energie |
+| 2026-W37 | C604F6F2-1B4E-460C-A0EB-65A4FCE22D1E_1_105_c.jpeg | P1 Ruhiger wird |
+| 2026-W37 | 4988C377-9E02-40FA-B165-F9E7A1DC969B_1_105_c.jpeg | P2 Cover |
+| 2026-W37 | 46B6A8FC-D835-4CB4-8F79-31F3F906CD3E_1_105_c.jpeg | P2 Fang bei zwei an |
+| 2026-W37 | DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg | P2 Eine Mahlzeit |
+| 2026-W37 | CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg | P2 Einkauf |
+| 2026-W37 | AE9C55CF-EC5C-426F-8D43-F41FFCD76933_1_105_c.jpeg | P2 Sechs Wochen |
+
 ## Noch nie verwendet, aber gesichtet und brauchbar
 
 - `IMG_0001.jpeg`, `IMG_0002.jpeg`, `IMG_0004.jpeg` — Selfies in der Wohnung
