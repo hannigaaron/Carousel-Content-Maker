@@ -53,10 +53,25 @@ Daraus folgt für die Fotoauswahl:
 Zulässig, um Lücken zu füllen — aber sparsam und nur dort, wo keine Person ins
 Bild gehört.
 
-**Status:** `pixabay.com` ist von der Umgebung aus gesperrt (Netzwerkrichtlinie,
-403 beim Verbindungsaufbau). Freizugeben unter *Environment → Netzwerkrichtlinie*
-für `pixabay.com` und `cdn.pixabay.com`. Ohne Freigabe bleiben die betroffenen
-Slides auf Platzhalter.
+**Status:** Netzwerkzugang steht — `pixabay.com` ist in der Umgebung
+freigegeben und die API antwortet. Es fehlt nur noch ein kostenloser API-Key
+in `PIXABAY_API_KEY`.
+
+**Einrichtung:** Konto auf https://pixabay.com/accounts/register/ anlegen, den
+Key auf https://pixabay.com/api/docs/ abholen und als Umgebungsvariable
+`PIXABAY_API_KEY` hinterlegen (claude.ai/code → Wolken-Symbol → Zahnrad →
+*Environment variables*). Kosten entstehen nicht; das kostenlose Kontingent
+liegt bei 100 Anfragen pro Minute.
+
+**Nutzung:**
+
+```
+PIXABAY_API_KEY=... python3 scripts/fetch_stock_photos.py "meal prep" --anzahl 3
+```
+
+Das Skript sucht nur im **Hochformat ab 1080×1350** und legt die Treffer in
+`assets/fotos/stock/` ab. Die Website selbst antwortet auf Kommandozeilen-
+Zugriffe mit 403 (Bot-Schutz) — deshalb läuft alles über die API.
 
 **Lizenz:** Die Pixabay Content License erlaubt kostenlose Nutzung auch
 kommerziell, ohne Namensnennung. Nicht erlaubt ist der Weiterverkauf der Bilder

@@ -84,8 +84,16 @@ Quelle und Regeln: `config/photo-sources.md`.
    (Essen, Küche, Schreibtisch, Details) ein Stock-Foto von Pixabay zulässig —
    Regeln und Grenzen in `config/photo-sources.md`. Höchstens eines pro Post,
    nie fürs Cover, nie mit fremden Gesichtern, und im Post als
-   `Foto: Stock (Pixabay)` kennzeichnen. Ist Pixabay nicht erreichbar, gilt
-   Punkt 9.
+   `Foto: Stock (Pixabay)` kennzeichnen. Holen mit:
+
+   ```
+   python3 scripts/fetch_stock_photos.py "<Suchbegriff>" --anzahl 3
+   ```
+
+   Das Skript liefert nur Hochformat ab 1080×1350. Die Treffer trotzdem
+   ansehen und nach denselben Regeln prüfen wie eigene Fotos: ruhiges unteres
+   Drittel, kein fremdes Gesicht. Fehlt `PIXABAY_API_KEY` oder gibt es keine
+   brauchbaren Treffer, gilt Punkt 9.
 9. Sonst `KEIN PASSENDES FOTO` plus Beschreibung, was aufgenommen werden
    müsste. Niemals ein unpassendes Foto danebenlegen, damit die Lücke gefüllt
    aussieht.
