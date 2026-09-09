@@ -27,13 +27,17 @@ class Theme:
     # Dunkelster Punkt des Verlaufs (unten), 0..1 relativ zu scrim.
     scrim_top: float = 0.15
 
-    font_head: str = "Montserrat:700"
+    font_head: str = "Plus Jakarta Sans:800"
     font_body: str = "Inter:400"
-    font_meta: str = "Inter:700"
-    # Serifenschrift für Slides, die nur aus Foto und einem Satz bestehen.
-    font_display: str = "Cormorant Garamond:700"
+    font_meta: str = "Inter:600"
+    # Schrift für Slides, die nur aus Foto und einem Satz bestehen. Kräftig
+    # genug, um auf unruhigen Fotos ohne Balken oder Kasten zu bestehen.
+    font_display: str = "Plus Jakarta Sans:700"
+    # Zweite Ebene auf dem Foto: gleiche Familie, leichteres Gewicht.
+    font_sub: str = "Plus Jakarta Sans:500"
     on_photo: str = "#ffffff"
-    tracking: int = 5
+    # Versalien in einer Groteske brauchen wenig Sperrung, sonst zerfällt das Wort.
+    tracking: int = 3
 
     margin: int = 84
     radius: int = 36
@@ -66,15 +70,15 @@ THEMES: dict[str, Theme] = {
     ),
     # Für Foodfotos: der Text liegt auf dem Bild, der Hintergrund kommt nur
     # bei Slides ohne Foto zum Vorschein.
-    "serif": Theme(
-        name="serif",
+    "clean": Theme(
+        name="clean",
         bg="#efece6",
         surface="#ffffff",
         text="#1c1b19",
         muted="#7a766e",
         accent="#1c1b19",
         on_accent="#ffffff",
-        font_head="Cormorant Garamond:700",
+        font_head="Plus Jakarta Sans:800",
         font_body="Inter:400",
         scrim=0.28,
         scrim_top=0.6,

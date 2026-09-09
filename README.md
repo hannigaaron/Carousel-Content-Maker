@@ -15,7 +15,7 @@ python3 -m carousel build content/beispiel-fokus.json
 pip install -r requirements.txt
 ```
 
-Schriften (Inter, Montserrat) werden beim ersten Lauf von Google Fonts geladen
+Schriften (Plus Jakarta Sans, Inter) werden beim ersten Lauf von Google Fonts geladen
 und in `fonts/` gecacht. Ohne Netz greift der Renderer auf eine Systemschrift zurück.
 
 ## Bilder
@@ -80,7 +80,7 @@ lange Texte brechen das Layout nicht, sie werden nur kleiner.
   "title": "…",                 // Überschrift der CREDITS-Datei
   "handle": "@deinhandle",      // Fußzeile links
   "format": "portrait",         // portrait (1080×1350) oder square (1080×1080)
-  "theme": "midnight",          // midnight | paper | forest | sunset
+  "theme": "midnight",          // midnight | paper | forest | clean | sunset
   "theme_overrides": { "accent": "#7dd3a0" },   // optional
   "slides": [ … ],
   "caption": "…",
@@ -89,7 +89,12 @@ lange Texte brechen das Layout nicht, sie werden nur kleiner.
 ```
 
 `python3 -m carousel themes` listet die Themes mit ihren Farben. Das Theme
-`serif` gehört zum `photo`-Format: Cormorant Garamond, Versalien, gesperrt.
+`clean` gehört zum `photo`-Format.
+
+Gesetzt wird durchgehend in **Plus Jakarta Sans** (Überschriften und Text auf
+Fotos) und **Inter** (Fließtext). Beide sind Grotesken – auf einem Foto trägt
+eine kräftige Groteske deutlich weiter als eine Serifenschrift, und Versalien
+darin brauchen nur wenig Sperrung.
 
 Zwei Beispiele liegen bei:
 

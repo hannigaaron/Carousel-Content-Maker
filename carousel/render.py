@@ -126,7 +126,8 @@ def ink_for(canvas: Image.Image, box: tuple[int, int, int, int], theme: Theme) -
     """Schriftfarbe nach der Helligkeit hinter dem Text wählen.
 
     Weiße Schrift auf einem weißen Teller ist auch mit Schatten unlesbar –
-    dort wird der Text dunkel und der Schein hell.
+    dort wird der Text dunkel und der Schein hell. Die Schwelle liegt hoch:
+    Weiß ist der Normalfall, umgeschaltet wird nur bei echten Ausreißern.
     """
     left, top, right, bottom = box
     left, top = max(0, left), max(0, top)
@@ -136,7 +137,7 @@ def ink_for(canvas: Image.Image, box: tuple[int, int, int, int], theme: Theme) -
 
     patch = canvas.crop((left, top, right, bottom)).convert("L")
     brightness = sum(patch.getdata()) / max(1, patch.width * patch.height)
-    if brightness > 165:
+    if brightness > 185:
         return theme.text, (255, 255, 255)
     return theme.on_photo, (0, 0, 0)
 
@@ -308,7 +309,8 @@ def _summary_slide(canvas, slide, theme, inner, M, W, H) -> None:
     head_lines = wrap_tracked(draw, (slide.get("title") or "").upper(), head_font, box, tracking)
     head_h = int(head_font.size * 1.28)
 
-    body_font = load(theme.font_display, theme.scaled(slide.get("body_size", 44)))
+    body_font = load(slide.get("body_font", theme.font_sub),
+                     theme.scaled(slide.get("body_size", 42)))
     body_h = int(body_font.size * 1.42)
     lines = slide.get("lines", [])
     closing = slide.get("closing", [])
