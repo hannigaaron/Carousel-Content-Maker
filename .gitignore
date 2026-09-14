@@ -1,2 +1,5 @@
 # gerenderte Beispiel-Slides — werden bei Bedarf neu erzeugt
 scripts/beispiel-slides-slides/
+
+# gebaute Uebersichtsseite — wird bei jedem Lauf neu erzeugt
+build/

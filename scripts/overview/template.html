@@ -1,0 +1,308 @@
+<title>Carousel-Freigabe</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root{
+  --paper:#F2F4F5; --surface:#FFFFFF; --sunk:#EDF1F2;
+  --ink:#10171B; --ink-2:#4A575E; --ink-3:#7C8A92;
+  --line:#DCE3E6; --line-strong:#C2CED3;
+  --accent:#1E7FA8; --accent-soft:#7CC7EC; --accent-wash:#E7F3F9;
+  --warn:#A8412C; --warn-wash:#FAEBE6; --ok:#2C7A58;
+  --shadow:0 1px 2px rgba(16,23,27,.06), 0 8px 24px -16px rgba(16,23,27,.28);
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --disp:"Barlow Condensed","IBM Plex Sans",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1519; --surface:#161F24; --sunk:#111A1F;
+    --ink:#E7EFF3; --ink-2:#9FB0B9; --ink-3:#6E818B;
+    --line:#243138; --line-strong:#32434B;
+    --accent:#7CC7EC; --accent-soft:#7CC7EC; --accent-wash:#132833;
+    --warn:#E39178; --warn-wash:#2A1A15; --ok:#73C99E;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1519; --surface:#161F24; --sunk:#111A1F;
+  --ink:#E7EFF3; --ink-2:#9FB0B9; --ink-3:#6E818B;
+  --line:#243138; --line-strong:#32434B;
+  --accent:#7CC7EC; --accent-soft:#7CC7EC; --accent-wash:#132833;
+  --warn:#E39178; --warn-wash:#2A1A15; --ok:#73C99E;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+
+/* ---------- Kopf ---------- */
+header{padding-block:40px 26px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+h1{font-family:var(--disp);font-weight:700;font-size:clamp(38px,7vw,60px);
+  line-height:.95;letter-spacing:-.01em;margin:0;text-wrap:balance;text-transform:uppercase}
+h1 i{font-style:italic;color:var(--accent)}
+.lede{margin:14px 0 0;max-width:56ch;color:var(--ink-2);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.jump a{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-decoration:none;
+  color:var(--ink-2);background:var(--surface);border:1px solid var(--line);
+  padding:7px 12px;border-radius:999px}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.jump a.now{background:var(--accent-wash);border-color:var(--accent);color:var(--accent)}
+
+/* ---------- Woche ---------- */
+.week{padding-top:52px}
+.week-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.week-head h2{font-family:var(--disp);text-transform:uppercase;font-weight:700;
+  font-size:26px;letter-spacing:.02em;margin:0}
+.week-head .count{font-family:var(--mono);font-size:12px;color:var(--ink-3);margin-left:auto}
+
+/* ---------- Post ---------- */
+.post{background:var(--surface);border:1px solid var(--line);border-radius:4px;
+  box-shadow:var(--shadow);margin-top:26px;overflow:hidden}
+.post-head{padding:22px 22px 18px;display:grid;gap:10px}
+.tagrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+  padding:4px 9px;border-radius:3px;background:var(--sunk);color:var(--ink-2);
+  border:1px solid var(--line)}
+.tag.nr{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tag.kat{background:var(--accent-wash);color:var(--accent);border-color:transparent}
+.post h3{font-family:var(--disp);font-weight:700;text-transform:uppercase;
+  font-size:clamp(24px,4.4vw,34px);line-height:1.02;margin:0;text-wrap:balance}
+.pain{margin:0;color:var(--ink-2);font-style:italic;font-size:15px;max-width:62ch}
+
+/* ---------- Filmstreifen ---------- */
+.strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x proximity;
+  padding:4px 22px 22px;scrollbar-width:thin}
+.slide{flex:0 0 154px;scroll-snap-align:start;display:flex;flex-direction:column;gap:8px;
+  background:none;border:0;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.slide .shot{position:relative;aspect-ratio:4/5;border-radius:3px;overflow:hidden;
+  background:var(--sunk);border:1px solid var(--line-strong)}
+.slide img{width:100%;height:100%;object-fit:cover;display:block}
+.slide .idx{position:absolute;left:0;bottom:0;font-family:var(--mono);font-size:10px;
+  background:var(--ink);color:var(--paper);padding:2px 6px;letter-spacing:.06em}
+.slide .ctr{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;color:var(--ink-3)}
+.slide .hl{font-size:12.5px;line-height:1.35;color:var(--ink-2)}
+.slide .hl i{font-style:italic;color:var(--accent)}
+.slide:hover .shot{border-color:var(--accent)}
+.slide:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(min-width:720px){.slide{flex:0 0 184px}}
+
+/* ---------- Caption + Notizen ---------- */
+.body{display:grid;gap:22px;padding:0 22px 22px;border-top:1px solid var(--line);padding-top:22px}
+@media(min-width:820px){.body{grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:30px}}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 10px;display:flex;align-items:center;gap:10px}
+.lbl::after{content:"";flex:1;height:1px;background:var(--line)}
+.cap{white-space:pre-wrap;font-size:14.5px;line-height:1.62;margin:0;
+  background:var(--sunk);border-left:2px solid var(--accent-soft);
+  padding:16px 18px;border-radius:0 3px 3px 0;max-width:62ch;
+  font-family:var(--sans)}
+.cap-foot{display:flex;align-items:center;gap:12px;margin-top:12px;flex-wrap:wrap}
+button.copy{font:600 13px/1 var(--sans);background:var(--ink);color:var(--paper);
+  border:0;border-radius:3px;padding:11px 16px;cursor:pointer}
+button.copy:hover{background:var(--accent);color:#06131A}
+button.copy.done{background:var(--ok);color:#fff}
+button.copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hint{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+aside p{margin:0 0 16px;font-size:13.5px;color:var(--ink-2);line-height:1.55}
+aside ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--ink-2)}
+aside li{margin-bottom:8px}
+.check{display:flex;gap:10px;align-items:flex-start;margin-top:4px;
+  background:var(--sunk);border:1px solid var(--line);border-radius:3px;padding:12px 14px}
+.check input{margin:3px 0 0;accent-color:var(--accent);width:16px;height:16px}
+.check label{font-size:13px;color:var(--ink-2);cursor:pointer}
+.post.done{opacity:.72}
+.post.done .post-head h3{text-decoration:line-through;text-decoration-color:var(--ink-3)}
+
+/* ---------- Warnung ---------- */
+.warn{display:flex;gap:12px;margin:0 22px 0;padding:14px 16px;border-radius:3px;
+  background:var(--warn-wash);border:1px solid var(--warn);color:var(--warn)}
+.warn strong{font-family:var(--disp);text-transform:uppercase;letter-spacing:.03em;font-size:17px;
+  display:block;margin-bottom:2px}
+.warn p{margin:0;font-size:13.5px;line-height:1.5}
+.warn code{font-family:var(--mono);font-size:12px}
+
+/* ---------- Fuß ---------- */
+footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);
+  color:var(--ink-3);font-size:13px}
+footer code{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+
+/* ---------- Lightbox ---------- */
+dialog{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh}
+dialog::backdrop{background:rgba(6,12,15,.88)}
+.lb{display:grid;gap:12px;justify-items:center;padding:16px}
+.lb img{max-height:78vh;width:auto;border-radius:3px;box-shadow:0 20px 60px -20px #000}
+.lb .meta{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;color:#CFE0E8;text-align:center}
+.lb nav{display:flex;gap:10px;align-items:center}
+.lb button{font:600 13px/1 var(--sans);background:#1B262C;color:#E7EFF3;border:1px solid #33454E;
+  border-radius:3px;padding:10px 15px;cursor:pointer}
+.lb button:hover{border-color:var(--accent-soft);color:var(--accent-soft)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">@coach.aaron.hannig · Carousel-Produktion</p>
+  <h1>Fertig zum <i>Hochladen</i></h1>
+  <p class="lede">Alle fertigen Carousel-Posts an einem Ort. Slides antippen zum
+    Vergrößern, Caption mit einem Klick kopieren, abhaken was hochgeladen ist.</p>
+  <div class="jump" id="jump"></div>
+</header>
+<main id="main"></main>
+<footer>
+  <p>Die Originaldateien in voller Auflösung liegen im Repository unter
+  <code>FERTIG-ZUM-HOCHLADEN/&lt;Woche&gt;/</code> — je Post ein Ordner mit
+  <code>01.png … 0n.png</code> und <code>caption.txt</code>.
+  Gesperrte Fotos stehen in <code>config/gesperrte-fotos.md</code>.</p>
+</footer>
+</div>
+
+<dialog id="lb"><div class="lb">
+  <img id="lb-img" alt="">
+  <p class="meta" id="lb-meta"></p>
+  <nav>
+    <button id="lb-prev" type="button">← Zurück</button>
+    <button id="lb-next" type="button">Weiter →</button>
+    <button id="lb-close" type="button">Schließen</button>
+  </nav>
+</div></dialog>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function accent(s){return esc(s).replace(/\*([^*]+)\*/g,'<i>$1</i>');}
+
+  var main = document.getElementById('main'), jump = document.getElementById('jump'), html = '', nav = '';
+
+  DATA.forEach(function(wk, wi){
+    var n = wk.posts.length;
+    nav += '<a href="#'+wk.week+'"'+(wi===0?' class="now"':'')+'>'+wk.week+' · '+n+' Posts</a>';
+    html += '<section class="week" id="'+wk.week+'"><div class="week-head">'+
+            '<h2>Woche '+wk.week.slice(5)+'</h2>'+
+            '<span class="hint">'+esc(wk.range||'')+'</span>'+
+            '<span class="count">'+n+' Posts · '+
+            wk.posts.reduce(function(a,p){return a+p.images.length;},0)+' Slides</span></div>';
+
+    wk.posts.forEach(function(p){
+      var id = wk.week+'|'+p.nr, warn = p.warnung;
+      html += '<article class="post" data-id="'+id+'">';
+      html += '<div class="post-head"><div class="tagrow">'+
+              '<span class="tag nr">Post '+p.nr+'</span>'+
+              '<span class="tag kat">'+esc(p.kategorie)+'</span>'+
+              '<span class="tag">'+p.images.length+' Slides</span></div>'+
+              '<h3>'+esc(p.title)+'</h3>'+
+              '<p class="pain">„'+esc(p.schmerz)+'"</p></div>';
+      if(warn) html += '<div class="warn"><div><strong>Nicht hochladen</strong>'+
+              '<p>'+esc(warn)+'</p></div></div>';
+      html += '<div class="strip">';
+      p.images.forEach(function(src,i){
+        var s = p.slides[i] || {counter:'', headline:''};
+        html += '<button class="slide" type="button" data-post="'+id+'" data-i="'+i+'">'+
+                '<span class="shot"><img src="'+src+'" alt="Slide '+(i+1)+': '+
+                esc(s.headline.replace(/\*/g,''))+'" loading="lazy" decoding="async">'+
+                '<span class="idx">'+(i+1)+'/'+p.images.length+'</span></span>'+
+                '<span class="ctr">'+esc(s.counter)+'</span>'+
+                '<span class="hl">'+accent(s.headline)+'</span></button>';
+      });
+      html += '</div>';
+      html += '<div class="body"><div><p class="lbl">Caption</p>'+
+              '<div class="cap">'+esc(p.caption)+'</div>'+
+              '<div class="cap-foot"><button class="copy" type="button">Caption kopieren</button>'+
+              '<span class="hint">ohne Hashtags — so gewollt</span></div></div>';
+      html += '<aside><p class="lbl">Warum dieses Thema</p><p>'+esc(p.warum)+'</p>';
+      if(p.offen.length){
+        html += '<p class="lbl">Noch zu prüfen</p><ul>';
+        p.offen.forEach(function(o){html += '<li>'+esc(o.replace(/^-\s*/,''))+'</li>';});
+        html += '</ul>';
+      }
+      html += '<div class="check"><input type="checkbox" id="up-'+wk.week+'-'+p.nr+'">'+
+              '<label for="up-'+wk.week+'-'+p.nr+'">Hochgeladen</label></div>';
+      html += '</aside></div></article>';
+    });
+    html += '</section>';
+  });
+  main.innerHTML = html;
+  jump.innerHTML = nav;
+
+  /* Caption kopieren */
+  main.addEventListener('click', function(e){
+    var b = e.target.closest('button.copy'); if(!b) return;
+    var txt = b.closest('.body').querySelector('.cap').textContent;
+    var done = function(){ b.textContent = 'Kopiert ✓'; b.classList.add('done');
+      setTimeout(function(){ b.textContent = 'Caption kopieren'; b.classList.remove('done'); }, 2200); };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done, fallback);
+    } else fallback();
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = txt; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); done(); }
+      catch(err){ b.textContent = 'Bitte von Hand markieren'; }
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* Hochgeladen-Haken, pro Gerät gemerkt */
+  var KEY = 'carousel-hochgeladen';
+  var state = {};
+  try{ state = JSON.parse(localStorage.getItem(KEY) || '{}'); }catch(err){ state = {}; }
+  Array.prototype.forEach.call(main.querySelectorAll('.check input'), function(cb){
+    var post = cb.closest('.post'), id = post.dataset.id;
+    cb.checked = !!state[id];
+    post.classList.toggle('done', cb.checked);
+    cb.addEventListener('change', function(){
+      state[id] = cb.checked;
+      post.classList.toggle('done', cb.checked);
+      try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(err){}
+    });
+  });
+
+  /* Lightbox */
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'),
+      lbMeta = document.getElementById('lb-meta'), cur = null, curI = 0;
+  function find(id){ var out = null;
+    DATA.forEach(function(w){ w.posts.forEach(function(p){ if(w.week+'|'+p.nr === id) out = p; }); });
+    return out; }
+  function show(i){
+    if(!cur) return;
+    curI = (i + cur.images.length) % cur.images.length;
+    var s = cur.slides[curI] || {counter:'', headline:''};
+    lbImg.src = cur.images[curI];
+    lbImg.alt = 'Slide ' + (curI+1) + ': ' + s.headline.replace(/\*/g,'');
+    lbMeta.textContent = cur.title + '  ·  Slide ' + (curI+1) + '/' + cur.images.length +
+      (s.counter ? '  ·  ' + s.counter : '');
+  }
+  main.addEventListener('click', function(e){
+    var b = e.target.closest('.slide'); if(!b) return;
+    cur = find(b.dataset.post); show(parseInt(b.dataset.i, 10));
+    if(lb.showModal) lb.showModal(); else lb.setAttribute('open','');
+  });
+  document.getElementById('lb-prev').addEventListener('click', function(){ show(curI-1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ show(curI+1); });
+  document.getElementById('lb-close').addEventListener('click', function(){ lb.close(); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) lb.close(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.open) return;
+    if(e.key === 'ArrowLeft') show(curI-1);
+    if(e.key === 'ArrowRight') show(curI+1);
+  });
+
+  /* aktive Woche in der Sprungleiste */
+  var links = Array.prototype.slice.call(jump.querySelectorAll('a'));
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting) return;
+      links.forEach(function(a){ a.classList.toggle('now', a.getAttribute('href') === '#' + en.target.id); });
+    });
+  }, {rootMargin:'-25% 0px -65% 0px'});
+  Array.prototype.forEach.call(document.querySelectorAll('.week'), function(s){ obs.observe(s); });
+})();
+</script>

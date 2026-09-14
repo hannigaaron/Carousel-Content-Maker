@@ -143,6 +143,48 @@ Das erzeugt `FERTIG-ZUM-HOCHLADEN/JJJJ-Wxx/` mit einem Ordner je Post, den
 Slides in Upload-Reihenfolge (`01.png`, `02.png`, …), der Caption als
 `caption.txt` zum Kopieren und `NOCH-ZU-PRUEFEN.txt`, wo etwas offen ist.
 
+## Übersichtsseite aktualisieren
+
+Aaron sieht sich die Woche **auf der Übersichtsseite** an, nicht im Repo.
+Die Seite muss deshalb bei jedem Lauf neu veröffentlicht werden — sonst war
+die Arbeit für ihn unsichtbar.
+
+```
+python3 scripts/build_overview.py
+```
+
+Das Skript liest alle Wochen unter `posts/`, verkleinert jeden Slide auf
+540 px (Chromium), schreibt `build/uebersicht/index.html` plus
+`build/uebersicht/slides/` und bringt nebenbei die `caption.txt`-Dateien im
+Upload-Ordner auf den aktuellen Stand.
+
+Danach mit dem **Artifact-Tool auf dieselbe URL** veröffentlichen — nicht
+ohne `url`, sonst entsteht eine zweite Seite und Aarons Link zeigt auf die
+alte:
+
+```
+url:       https://claude.ai/code/artifact/80d1a430-da35-4d32-84e7-883144b0cbca
+file_path: build/uebersicht/index.html
+root:      build/uebersicht
+files:     alle Dateien aus build/uebersicht/slides/
+```
+
+Kein `favicon` und kein `icon` mitgeben — die Seite behält, was sie hat.
+Schlägt das Veröffentlichen fehl, weil die Seite inzwischen woanders
+geändert wurde: erst `action: "read"` auf dieselbe URL, dann erneut
+veröffentlichen. Am Ende die URL in der Meldung an Aaron nennen.
+
+### Warnhinweis auf einem Post
+
+Gibt es an einem Post etwas, das ihn vom Hochladen abhalten muss (z. B. ein
+gesperrtes Foto ist doch durchgerutscht), gehört in den Kopf der Post-Datei:
+
+```
+warnung: "Ein Satz, was das Problem ist und was er tun soll."
+```
+
+Die Übersichtsseite zeigt das dann als rote Box über dem Post an.
+
 ## Review-Datei schreiben
 
 `posts/JJJJ-Wxx/_REVIEW.md`:
@@ -158,4 +200,5 @@ Slides in Upload-Reihenfolge (`01.png`, `02.png`, …), der Caption als
    gepostet" verschieben
 2. `config/foto-historie.md`: verwendete Bilder mit Woche und Slide eintragen
 3. Alles committen auf `claude/automated-carousel-posts-fe7689` und pushen
+   (`build/` ist absichtlich nicht im Repo — die Seite wird jedes Mal neu gebaut)
 4. **Keinen Pull Request öffnen**, außer es wird ausdrücklich verlangt

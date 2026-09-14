@@ -4,6 +4,7 @@ woche: 2026-W35
 thema: Fortschrittszeichen jenseits der Waage
 kategorie: Mindset
 zielgruppen-schmerz: "Ich mache seit Wochen alles richtig und sehe nichts — dann lohnt es sich wohl nicht."
+warnung: "Das Cover (Slide 1) zeigt ein Spiegelselfie mit freiem Oberkörper — dieses Motiv ist dauerhaft gesperrt (config/gesperrte-fotos.md). Post bitte nicht so hochladen; sag Bescheid, dann tausche ich das Cover."
 render: post-3.slides.json → post-3-slides/
 ---
 
