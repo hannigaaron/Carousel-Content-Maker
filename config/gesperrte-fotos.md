@@ -10,6 +10,11 @@ dauerhaft gesperrt — ohne Ausnahme, in keinem Post, für keinen Slide.**
 | `033C0D73-DE07-492A-B191-D05039A28334_1_105_c.jpeg` | Umkleide-Selfie, oberkörperfrei | 2026-09-09 |
 | `F2D3F104-D7B5-48C4-9E76-436E73639AE5_1_105_c.jpeg` | Umkleide-Selfie, oberkörperfrei | 2026-09-09 |
 | `445D081B-54EE-48A6-A6C8-6731E0028ED2_1_105_c.jpeg` | Fertiges Werbeplakat mit Text — als Slide-Hintergrund unbrauchbar (Text auf Text) | 2026-09-09 |
+| `IMG_7815.jpeg` | Spiegelselfie oberkörperfrei | 2026-09-14 |
+| `7FDEEDE7-DC58-4652-9F4F-5477F95E7218_1_105_c.jpeg` | Logo-Grafik, Panorama — Text auf Text | 2026-09-14 |
+| `87393D62-D634-4356-85DF-8B87116619BB_1_105_c.jpeg` | Logo-Grafik, Panorama — Text auf Text | 2026-09-14 |
+| `A4558469-7E76-4EA1-9455-8FC9EF0F0CDD_1_105_c.jpeg` | Logo-Grafik auf Weiß — Text nicht lesbar | 2026-09-14 |
+| `IMG_7777.jpeg` | Aufzug-Selfie, Werbeschild „SEXY." oben links im Bild — als Slide-Hintergrund unbrauchbar | 2026-09-14 |
 
 ## Die Regel dahinter
 

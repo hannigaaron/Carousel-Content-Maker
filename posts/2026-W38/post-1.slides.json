@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "4 Situationen im Bürotag,\ndie dich {ausbremsen}.",
+      "subline": "Keine davon dauert länger\nals zehn Minuten.",
+      "photo": "../../assets/fotos/4BC1E0EA-7E2F-49D0-AC5A-127E3250E5F2.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "SITUATION 01 / 04",
+      "headline": "Das Frühstück,\ndas {ausfällt}",
+      "body": "Wer morgens nichts isst, holt es abends doppelt nach. Nicht aus Schwäche, sondern weil der Körper das Defizit dann einfordert. Zwei Minuten reichen: Quark, Obst, fertig.",
+      "photo": "../../assets/fotos/IMG_7773.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "SITUATION 02 / 04",
+      "headline": "Die Kantine\num {zwölf}",
+      "body": "Du entscheidest dort in vier Sekunden, wie dein Nachmittag läuft. Eine Proteinquelle zuerst auf den Teller, den Rest danach - das kostet keine Zeit und keine Disziplin, nur die Reihenfolge.",
+      "photo": "../../assets/fotos/8E10E23B-148E-4145-9634-062520AC7E06_1_105_c.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "SITUATION 03 / 04",
+      "headline": "Einkaufen mit\n{Hunger}",
+      "body": "Um 19 Uhr nach der Arbeit einkaufen ist die teuerste Viertelstunde der Woche. Nicht weil du schwach bist, sondern weil der Hunger die Auswahl trifft. Vorher eine Kleinigkeit essen kostet zwei Minuten.",
+      "photo": "../../assets/fotos/38AAFEDB-A2C2-4D16-B56F-82B62D81DB8F_1_105_c.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "SITUATION 04 / 04",
+      "headline": "Die Stunde vor\ndem {Schlafengehen}",
+      "body": "Der Abend ist nicht die Belohnung für den Tag, sondern der Start in den nächsten. Wer hier eine halbe Stunde früher rausgeht, spart sich morgen die Diskussion über Energie.",
+      "photo": "../../assets/fotos/IMG_0004.jpeg",
+      "focus": "center"
+    }
+  ]
+}

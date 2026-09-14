@@ -27,14 +27,12 @@ oben steht, wird zuerst genommen.
 - [ ] Warum "keine Zeit" fast nie an der Zeit liegt
 
 **Ernährung im Alltag**
-- [ ] 5 Situationen im Bürotag, die dich ausbremsen (Kantine, Meeting-Snacks, Feierabendhunger)
 - [ ] Auswärts essen, ohne die Woche zu ruinieren
 - [ ] 3 Frühstücke, die unter 5 Minuten fertig sind
 - [ ] Was du auf Geschäftsreise wirklich brauchst
 
 **Mindset und Struktur**
 - [ ] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
-- [ ] Der Unterschied zwischen Motivation und System
 - [ ] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
 - [ ] Warum ich am Anfang nicht über Training rede
 
@@ -53,3 +51,5 @@ oben steht, wird zuerst genommen.
 | 2026-W35 | 5 Zeichen, dass es wirkt | posts/2026-W35/post-3.md |
 | 2026-W37 | 5 Ausreden, die in Wahrheit Planungsprobleme sind | posts/2026-W37/post-1.md |
 | 2026-W37 | Zurück in die Routine | posts/2026-W37/post-2.md |
+| 2026-W38 | 4 Situationen im Bürotag, die dich ausbremsen | posts/2026-W38/post-1.md |
+| 2026-W38 | Motivation oder System | posts/2026-W38/post-2.md |

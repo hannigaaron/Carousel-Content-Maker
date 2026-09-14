@@ -32,11 +32,25 @@ die neu verwendeten Dateien ein.
 | 2026-W37 | CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg | P2 Einkauf |
 | 2026-W37 | AE9C55CF-EC5C-426F-8D43-F41FFCD76933_1_105_c.jpeg | P2 Sechs Wochen |
 
-## Noch nie verwendet, aber gesichtet und brauchbar
+| 2026-W38 | 4BC1E0EA-7E2F-49D0-AC5A-127E3250E5F2.jpeg | P1 Cover |
+| 2026-W38 | IMG_7773.jpeg | P1 Frühstück |
+| 2026-W38 | 8E10E23B-148E-4145-9634-062520AC7E06_1_105_c.jpeg | P1 Kantine |
+| 2026-W38 | 38AAFEDB-A2C2-4D16-B56F-82B62D81DB8F_1_105_c.jpeg | P1 Einkaufen |
+| 2026-W38 | IMG_0004.jpeg | P1 Abendstunde |
+| 2026-W38 | BBB3EC33-7F16-4F3B-9A89-7C1315BFAE82_1_105_c.jpeg | P2 Cover |
+| 2026-W38 | IMG_0001.jpeg | P2 Guter Tag |
+| 2026-W38 | CE270836-924E-42ED-9452-82EF65F37946_1_105_c.jpeg | P2 Entscheidung |
+| 2026-W38 | IMG_0002.jpeg | P2 Kleinste Version |
+| 2026-W38 | 92F89440-EFBF-4D9B-8649-2C9385C8627E_1_105_c.jpeg | P2 Schlechte Woche |
 
-- `IMG_0001.jpeg`, `IMG_0002.jpeg`, `IMG_0004.jpeg` — Selfies in der Wohnung
-- `46B6A8FC-…_1_105_c.jpeg`, `AE9C55CF-…_1_105_c.jpeg` — Schuhe binden auf der Bahn
-- `E84D9EF4` und weitere aus der 724×1086-Serie (Gym-Shooting)
+## Stand des Pools nach W38
+
+Der Vorrat an unbenutzten, ausreichend großen Fotos ist **aufgebraucht**. Von
+110 Dateien sind 43 groß genug für 1080×1350; nach W35, W37 und W38 ist davon
+nichts Brauchbares mehr frei, das nicht auf der Sperrliste steht.
+
+Ohne neue Bilder greift ab W39 die 8-Wochen-Regel: die ältesten aus W35 wären
+erst ab W43 wieder erlaubt.
 
 ## Was im Pool fehlt
 

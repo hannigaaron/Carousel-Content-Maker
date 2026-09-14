@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "Motivation\noder {System}.",
+      "subline": "Vier Unterschiede, die\nüber ein Jahr entscheiden.",
+      "photo": "../../assets/fotos/BBB3EC33-7F16-4F3B-9A89-7C1315BFAE82_1_105_c.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "UNTERSCHIED 01 / 04",
+      "headline": "Motivation braucht\neinen {guten} Tag",
+      "body": "Ein System nicht. Es fragt nicht, wie du dich fühlst, sondern was im Kalender steht. Genau deshalb hält es die Wochen aus, in denen du dich schlecht fühlst - und das sind die meisten.",
+      "photo": "../../assets/fotos/IMG_0001.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "UNTERSCHIED 02 / 04",
+      "headline": "Die Entscheidung ist\nschon {getroffen}",
+      "body": "Wer jeden Tag neu überlegt, ob er trainiert, verliert die Diskussion irgendwann. Zwei feste Termine in der Woche nehmen dir die Entscheidung ab - das ist der ganze Trick.",
+      "photo": "../../assets/fotos/CE270836-924E-42ED-9452-82EF65F37946_1_105_c.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "UNTERSCHIED 03 / 04",
+      "headline": "Ein System hat eine\n{kleinste} Version",
+      "body": "Zwanzig Minuten, drei Übungen, zu Hause. Motivation kennt nur ganz oder gar nicht. Deshalb entstehen die Lücken von drei Wochen immer dort, wo es keine Minimalversion gibt.",
+      "photo": "../../assets/fotos/IMG_0002.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "UNTERSCHIED 04 / 04",
+      "headline": "Es überlebt eine\nschlechte {Woche}",
+      "body": "Das ist der eigentliche Test. Nicht wie gut die erste Woche lief, sondern ob die siebte nach einer verpassten noch stattfindet. Alles andere ist Anlauf ohne Absprung.",
+      "photo": "../../assets/fotos/92F89440-EFBF-4D9B-8649-2C9385C8627E_1_105_c.jpeg",
+      "focus": "center"
+    }
+  ]
+}
