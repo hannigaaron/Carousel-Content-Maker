@@ -16,6 +16,21 @@ dauerhaft gesperrt — ohne Ausnahme, in keinem Post, für keinen Slide.**
 | `A4558469-7E76-4EA1-9455-8FC9EF0F0CDD_1_105_c.jpeg` | Logo-Grafik auf Weiß — Text nicht lesbar | 2026-09-14 |
 | `IMG_7777.jpeg` | Aufzug-Selfie, Werbeschild „SEXY." oben links im Bild — als Slide-Hintergrund unbrauchbar | 2026-09-14 |
 
+## Nicht in den Pool aufgenommen
+
+Zwei am 20.09.2026 geschickte Fotos zeigen einen Laptop im dunklen Raum. Sie
+liegen **nicht** in `assets/fotos/` und sind als Slide-Hintergrund nicht
+verwendbar:
+
+- Der Bildschirminhalt ist bei 1080 px lesbar — Text auf Text, und der
+  Slide-Text müsste darüber liegen.
+- Auf einem der beiden steht ein Zugangswort im Klartext auf dem Schirm.
+  **Laptop-Bildschirmfotos gehören nicht in einen öffentlichen Post**, egal
+  wie gut die Stimmung ist.
+
+Wenn ein Motiv "abends noch am Rechner" gebraucht wird: Laptop von der Seite
+oder von hinten, Bildschirm nicht lesbar.
+
 ## Die Regel dahinter
 
 Aaron tritt als Coach auf, nicht als Fitness-Model. Deshalb gilt für **jedes**

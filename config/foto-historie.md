@@ -45,12 +45,19 @@ die neu verwendeten Dateien ein.
 
 ## Stand des Pools nach W38
 
-Der Vorrat an unbenutzten, ausreichend großen Fotos ist **aufgebraucht**. Von
-110 Dateien sind 43 groß genug für 1080×1350; nach W35, W37 und W38 ist davon
-nichts Brauchbares mehr frei, das nicht auf der Sperrliste steht.
+Aus dem alten Bestand (110 Dateien, davon 43 groß genug) ist nach W35, W37
+und W38 nichts Brauchbares mehr frei.
 
-Ohne neue Bilder greift ab W39 die 8-Wochen-Regel: die ältesten aus W35 wären
-erst ab W43 wieder erlaubt.
+**Neu am 20.09.2026, noch unbenutzt:**
+
+| Datei | Motiv |
+|---|---|
+| `alltag-automat-abends.jpeg` | Am Automaten in der Dämmerung, Karten in der Hand |
+| `alltag-schloss-abendlicht.jpeg` | Vor dem Schloss, Abendlicht, Blick zur Seite |
+| `alltag-arkaden.jpeg` | Arkadengang, ruhig, gedeckte Farben |
+
+Alle drei hochkant und groß genug. Gute Cover-Motive: Alltag und Stadt,
+kein Studio.
 
 ## Was im Pool fehlt
 
