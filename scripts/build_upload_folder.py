@@ -33,6 +33,17 @@ def sicher(name):
     return re.sub(r'[<>:"/\\|?*]', "", name).strip().rstrip(".")
 
 
+ZAHLWORT = {0: "Keine Posts", 1: "Ein Post", 2: "Zwei Posts", 3: "Drei Posts",
+            4: "Vier Posts", 5: "Fünf Posts"}
+
+
+def einleitung(anzahl):
+    """Erste Zeile der Uebersicht, passend zur tatsaechlichen Anzahl Posts."""
+    wort = ZAHLWORT.get(anzahl, f"{anzahl} Posts")
+    ordner = "Ein Ordner" if anzahl == 1 else "Je Post ein Ordner"
+    return f"{wort}, fertig zum Hochladen. {ordner} mit den"
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Aufruf: build_upload_folder.py posts/JJJJ-Wxx")
@@ -43,9 +54,7 @@ def main():
         shutil.rmtree(ziel)
     os.makedirs(ziel)
 
-    uebersicht = [f"# Woche {woche}\n",
-                  "Drei Posts, fertig zum Hochladen. Je Post ein Ordner mit den",
-                  "Slides in Reihenfolge und der Caption als Textdatei.\n"]
+    eintraege = []
 
     for nummer in sorted(re.findall(r"post-(\d+)\.md", " ".join(os.listdir(quelle)))):
         md = lies(os.path.join(quelle, f"post-{nummer}.md"))
@@ -73,8 +82,12 @@ def main():
                       encoding="utf-8") as fh:
                 fh.write(offen + "\n")
 
-        uebersicht.append(f"- **{nummer} — {name}** · {anzahl} Slides"
-                          + ("  ⚠ siehe NOCH-ZU-PRUEFEN.txt" if offen else ""))
+        eintraege.append(f"- **{nummer} — {name}** · {anzahl} Slides"
+                         + ("  ⚠ siehe NOCH-ZU-PRUEFEN.txt" if offen else ""))
+
+    uebersicht = [f"# Woche {woche}\n", einleitung(len(eintraege)),
+                  "Slides in Reihenfolge und der Caption als Textdatei.\n"]
+    uebersicht += eintraege
 
     review = lies(os.path.join(quelle, "_REVIEW.md"))
     if review:

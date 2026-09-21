@@ -1,6 +1,6 @@
 # Woche 2026-W37
 
-Drei Posts, fertig zum Hochladen. Je Post ein Ordner mit den
+Zwei Posts, fertig zum Hochladen. Je Post ein Ordner mit den
 Slides in Reihenfolge und der Caption als Textdatei.
 
 - **1 — 5 Ausreden, die in Wahrheit Planungsprobleme sind** · 6 Slides  ⚠ siehe NOCH-ZU-PRUEFEN.txt
