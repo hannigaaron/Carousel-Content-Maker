@@ -1,0 +1,38 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "Warum \"keine Zeit\"\nfast nie an der {Zeit} liegt.",
+      "subline": "Vier Stellen, an denen\nsie wirklich verschwindet.",
+      "photo": "../../assets/fotos/alltag-automat-abends.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 01 / 04",
+      "headline": "Es ist eine\n{Prioritäten}-Frage",
+      "body": "24 Stunden hat jeder Tag, bei dir genau wie bei mir. Der Unterschied liegt nicht in der Menge, sondern darin, wofür sie draufgehen. Zwei Stunden Serie am Abend sind eine Entscheidung, kein Zeitmangel.",
+      "photo": "../../assets/fotos/alltag-arkaden.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 02 / 04",
+      "headline": "Du rechnest mit\nder {falschen} Zahl",
+      "body": "Fünf Einheiten die Woche sind für einen vollen Job-Alltag selten realistisch - deshalb scheitern sie meist am dritten Wochenende. Zwei feste Termine sind planbar und halten auch in einer stressigen Woche."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 03 / 04",
+      "headline": "Der Umweg über\ndie {Perfektion}",
+      "body": "Wer auf den perfekten Tag mit viel Zeit wartet, trainiert am seltensten. Die 20-Minuten-Einheit, die tatsächlich stattfindet, schlägt die 90-Minuten-Einheit, die nur geplant war."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 04 / 04",
+      "headline": "Am Ende zählt\nder {Kalender}",
+      "body": "Nicht die Absicht, sondern der Termin, der wirklich im Kalender steht. Was nicht geblockt ist, verliert gegen alles andere, das an diesem Tag passiert."
+    }
+  ]
+}

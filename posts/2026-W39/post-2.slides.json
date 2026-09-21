@@ -1,0 +1,30 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/4",
+      "headline": "3 Regeln fürs\nAuswärtsessen, die\nkeine Woche {ruinieren}.",
+      "subline": "Für Restaurant, Kantine\nund Feierabend.",
+      "photo": "../../assets/fotos/alltag-schloss-abendlicht.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 01 / 03",
+      "headline": "Vorher nicht\n{hungrig} hinsetzen",
+      "body": "Wer hungrig an den Tisch kommt, bestellt für den Hunger, nicht für den Hunger in einer Stunde. Eine kleine Portion Protein vorher - ein Joghurt, eine Hand Nüsse - reicht, um die Bestellung ruhiger zu treffen."
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 02 / 03",
+      "headline": "Eine {Entscheidung},\nnicht der ganze Abend",
+      "body": "Nicht jede Entscheidung am Tisch muss die richtige sein - nur eine: Vorspeise oder Nachtisch, nicht beides. Der Rest des Abends bleibt, wie er ist. Das reicht, damit aus einem Essen kein Rückschlag wird."
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 03 / 03",
+      "headline": "Der {nächste} Tag zählt\nmehr als der Abend",
+      "body": "Ein Restaurantbesuch verschiebt eine Woche nicht messbar. Die Reaktion danach schon - wer am nächsten Tag als Strafe hungert oder ganz aufgibt, macht aus einem normalen Abend das eigentliche Problem."
+    }
+  ]
+}

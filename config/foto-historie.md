@@ -43,24 +43,26 @@ die neu verwendeten Dateien ein.
 | 2026-W38 | IMG_0002.jpeg | P2 Kleinste Version |
 | 2026-W38 | 92F89440-EFBF-4D9B-8649-2C9385C8627E_1_105_c.jpeg | P2 Schlechte Woche |
 
-## Stand des Pools nach W38
+| 2026-W39 | alltag-automat-abends.jpeg | P1 Cover |
+| 2026-W39 | alltag-arkaden.jpeg | P1 Grund 01 (Prioritäten) |
+| 2026-W39 | alltag-schloss-abendlicht.jpeg | P2 Cover |
 
-Aus dem alten Bestand (110 Dateien, davon 43 groß genug) ist nach W35, W37
-und W38 nichts Brauchbares mehr frei.
+## Stand des Pools nach W39
 
-**Neu am 20.09.2026, noch unbenutzt:**
+Aus dem alten Bestand (110 Dateien, davon 43 groß genug) ist seit W38 nichts
+Brauchbares mehr frei. Die drei einzigen neuen Bilder (20.09.2026) sind mit
+W39 jetzt ebenfalls verbraucht.
 
-| Datei | Motiv |
-|---|---|
-| `alltag-automat-abends.jpeg` | Am Automaten in der Dämmerung, Karten in der Hand |
-| `alltag-schloss-abendlicht.jpeg` | Vor dem Schloss, Abendlicht, Blick zur Seite |
-| `alltag-arkaden.jpeg` | Arkadengang, ruhig, gedeckte Farben |
-
-Alle drei hochkant und groß genug. Gute Cover-Motive: Alltag und Stadt,
-kein Studio.
+**Ergebnis: der Pool ist für echte, neue Personenfotos aktuell leer.** Bis
+neue Bilder hochgeladen werden, laufen Wochenläufe entweder mit weniger als
+drei Posts oder mit Posts, die zu großen Teilen auf grauem Platzhalter
+rendern — beides ist laut Anweisung dem Einsatz unpassender oder wiederholter
+Fotos vorzuziehen.
 
 ## Was im Pool fehlt
 
 Alltagsmotive, nicht Gym. Konkret: Küche (Zubereitung und Abend), Essen am
-Schreibtisch, unterwegs, Kleidungsdetails. Die Gym-Ecke ist gut abgedeckt,
-die Lebenswelt der Zielgruppe nicht.
+Schreibtisch bzw. am Tisch, unterwegs, Kleidungsdetails, Kalender-/Handy-
+Detail. Die Gym-Ecke ist gut abgedeckt, die Lebenswelt der Zielgruppe nicht.
+Zehn bis fünfzehn neue Bilder in diesen Kategorien lösen den Engpass für
+mehrere Wochen.
