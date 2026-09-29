@@ -185,6 +185,23 @@ warnung: "Ein Satz, was das Problem ist und was er tun soll."
 
 Die Übersichtsseite zeigt das dann als rote Box über dem Post an.
 
+## Posts direkt in den Chat schicken (Pflicht)
+
+Aaron öffnet weder das Repo noch die Übersichtsseite von sich aus. Deshalb
+kommen die fertigen Posts **als Dateien direkt in den Chat**, damit sie als
+Push-Nachricht auf seinem iPhone landen und er sie von dort in seine
+Fotogalerie sichern kann.
+
+Für jeden Post einen eigenen `SendUserFile`-Aufruf:
+
+- `files`: alle Slide-PNGs des Posts aus `FERTIG-ZUM-HOCHLADEN/JJJJ-Wxx/<Post>/`
+  in der richtigen Reihenfolge, danach `caption.txt`
+- `caption`: `"Wxx Post N: <Titel> (<Anzahl> Slides + Caption)"`
+- `status`: `"proactive"`, `display`: `"render"`
+
+Erst danach die Schlussmeldung schreiben. Dieser Schritt darf nicht
+wegfallen, auch wenn das Veröffentlichen der Übersichtsseite scheitert.
+
 ## Review-Datei schreiben
 
 `posts/JJJJ-Wxx/_REVIEW.md`:
