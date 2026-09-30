@@ -43,28 +43,22 @@ verschwindet, ohne den Leser der Faulheit zu bezichtigen. Ziel: die Diagnose von
 
 ## Caption
 
+
 Die meisten glauben, sie hätten einfach keine Zeit für Sport.
 
-Ich sehe in fast jedem Erstgespräch dasselbe Muster: Die Zeit ist da. Sie
-steckt nur woanders — in Serien am Abend, in ungeplanten Tagen, in fünf
-Trainingseinheiten, die von Anfang an nicht realistisch waren.
+Ich sehe in fast jedem Erstgespräch dasselbe Muster: Die Zeit ist da. Sie steckt nur woanders — in Serien am Abend, in ungeplanten Tagen, in fünf Trainingseinheiten, die von Anfang an nicht realistisch waren.
 
-Falsche Prioritäten, eine unrealistische Zahl an Einheiten, der Umweg über den
-perfekten Zeitpunkt, ein Kalender ohne feste Termine, usw.
+Falsche Prioritäten, eine unrealistische Zahl an Einheiten, der Umweg über den perfekten Zeitpunkt, ein Kalender ohne feste Termine, usw.
 
-❌ Kein Trainingsplan der Welt hilft gegen einen Tag ohne einen einzigen
-geblockten Termin.
+❌ Kein Trainingsplan der Welt hilft gegen einen Tag ohne einen einzigen geblockten Termin.
 
-👉 Deshalb schauen wir im Coaching zuerst auf deinen echten Kalender, nicht auf
-deinen Trainingsplan.
+👉 Deshalb schauen wir im Coaching zuerst auf deinen echten Kalender, nicht auf deinen Trainingsplan.
 
-Denn zwei Termine, die du wirklich einhältst, bringen dich weiter als fünf, die
-du nach der zweiten Woche wieder streichst — und genau das entscheidet, ob es
-bei dir bleibt.
+Denn zwei Termine, die du wirklich einhältst, bringen dich weiter als fünf, die du nach der zweiten Woche wieder streichst — und genau das entscheidet, ob es bei dir bleibt.
 
-Wenn du merkst, dass "keine Zeit" bei dir auch eher eine Prioritäten-Frage ist,
+Wenn du merkst, dass „keine Zeit“ bei dir auch eher eine Prioritäten-Frage ist,
 dann schreib mir mal
-eine Nachricht mit „PLAN"
+eine Nachricht mit „PLAN“
 und ich analysiere mit dir kostenlos,
 was deine größten Hebel sind, um dein Fitnessziel trotz stressigem Alltag
 nachhaltig zu erreichen 🤝
