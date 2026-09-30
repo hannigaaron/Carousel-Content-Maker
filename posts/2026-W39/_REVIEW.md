@@ -1,5 +1,24 @@
 # Review — Woche 2026-W39
 
+## Update 30.09.2026: Fotos neu zugeordnet
+
+Auf deine Vorgabe hin muss jedes Foto die Situation zeigen, über die der
+Slide spricht. Die beiden Stadtfotos (Arkaden, Schloss) passten nur als
+Stimmung und sind raus. Neu sind 6 lizenzfreie Fotos (CC0, Wikimedia Commons):
+
+| Post | Slide | Foto |
+|---|---|---|
+| 1 | Grund 01 (Serie am Abend) | Fernseher im Wohnzimmer, abends |
+| 1 | Grund 04 (Kalender) | Handy, Notizbuch, Stift auf dem Schreibtisch |
+| 2 | Cover (Auswärtsessen) | Bistrotisch im Restaurant |
+| 2 | Regel 01 (vorher Protein) | Skyr mit Brombeeren |
+| 2 | Regel 02 (Vorspeise oder Nachtisch) | Stück Torte im Café |
+| 2 | Regel 03 (nächster Tag normal) | Frühstück mit Toast, Saft, Kaffee |
+
+Weiter ohne Foto: Post 1, Grund 02 und Grund 03. Dafür gab es keinen
+passenden Treffer ohne fremdes Gesicht. Post 1 Cover bleibt dein eigenes Foto
+am Automaten. Die Abschnitte unten beschreiben den Stand vor diesem Update.
+
 Zwei Posts statt drei. Grund: der Fotopool ist praktisch leer — siehe unten.
 
 ## Die Themen

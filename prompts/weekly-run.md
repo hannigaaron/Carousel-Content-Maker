@@ -100,11 +100,18 @@ Quelle und Regeln: `config/photo-sources.md`.
 7. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
    `focus` setzen oder ein anderes Foto nehmen.
 8. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
-9. Findet sich im eigenen Pool nichts, ist für Slides **ohne Person**
-   (Essen, Küche, Schreibtisch, Details) ein Stock-Foto von Pixabay zulässig —
-   Regeln und Grenzen in `config/photo-sources.md`. Höchstens eines pro Post,
-   nie fürs Cover, nie mit fremden Gesichtern, und im Post als
-   `Foto: Stock (Pixabay)` kennzeichnen. Holen mit:
+9. Findet sich im eigenen Pool nichts Passendes, für Slides **ohne Person**
+   (Essen, Küche, Schreibtisch, Details) lizenzfreie Fotos holen. Aaron hat
+   das am 30.09.2026 freigegeben. Keine Obergrenze pro Post, aber nie mit
+   fremden Gesichtern, und im Post als `Foto: Stock (CC0, Wikimedia)`
+   kennzeichnen. Regeln in `config/photo-sources.md`. Holen mit:
+
+   ```
+   python3 scripts/fetch_free_photos.py "<Suchbegriff englisch>" --anzahl 5 --prefix frei-<motiv>
+   ```
+
+   Nicht verwendete Treffer danach löschen. Mit `PIXABAY_API_KEY` geht
+   alternativ auch:
 
    ```
    python3 scripts/fetch_stock_photos.py "<Suchbegriff>" --anzahl 3

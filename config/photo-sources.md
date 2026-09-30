@@ -48,6 +48,36 @@ Daraus folgt für die Fotoauswahl:
 4. Ein sehr helles Foto ist nicht verboten, kostet aber Verlaufsstärke — und
    damit Bildwirkung. Bei zwei gleich passenden Motiven gewinnt das dunklere.
 
+## Lizenzfreie Fotos ohne API-Key (Openverse / Wikimedia Commons)
+
+**Aktiver Weg seit 30.09.2026.** Aaron hat ausdrücklich freigegeben, dass für
+Motive ohne Person (Küche, Essen, Kalender, Alltagsgegenstände) lizenzfreie
+Fotos aus dem Internet genutzt werden.
+
+```
+python3 scripts/fetch_free_photos.py "restaurant table" --anzahl 5 --prefix frei-restaurant
+```
+
+- Nur Lizenzen **CC0** und **Public Domain Mark**: kommerziell nutzbar, ohne
+  Namensnennung. Quelle, Urheber und Lizenz jedes Bildes stehen in der
+  gleichnamigen `.json` in `assets/fotos/stock/`.
+- Quelle ist nur Wikimedia Commons. Die anderen Openverse-Quellen liefern nur
+  Vorschaubilder (960 px). Unsplash und Pixabay blocken Zugriffe ohne Browser
+  bzw. ohne API-Key.
+- Die Qualität schwankt stark: Museumsstücke, alte Stiche, Amateurfotos,
+  fremde Gesichter. **Jeden Treffer ansehen**, am besten als Kontaktbogen, und
+  gnadenlos aussortieren. Pro Motiv mehrere Suchbegriffe probieren
+  ("skyr", "greek yogurt", "yogurt bowl").
+- Nicht verwendete Treffer wieder löschen, damit der Ordner nur genutzte
+  Bilder enthält.
+- Schrift im Bild (Kalenderblätter, Schilder) darf nicht im Textbereich
+  liegen. Überschneidet sie die Headline, Foto tauschen.
+
+Die Grenze "höchstens ein Stock-Foto pro Post" (unten) gilt damit nicht mehr.
+Es gilt stattdessen: Passung zum Slide vor Herkunft. Ein passendes Stock-Foto
+schlägt ein eigenes Foto, das nur Stimmung liefert. Fremde Gesichter bleiben
+tabu.
+
 ## Stock-Fotos als Ergänzung (Pixabay)
 
 Zulässig, um Lücken zu füllen — aber sparsam und nur dort, wo keine Person ins

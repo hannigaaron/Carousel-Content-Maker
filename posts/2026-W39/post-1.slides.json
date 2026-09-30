@@ -13,7 +13,7 @@
       "counter": "GRUND 01 / 04",
       "headline": "Es ist eine\n{Prioritäten}-Frage",
       "body": "24 Stunden hat jeder Tag, bei dir genau wie bei mir. Der Unterschied liegt nicht in der Menge, sondern darin, wofür sie draufgehen. Zwei Stunden Serie am Abend sind eine Entscheidung, kein Zeitmangel.",
-      "photo": "../../assets/fotos/alltag-arkaden.jpeg",
+      "photo": "../../assets/fotos/stock/frei-bildschirm-03.jpeg",
       "focus": "center"
     },
     {
@@ -32,7 +32,9 @@
       "type": "point",
       "counter": "GRUND 04 / 04",
       "headline": "Am Ende zählt\nder {Kalender}",
-      "body": "Nicht die Absicht, sondern der Termin, der wirklich im Kalender steht. Was nicht geblockt ist, verliert gegen alles andere, das an diesem Tag passiert."
+      "body": "Nicht die Absicht, sondern der Termin, der wirklich im Kalender steht. Was nicht geblockt ist, verliert gegen alles andere, das an diesem Tag passiert.",
+      "photo": "../../assets/fotos/stock/frei-handy-01.jpeg",
+      "focus": "center"
     }
   ]
 }

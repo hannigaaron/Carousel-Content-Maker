@@ -21,19 +21,26 @@ nächsten Tag.
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, die keine Woche *ruinieren*. | Abends unterwegs in der Stadt, vor dem Essen |
-| 2 | `REGEL 01 / 03` | Vorher nicht *hungrig* hinsetzen | KEIN PASSENDES FOTO |
-| 3 | `REGEL 02 / 03` | Eine *Entscheidung*, nicht der ganze Abend | KEIN PASSENDES FOTO |
-| 4 | `REGEL 03 / 03` | Der *nächste* Tag zählt mehr als der Abend | KEIN PASSENDES FOTO |
+| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, die keine Woche *ruinieren*. | Bistrotisch im Restaurant, unscharfer Hintergrund — Foto: Stock (CC0, Wikimedia) |
+| 2 | `REGEL 01 / 03` | Vorher nicht *hungrig* hinsetzen | Skyr mit Brombeeren in dunkler Schale — Foto: Stock (CC0, Wikimedia) |
+| 3 | `REGEL 02 / 03` | Eine *Entscheidung*, nicht der ganze Abend | Ein Stück Torte im Café — Foto: Stock (CC0, Wikimedia) |
+| 4 | `REGEL 03 / 03` | Der *nächste* Tag zählt mehr als der Abend | Normales Frühstück mit Toast, Saft und Kaffee — Foto: Stock (CC0, Wikimedia) |
 
 **Foto-Begründungen:**
 
-1. Cover — Unterwegs in der Stadt, abends, kein Gym-Kontext: genau der Moment
-   vor einem Restaurantbesuch, nicht davor trainiert.
-2. Regel 01–03 — Kein passendes Foto im aktuellen Pool. Gebraucht würde: ein
-   Restauranttisch von oben mit einer kleinen Vorspeise (Regel 01), ein Teller
-   mit sichtbar halber Portion (Regel 02), ein ruhiger, unspektakulärer Morgen
-   danach — Kaffee, Küche, kein Drama (Regel 03).
+1. Cover — Zu sehen: ein gedeckter Bistrotisch, Restaurant im Hintergrund.
+   Thema: Auswärtsessen. Ersetzt das Stadtfoto am Schloss, das nur Stimmung
+   war. Abweichung von der Regel "Cover mit Aaron": bewusst, weil kein eigenes
+   Restaurantfoto im Pool liegt. (`stock/frei-restaurant-05.jpeg`)
+2. Regel 01 — Zu sehen: Skyr mit Brombeeren. Slide: "eine kleine Portion
+   Protein vorher, ein Joghurt". Das Foto zeigt genau diesen Snack.
+   (`stock/frei-skyr-02.jpeg`)
+3. Regel 02 — Zu sehen: ein Stück Torte auf einem Café-Tisch. Slide:
+   "Vorspeise oder Nachtisch, nicht beides". Das Foto zeigt den Nachtisch als
+   die eine Entscheidung. (`stock/frei-kuchen-01.jpeg`)
+4. Regel 03 — Zu sehen: ein gewöhnliches Frühstück mit Toast, Saft und
+   Kaffee. Slide: Am nächsten Tag normal weitermachen statt hungern. Das Foto
+   zeigt genau diesen normalen Morgen. (`stock/frei-fruehstueck-04.jpeg`)
 
 ## Caption
 
@@ -69,9 +76,5 @@ keine
 
 ## Offene Punkte
 
-- Slides 2–4 haben kein Foto — im Fotopool war außer den drei neuen
-  Alltagsmotiven nichts mehr frei. Sie rendern auf grauem Platzhalter. Was
-  fehlt, steht oben bei den Foto-Begründungen.
-- Cover und Post 1 (Slide 2, Arkadengang) zeigen denselben Mann in derselben
-  cremefarbenen Jacke aus einer Fotosession — fällt beim Nacheinander-Ansehen
-  eventuell auf.
+- Alle vier Slides nutzen Stock-Fotos (CC0, keine Namensnennung nötig).
+  Quelle je Bild in `assets/fotos/stock/*.json`.

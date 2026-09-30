@@ -44,8 +44,16 @@ die neu verwendeten Dateien ein.
 | 2026-W38 | 92F89440-EFBF-4D9B-8649-2C9385C8627E_1_105_c.jpeg | P2 Schlechte Woche |
 
 | 2026-W39 | alltag-automat-abends.jpeg | P1 Cover |
-| 2026-W39 | alltag-arkaden.jpeg | P1 Grund 01 (Prioritäten) |
-| 2026-W39 | alltag-schloss-abendlicht.jpeg | P2 Cover |
+| 2026-W39 | stock/frei-bildschirm-03.jpeg | P1 Grund 01 (Prioritäten) |
+| 2026-W39 | stock/frei-handy-01.jpeg | P1 Grund 04 (Kalender) |
+| 2026-W39 | stock/frei-restaurant-05.jpeg | P2 Cover |
+| 2026-W39 | stock/frei-skyr-02.jpeg | P2 Regel 01 |
+| 2026-W39 | stock/frei-kuchen-01.jpeg | P2 Regel 02 |
+| 2026-W39 | stock/frei-fruehstueck-04.jpeg | P2 Regel 03 |
+
+`alltag-arkaden.jpeg` und `alltag-schloss-abendlicht.jpeg` waren zuerst für
+W39 vorgesehen, wurden am 30.09. aber durch passendere Motive ersetzt und
+sind damit wieder frei.
 
 ## Stand des Pools nach W39
 
