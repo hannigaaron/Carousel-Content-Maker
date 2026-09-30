@@ -83,7 +83,20 @@ Quelle und Regeln: `config/photo-sources.md`.
 5. **`config/foto-historie.md` beachten:** kein Bild, das in den letzten
    8 Wochen schon lief. Nach der Auswahl die neuen Einträge dort nachtragen.
 6. Pro Slide das Foto wählen, das **die Situation zeigt, über die der Slide
-   spricht** — nicht das schönste Bild.
+   spricht** — nicht das schönste Bild. Aarons ausdrückliche Vorgabe
+   (30.09.2026): Foto und Text müssen inhaltlich zusammenpassen. Vor jeder
+   Zuordnung diesen Test machen und das Ergebnis in die Begründung schreiben:
+   - Beschreib in einem Satz, was **auf dem Foto zu sehen ist** (Ort, Tätigkeit,
+     Gegenstände). Nicht, was es "ausstrahlt".
+   - Beschreib in einem Satz, **worüber der Slide spricht**.
+   - Würde jemand, der nur das Foto sieht, das Thema des Slides erraten oder es
+     zumindest sofort damit verbinden? Wenn nein: nicht verwenden.
+   - Beispiele: Slide über Auswärtsessen braucht Restaurant, Teller oder Tisch,
+     kein Gym-Selfie. Slide über Kalenderplanung braucht Handy, Kalender oder
+     Schreibtisch, keine Stadtansicht. Slide über Training braucht Training.
+   - Reine Stimmungsbilder (Stadt, Abendlicht, Portrait ohne Handlung) nur fürs
+     Cover und nur, wenn das Thema allgemein ist.
+   Lieber `KEIN PASSENDES FOTO` (Punkt 10) als ein Bild, das nur halbwegs passt.
 7. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
    `focus` setzen oder ein anderes Foto nehmen.
 8. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
