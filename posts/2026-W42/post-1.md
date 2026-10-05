@@ -20,7 +20,7 @@ drei konkrete Optionen ohne Kochen und ohne Meal-Prep-Marathon.
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
 | 1 | `1/4` | 3 Frühstücke, die unter *5 Minuten* fertig sind. | Gedeckter Frühstückstisch (IMG_0014) |
-| 2 | `FRÜHSTÜCK 01 / 03` | Quark und *Beeren* aus dem Kühlschrank | Offener Kühlschrank, Hand greift hinein (IMG_7837) |
+| 2 | `FRÜHSTÜCK 01 / 03` | Quark oder Skyr mit *Beeren* | Offener Kühlschrank, Hand greift hinein (IMG_7837) |
 | 3 | `FRÜHSTÜCK 02 / 03` | Overnight Oats – am *Vorabend* erledigt | Fertige Bowl neben dem Laptop (IMG_8323) |
 | 4 | `FRÜHSTÜCK 03 / 03` | Shaker und Banane, für *unterwegs* | Shaker und Laptop auf dem Autositz (IMG_8235) |
 
@@ -30,7 +30,8 @@ drei konkrete Optionen ohne Kochen und ohne Meal-Prep-Marathon.
    aufwendigeres Frühstück, der Post verspricht unter 5 Minuten. Inhaltlich ein
    leichter Widerspruch; wenn dich das stört, tausche ich das Cover gegen die
    Küchenaufnahme.
-2. Frühstück 01 — der offene Kühlschrank, aus dem Quark und Beeren kommen.
+2. Frühstück 01 — der offene Kühlschrank, aus dem Quark oder Skyr und die
+   Beeren kommen.
 3. Frühstück 02 — die fertige Bowl am Arbeitsplatz, also das Ergebnis vom
    Vorabend.
 4. Frühstück 03 — Shaker im Auto: das Frühstück für die Morgen ohne Küche.
@@ -39,7 +40,7 @@ drei konkrete Optionen ohne Kochen und ohne Meal-Prep-Marathon.
 
 Cover prüfen (siehe Foto-Begründung 1) — aufwendiges Frühstücksbild bei einem Post über 5-Minuten-Optionen.
 
-Die Mengenangaben (250g Magerquark, rund 30g Protein, 50g Haferflocken) sind übliche Portionsgrößen. Falls du im Coaching andere Mengen nennst, sag Bescheid.
+Mengenangaben sind auf deinen Wunsch raus — beide Rezepte stehen jetzt als Zutatenliste ohne Gramm da.
 
 ## Caption
 
