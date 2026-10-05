@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "4 Wege, Bewegung in den\n{Bürotag} zu schmuggeln.",
+      "subline": "Ohne eine einzige zusätzliche\nTrainingsstunde.",
+      "photo": "../../assets/fotos/DSC06785.jpeg"
+    },
+    {
+      "type": "point",
+      "counter": "WEG 01 / 04",
+      "headline": "Treppe statt\n{Aufzug}",
+      "photo": "../../assets/fotos/stock/frei-treppenhaus-01.jpeg",
+      "body": "Vier Stockwerke am Tag sind kein Training. Sie kosten dich aber auch null zusätzliche Zeit - und genau deshalb fallen sie auch in einer vollen Woche nicht aus."
+    },
+    {
+      "type": "point",
+      "counter": "WEG 02 / 04",
+      "headline": "Telefonate im\n{Stehen}",
+      "photo": "../../assets/fotos/DSC06671.jpeg",
+      "body": "Jedes Telefonat im Stehen oder Gehen holt dich aus dem Stuhl. Bei drei Calls am Tag sind das 30 bis 60 Minuten weniger Sitzen, ohne einen einzigen Termin im Kalender."
+    },
+    {
+      "type": "point",
+      "counter": "WEG 03 / 04",
+      "headline": "Zehn Minuten {raus},\nbevor du isst",
+      "photo": "../../assets/fotos/IMG_0059.jpeg",
+      "body": "Zehn Minuten vor dem Mittagessen. Das dämpft den Griff zum Schwersten auf der Karte und ist die einzige Pause, die du sonst nie machst."
+    },
+    {
+      "type": "point",
+      "counter": "WEG 04 / 04",
+      "headline": "Kleine Wege\n{verlängern}",
+      "photo": "../../assets/fotos/IMG_8239.jpeg",
+      "body": "Eine Haltestelle früher raus, hinten parken, das Wasser aus dem anderen Stockwerk holen. Keine dieser Entscheidungen fühlt sich nach Sport an. Zusammen sind sie mehr als dein Cardio am Sonntag."
+    }
+  ]
+}

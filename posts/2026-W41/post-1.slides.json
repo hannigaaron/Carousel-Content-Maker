@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "Was du auf\n{Geschäftsreise}\nwirklich brauchst.",
+      "subline": "Vier Dinge, die eine Reisewoche\nretten.",
+      "photo": "../../assets/fotos/IMG_9816.jpeg"
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 01 / 04",
+      "headline": "Ein {Minimum},\nkein Programm",
+      "photo": "../../assets/fotos/IMG_9827.jpeg",
+      "body": "Zwei kurze Einheiten pro Reisewoche reichen, um nichts zu verlieren. 20 Minuten im Zimmer, Körpergewicht, kein Equipment. Wer auf das Hotelgym wartet, trainiert gar nicht."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 02 / 04",
+      "headline": "Protein {vor}\ndem Termin",
+      "photo": "../../assets/fotos/IMG_8236.jpeg",
+      "body": "Der Tag kippt nicht beim Abendessen, sondern um drei, wenn seit dem Frühstück nichts kam. Ein Shake im Auto kostet dich nichts. 1,5-2g pro Kilo Körpergewicht gelten auch auf Reisen."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 03 / 04",
+      "headline": "Das Buffet ist\nkein {Gegner}",
+      "photo": "../../assets/fotos/IMG_8344.jpeg",
+      "body": "Du musst nichts auslassen. Protein und Gemüse zuerst auf den Teller, dann der Rest. Eine Entscheidung am Anfang schlägt vier Entscheidungen zwischendurch."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 04 / 04",
+      "headline": "Der Kalender {schlägt}\ndie Motivation",
+      "photo": "../../assets/fotos/IMG_7834.jpeg",
+      "body": "Motivation überlebt keine Reisewoche. Ein Termin schon. Trag die zwei Einheiten ein, bevor du fährst - unterwegs findest du keine Lücke mehr."
+    }
+  ]
+}

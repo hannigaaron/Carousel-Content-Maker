@@ -74,3 +74,30 @@ Schreibtisch bzw. am Tisch, unterwegs, Kleidungsdetails, Kalender-/Handy-
 Detail. Die Gym-Ecke ist gut abgedeckt, die Lebenswelt der Zielgruppe nicht.
 Zehn bis fünfzehn neue Bilder in diesen Kategorien lösen den Engpass für
 mehrere Wochen.
+
+## 2026-W41 und 2026-W42 (nachgetragen am 05.10.2026)
+
+Der Pool ist mit den Drive-Originalen vom September und deinem Upload vom
+05.10. wieder gefüllt — die Engpass-Notiz darüber ist damit erledigt.
+
+| Woche | Post | Datei | Motiv |
+|---|---|---|---|
+| 2026-W41 | 1 | IMG_9816.jpeg | Hotelzimmer |
+| 2026-W41 | 1 | IMG_9827.jpeg | Dachterrasse mit Matten |
+| 2026-W41 | 1 | IMG_8236.jpeg | Shaker im Auto |
+| 2026-W41 | 1 | IMG_8344.jpeg | Teller mit Rührei und Gemüse |
+| 2026-W41 | 1 | IMG_7834.jpeg | Laptop auf dem Tisch |
+| 2026-W41 | 2 | DSC06785.jpeg | Arkadengang, unterwegs |
+| 2026-W41 | 2 | stock/frei-treppenhaus-01.jpeg | Treppenhaus (Stock, CC BY-SA 4.0) |
+| 2026-W41 | 2 | DSC06671.jpeg | stehend am Handy |
+| 2026-W41 | 2 | IMG_0059.jpeg | Weg am Wasser |
+| 2026-W41 | 2 | IMG_8239.jpeg | Schritt auf Asphalt |
+| 2026-W42 | 1 | IMG_0014.JPG | gedeckter Frühstückstisch |
+| 2026-W42 | 1 | IMG_7837.jpeg | offener Kühlschrank |
+| 2026-W42 | 1 | IMG_8323.jpeg | Bowl neben dem Laptop |
+| 2026-W42 | 1 | IMG_8235.jpeg | Shaker auf dem Autositz |
+| 2026-W42 | 2 | DSC06621.jpeg | Aaron vor dem Schloss |
+| 2026-W42 | 2 | IMG_0015.JPG | Laptop am Abend |
+| 2026-W42 | 2 | IMG_8260.jpeg | Hantelscheiben und Bank |
+| 2026-W42 | 2 | IMG_9803.jpeg | Wohnzimmer am Abend |
+| 2026-W42 | 2 | IMG_8259.jpeg | Trainingssituation im Gym |

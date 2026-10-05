@@ -1,0 +1,32 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/4",
+      "headline": "3 Frühstücke,\ndie unter {5 Minuten}\nfertig sind.",
+      "subline": "Ohne Kochen, ohne Meal Prep\nam Sonntag.",
+      "photo": "../../assets/fotos/IMG_0014.JPG"
+    },
+    {
+      "type": "point",
+      "counter": "FRÜHSTÜCK 01 / 03",
+      "headline": "Quark und {Beeren}\naus dem Kühlschrank",
+      "photo": "../../assets/fotos/IMG_7837.jpeg",
+      "body": "250g Magerquark, eine Handvoll gefrorene Beeren, fertig. Rund 30g Protein in 60 Sekunden, ohne Pfanne, ohne Abwasch. Das ist kein Kompromiss."
+    },
+    {
+      "type": "point",
+      "counter": "FRÜHSTÜCK 02 / 03",
+      "headline": "Overnight Oats -\nam {Vorabend} erledigt",
+      "photo": "../../assets/fotos/IMG_8323.jpeg",
+      "body": "50g Haferflocken, Milch oder Skyr, abends ins Glas, morgens aus dem Kühlschrank. Zwei Minuten Aufwand - aber am Vorabend, wenn du sie noch hast."
+    },
+    {
+      "type": "point",
+      "counter": "FRÜHSTÜCK 03 / 03",
+      "headline": "Shaker und Banane,\nfür {unterwegs}",
+      "photo": "../../assets/fotos/IMG_8235.jpeg",
+      "body": "Für die Morgen, an denen du schon im Auto sitzt. Shake plus Banane schlägt jedes ausgelassene Frühstück und alles, was du sonst beim Bäcker mitnimmst."
+    }
+  ]
+}

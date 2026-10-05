@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "Warum du nach\n{3 Wochen} aufhörst.",
+      "subline": "Vier Gründe - und keiner davon\nheißt Motivation.",
+      "photo": "../../assets/fotos/DSC06621.jpeg"
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 01 / 04",
+      "headline": "Es steht nirgendwo\nim {Kalender}",
+      "photo": "../../assets/fotos/IMG_0015.JPG",
+      "body": "Was keinen festen Termin hat, findet in Woche drei nicht mehr statt. Nicht weil du nicht willst, sondern weil der erste volle Tag die Lücke sofort füllt."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 02 / 04",
+      "headline": "Der Start war\nzu {groß}",
+      "photo": "../../assets/fotos/IMG_8260.jpeg",
+      "body": "Fünf Einheiten in Woche eins sind keine Motivation, sondern ein Planungsfehler. Zwei Termine, die du drei Monate hältst, bringen dir mehr als fünf, die du drei Wochen hältst."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 03 / 04",
+      "headline": "Ein Tag wird\nzur {Ausrede}",
+      "photo": "../../assets/fotos/IMG_9803.jpeg",
+      "body": "Ein verpasster Tag ist ein verpasster Tag. Zum Abbruch wird er erst, wenn du daraus ableitest, dass die Woche eh gelaufen ist. Der nächste Termin steht trotzdem."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 04 / 04",
+      "headline": "Du siehst nicht,\nwas schon {wirkt}",
+      "photo": "../../assets/fotos/IMG_8259.jpeg",
+      "body": "Die Waage ist die trägste Zahl, die du hast. Mehr Gewicht auf der Stange, ruhigere Abende, bessere Passform - das kommt Wochen vorher. Wer nur wiegt, hört auf, bevor es sichtbar wird."
+    }
+  ]
+}

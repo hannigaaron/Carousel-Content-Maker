@@ -23,14 +23,14 @@ oben steht, wird zuerst genommen.
 
 **Zeit und Aufwand**
 - [ ] Was 20 Minuten Training wirklich bringen — und was nicht
-- [ ] 4 Wege, Bewegung in einen Bürotag zu schmuggeln, ohne Sport zu treiben
+- [x] 4 Wege, Bewegung in einen Bürotag zu schmuggeln, ohne Sport zu treiben
 
 **Ernährung im Alltag**
-- [ ] 3 Frühstücke, die unter 5 Minuten fertig sind
-- [ ] Was du auf Geschäftsreise wirklich brauchst
+- [x] 3 Frühstücke, die unter 5 Minuten fertig sind
+- [x] Was du auf Geschäftsreise wirklich brauchst
 
 **Mindset und Struktur**
-- [ ] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
+- [x] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
 - [ ] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
 - [ ] Warum ich am Anfang nicht über Training rede
 
@@ -53,3 +53,7 @@ oben steht, wird zuerst genommen.
 | 2026-W38 | Motivation oder System | posts/2026-W38/post-2.md |
 | 2026-W39 | Warum "keine Zeit" fast nie an der Zeit liegt | posts/2026-W39/post-1.md |
 | 2026-W39 | 3 Regeln fürs Auswärtsessen, die keine Woche ruinieren | posts/2026-W39/post-2.md |
+| 2026-W41 | Was du auf Geschäftsreise wirklich brauchst | posts/2026-W41/post-1.md |
+| 2026-W41 | 4 Wege, Bewegung in den Bürotag zu schmuggeln | posts/2026-W41/post-2.md |
+| 2026-W42 | 3 Frühstücke, die unter 5 Minuten fertig sind | posts/2026-W42/post-1.md |
+| 2026-W42 | Warum du nach 3 Wochen aufhörst | posts/2026-W42/post-2.md |
