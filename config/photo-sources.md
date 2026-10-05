@@ -10,7 +10,39 @@ Anleitung für den Upload: `assets/fotos/README.md`.
 Welche Motive für die aktuellen Posts gebraucht werden:
 `assets/fotos/BENOETIGTE-MOTIVE.md`.
 
-### Warum nicht direkt aus Drive
+### Stand 05.10.2026: Drive geht wieder direkt
+
+**Die Netzsperre ist weg.** `drive.google.com` und
+`drive.usercontent.google.com` antworten aus der Umgebung, und ein Download
+funktioniert **ohne API-Key**, solange der Ordner auf "Jeder mit dem Link"
+steht:
+
+```
+curl -L -o ziel.jpeg "https://drive.usercontent.google.com/download?id=<FILE_ID>&export=download"
+```
+
+Getestet mit einem 7,2-MB-Original aus dem Pool-Ordner. Die Datei landet direkt
+auf der Platte, nichts davon geht durch den Modell-Kontext.
+
+Was weiterhin einen Key braucht, ist das **Auflisten** des Ordnerinhalts über
+die Drive-API. Dafür gibt es zwei Wege: entweder `DRIVE_API_KEY` setzen (Anleitung
+unten), oder eine Session mit angebundenem Drive-Connector listet den Ordner und
+lädt die fehlenden Dateien per curl nach. Der Wochenlauf-Trigger hat **keine
+Connectors**, kann also von sich aus nicht in Drive schauen — bis ein Key
+hinterlegt ist, bleibt der Fotobranch die Quelle für den automatischen Lauf.
+
+### HEIC muss gewandelt werden
+
+iPhone-Uploads sind oft `.HEIC`. **Der Renderer öffnet HEIC nicht** — solche
+Dateien zählen faktisch nicht zum Pool. Umwandeln:
+
+```
+pip install pillow-heif
+python3 -c "import pillow_heif, glob, os; from PIL import Image, ImageOps; pillow_heif.register_heif_opener()
+[ImageOps.exif_transpose(Image.open(f)).convert('RGB').save(os.path.splitext(f)[0]+'.jpeg', quality=92) for f in glob.glob('assets/fotos/*.HEIC')]"
+```
+
+### Historie: warum der Pool wochenlang leer schien
 
 Der Drive-Ordner *Claude Carousel Pool Blanko Fotos*
 (`1tjgIb9c8dXdXgBLqYhBcS53jTsK_YSLh`) ist zwar lesbar — auflisten funktioniert.
