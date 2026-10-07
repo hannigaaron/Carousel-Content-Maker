@@ -21,25 +21,30 @@ verschwindet, ohne den Leser der Faulheit zu bezichtigen. Ziel: die Diagnose von
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
 | 1 | `1/5` | Warum "keine Zeit" fast nie an der *Zeit* liegt. | Am Kartenautomaten, abends unterwegs |
-| 2 | `GRUND 01 / 04` | Es ist eine *Prioritäten*-Frage | Fernseher im Wohnzimmer, Lampe an, abends — Foto: Stock (CC0, Wikimedia) |
+| 2 | `GRUND 01 / 04` | Es ist eine *Prioritäten*-Frage | Wohnzimmer mit Sofa am Abend (IMG_9811, eigenes Foto) |
 | 3 | `GRUND 02 / 04` | Du rechnest mit der *falschen* Zahl | KEIN PASSENDES FOTO |
-| 4 | `GRUND 03 / 04` | Der Umweg über die *Perfektion* | KEIN PASSENDES FOTO |
+| 4 | `GRUND 03 / 04` | Der Umweg über die *Perfektion* | Bereitstehende Bank mit Handtuch im Gym (IMG_8261, eigenes Foto) |
 | 5 | `GRUND 04 / 04` | Am Ende zählt der *Kalender* | Handy, Notizbuch und Stift auf dem Schreibtisch — Foto: Stock (CC0, Wikimedia) |
 
 **Foto-Begründungen:**
 
 1. Cover — Am Kartenautomaten, abends unterwegs, Alltagserledigung im Dunkeln:
    genau das Bild von "keine Zeit haben" — mitten in Erledigungen, nicht im Gym.
-2. Grund 01 — Zu sehen: ein Fernseher im Wohnzimmer, daneben eine
-   Stehlampe, abends. Slide: "Zwei Stunden Serie am Abend sind eine
-   Entscheidung." Das Foto zeigt genau diesen Abend. (`stock/frei-bildschirm-03.jpeg`)
-3. Grund 04 — Zu sehen: Handy, Notizbuch und Stift auf einem Holztisch.
-   Slide: Termine, die wirklich im Kalender stehen. Das Foto zeigt die
-   Planungssituation. (`stock/frei-handy-01.jpeg`)
-4. Grund 02 und 03 — Kein passendes Foto. Ein Tischkalender war im Test,
-   dessen Schrift ("MAY") stand aber direkt neben der Headline. Gebraucht
-   würde: Trainingstasche an der Wohnungstür (Grund 02), eine kurze Einheit
-   zuhause mit sichtbarer Uhr (Grund 03).
+2. Grund 01 — Zu sehen: Aarons Wohnzimmer am Abend, Sofa und Vorhänge.
+   Slide: "Zwei Stunden Serie am Abend sind eine Entscheidung." Das Foto zeigt
+   den Ort, an dem dieser Abend verbracht wird. Ersetzt das Stock-Bild mit dem
+   Fernseher. (`IMG_9811.jpeg`)
+3. Grund 03 — Zu sehen: eine bereitstehende Bank mit Handtuch, Scheiben
+   aufgelegt. Slide: "Die 20-Minuten-Einheit, die tatsächlich stattfindet,
+   schlägt die 90-Minuten-Einheit, die nur geplant war." Das Foto zeigt genau
+   die Einheit, die stattfindet. (`IMG_8261.jpeg`)
+4. Grund 04 — Zu sehen: Handy, Notizbuch und Stift auf einem Holztisch.
+   Slide: Termine, die wirklich im Kalender stehen. Bleibt Stock, weil im Pool
+   kein eigenes Kalender- oder Planer-Foto liegt. (`stock/frei-handy-01.jpeg`)
+5. Grund 02 — Weiterhin kein passendes Foto. Gebraucht würde eine gepackte
+   Sporttasche an der Wohnungstür oder ein Kalender mit zwei eingetragenen
+   Terminen. Beides liegt nicht im Pool; ein halb passendes Bild wäre hier
+   schlechter als der Verlauf.
 
 ## Caption
 

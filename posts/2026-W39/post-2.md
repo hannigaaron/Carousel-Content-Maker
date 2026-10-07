@@ -21,18 +21,22 @@ nächsten Tag.
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, die keine Woche *ruinieren*. | Bistrotisch im Restaurant, unscharfer Hintergrund — Foto: Stock (CC0, Wikimedia) |
+| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, die keine Woche *ruinieren*. | Aaron unterwegs mit Getränk in der Hand (DSC06682, eigenes Foto) |
 | 2 | `REGEL 01 / 03` | Vorher nicht *hungrig* hinsetzen | Skyr mit Brombeeren in dunkler Schale — Foto: Stock (CC0, Wikimedia) |
 | 3 | `REGEL 02 / 03` | Eine *Entscheidung*, nicht der ganze Abend | Ein Stück Torte im Café — Foto: Stock (CC0, Wikimedia) |
 | 4 | `REGEL 03 / 03` | Der *nächste* Tag zählt mehr als der Abend | Normales Frühstück mit Toast, Saft und Kaffee — Foto: Stock (CC0, Wikimedia) |
 
 **Foto-Begründungen:**
 
-1. Cover — Zu sehen: ein gedeckter Bistrotisch, Restaurant im Hintergrund.
-   Thema: Auswärtsessen. Ersetzt das Stadtfoto am Schloss, das nur Stimmung
-   war. Abweichung von der Regel "Cover mit Aaron": bewusst, weil kein eigenes
-   Restaurantfoto im Pool liegt. (`stock/frei-restaurant-05.jpeg`)
-2. Regel 01 — Zu sehen: Skyr mit Brombeeren. Slide: "eine kleine Portion
+1. Cover — Zu sehen: Aaron unterwegs, Getränk in der Hand. Nach dem Format
+   trägt das Cover sein Gesicht, und Stimmungsbilder sind dort erlaubt. **Prüfen:**
+   Es ist kein Restaurant, sondern draußen in der Stadt. Ein eigenes Foto aus
+   Restaurant oder Kantine liegt nicht im Pool — wenn dir der Bezug zu schwach
+   ist, geht das Stock-Bistro zurück. (`DSC06682.jpeg`)
+2. Regel 01 — Bleibt Stock. Das Bild zeigt genau den Snack, den der Slide
+   nennt; das einzige eigene Alternativmotiv wäre eine zweite Kühlschrank-
+   Aufnahme, die dem Frühstücks-Post aus KW 42 zu ähnlich sähe.
+   Zu sehen: Skyr mit Brombeeren. Slide: "eine kleine Portion
    Protein vorher, ein Joghurt". Das Foto zeigt genau diesen Snack.
    (`stock/frei-skyr-02.jpeg`)
 3. Regel 02 — Zu sehen: ein Stück Torte auf einem Café-Tisch. Slide:

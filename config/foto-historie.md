@@ -101,3 +101,23 @@ Der Pool ist mit den Drive-Originalen vom September und deinem Upload vom
 | 2026-W42 | 2 | IMG_8260.jpeg | Hantelscheiben und Bank |
 | 2026-W42 | 2 | IMG_9803.jpeg | Wohnzimmer am Abend |
 | 2026-W42 | 2 | IMG_8259.jpeg | Trainingssituation im Gym |
+
+## 2026-W39, neu bebildert am 07.10.2026
+
+Beide Posts aus KW 39 nachträglich mit Aarons eigenen Fotos versehen
+(`prompts/uebergabe-w39.md`). Texte unverändert.
+
+| Woche | Post | Datei | Motiv | Hinweis |
+|---|---|---|---|---|
+| 2026-W39 | 1 | IMG_9811.jpeg | Wohnzimmer mit Sofa am Abend | ersetzt Stock-Fernseher |
+| 2026-W39 | 1 | IMG_8261.jpeg | bereitstehende Bank im Gym | Slide war vorher ohne Foto |
+| 2026-W39 | 2 | DSC06682.jpeg | Aaron unterwegs mit Getränk | ersetzt Stock-Bistrotisch |
+
+Unverändert geblieben, weil kein passendes eigenes Foto im Pool liegt:
+Grund 04 in Post 1 (Kalender, Stock) sowie Regel 01 bis 03 in Post 2
+(Skyr, Torte, Frühstück, alle Stock). Grund 02 in Post 1 bleibt ohne Foto.
+
+**Was dem Pool weiterhin fehlt:** eine gepackte Sporttasche an der Wohnungstür,
+ein Kalender oder Handy-Planer mit eingetragenen Terminen, und vor allem
+Aufnahmen vom Auswärtsessen — Restaurant, Kantine, Essen mit Freunden. Für
+Ernährungs-Posts ist das die größte Lücke.
