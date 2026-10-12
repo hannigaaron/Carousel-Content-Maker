@@ -31,7 +31,7 @@ oben steht, wird zuerst genommen.
 
 **Mindset und Struktur**
 - [x] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
-- [ ] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
+- [x] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
 - [ ] Warum ich am Anfang nicht über Training rede
 
 **Anlassbezogen**
@@ -57,3 +57,5 @@ oben steht, wird zuerst genommen.
 | 2026-W41 | 4 Wege, Bewegung in den Bürotag zu schmuggeln | posts/2026-W41/post-2.md |
 | 2026-W42 | 3 Frühstücke, die unter 5 Minuten fertig sind | posts/2026-W42/post-1.md |
 | 2026-W42 | Warum du nach 3 Wochen aufhörst | posts/2026-W42/post-2.md |
+| 2026-W43 | Woche komplett verpasst? So geht es weiter | posts/2026-W43/post-1.md |
+| 2026-W43 | 3 Dinge in deiner Küche, die abends für dich entscheiden | posts/2026-W43/post-2.md |

@@ -121,3 +121,22 @@ Grund 04 in Post 1 (Kalender, Stock) sowie Regel 01 bis 03 in Post 2
 ein Kalender oder Handy-Planer mit eingetragenen Terminen, und vor allem
 Aufnahmen vom Auswärtsessen — Restaurant, Kantine, Essen mit Freunden. Für
 Ernährungs-Posts ist das die größte Lücke.
+
+## 2026-W43 (nachgetragen am 12.10.2026)
+
+| Woche | Post | Datei | Motiv |
+|---|---|---|---|
+| 2026-W43 | 1 | DSC06680.jpeg | Aaron auf dem Schlossplatz |
+| 2026-W43 | 1 | IMG_0072.jpeg | Flugzeugkabine |
+| 2026-W43 | 1 | 38500999-71F0-408B-8E96-ED82F336B0A8.JPG | Strand, Füße auf der Liege |
+| 2026-W43 | 1 | DSC06534.jpeg | Aaron an der Statue |
+| 2026-W43 | 2 | IMG_9805.jpeg | Küche mit Esstisch |
+| 2026-W43 | 2 | IMG_7838.jpeg | offener Kühlschrank |
+| 2026-W43 | 2 | IMG_7836.jpeg | Arbeitsplatte |
+| 2026-W43 | 2 | IMG_7835.jpeg | Küche und Flur |
+
+Im Pool danach noch frei, aber nicht verwendet: DSC06172.jpeg (Aaron mit Kamera),
+IMG_8238.jpeg (Laptop und Kartenetui auf Asphalt). Nicht verwendbar: die drei
+dunklen Laptop-/Pool-Bilder (2E0D18AE..., 330D55ED..., IMG_0005.JPG), weil
+Bildschirminhalt lesbar ist bzw. kein Motiv erkennbar.
+

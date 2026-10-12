@@ -1,0 +1,62 @@
+{
+  "slug": "fokus",
+  "title": "5 Regeln für tiefe Konzentration",
+  "handle": "@deinhandle",
+  "format": "portrait",
+  "theme": "midnight",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Fokus",
+      "title": "5 Regeln für Arbeit, die wirklich zählt",
+      "subline": "Wie du in einer Welt voller Benachrichtigungen wieder in die Tiefe kommst.",
+      "image": "search:foggy forest morning path",
+      "scrim": 0.72
+    },
+    {
+      "type": "text",
+      "kicker": "Das Problem",
+      "title": "Ablenkung ist kein Zeitproblem",
+      "body": "Nach jeder Unterbrechung brauchst du im Schnitt über 20 Minuten, um zurück in die Aufgabe zu finden.\n\nNicht die verlorene Minute kostet dich den Tag, sondern der Wiedereinstieg.",
+      "image": "search:smartphone screen desk night",
+      "scrim": 0.8
+    },
+    {
+      "type": "list",
+      "title": "Die 5 Regeln",
+      "numbered": true,
+      "items": [
+        "Ein Block, eine Aufgabe – 90 Minuten ohne zweiten Bildschirm.",
+        "Das Handy liegt in einem anderen Raum, nicht nur auf lautlos.",
+        "Der Einstieg ist geplant: Du weißt abends, was morgens der erste Satz ist.",
+        "Pausen sind langweilig – kein Feed, kein Video, nur Bewegung.",
+        "Ein fester Schlusspunkt. Ohne Ende gibt es keinen echten Anfang."
+      ]
+    },
+    {
+      "type": "stat",
+      "value": "23 Min",
+      "label": "braucht das Gehirn im Schnitt, um nach einer Unterbrechung wieder auf voller Tiefe zu arbeiten.",
+      "image": "search:hourglass sand time",
+      "scrim": 0.78
+    },
+    {
+      "type": "quote",
+      "quote": "Konzentration ist nicht die Abwesenheit von Ablenkung, sondern die Entscheidung, sie nicht zu bedienen.",
+      "author": "Arbeitsprinzip",
+      "image": "search:calm lake reflection mountains",
+      "scrim": 0.75
+    },
+    {
+      "type": "cta",
+      "kicker": "Dein nächster Schritt",
+      "title": "Blockiere morgen 90 Minuten",
+      "body": "Ein Termin mit dir selbst. Kein Meeting darf ihn überschreiben.",
+      "button": "Speichern für morgen",
+      "image": "search:sunrise light through window",
+      "scrim": 0.8
+    }
+  ],
+  "caption": "5 Regeln, mit denen ich wieder in die Tiefe komme. Welche fehlt dir?",
+  "hashtags": ["fokus", "deepwork", "produktivitaet", "achtsamkeit", "arbeiten"]
+}

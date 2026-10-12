@@ -1,0 +1,8 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/4","headline":"Woche komplett\nverpasst? {So}\ngeht es weiter.","subline":"Was ich Kunden dann sage -\nund was nicht.","photo":"../../assets/fotos/DSC06680.jpeg"},
+    {"type":"point","counter":"SCHRITT 01 / 03","headline":"Eine Woche ist\n{kein} Rückfall","photo":"../../assets/fotos/IMG_0072.jpeg","body":"Dienstreise, Urlaub, Termine, Krankheit: Verpasste Wochen gehören zum echten Alltag. Eine Woche Pause wirft dich nicht auf null. Der Rückfall beginnt erst, wenn aus einer Woche drei werden."},
+    {"type":"point","counter":"SCHRITT 02 / 03","headline":"Verpasstes wird\n{nicht} nachgeholt","photo":"../../assets/fotos/38500999-71F0-408B-8E96-ED82F336B0A8.JPG","body":"Kein Doppeltraining, kein Extra-Cardio, kein Hungern. Wer Verpasstes nachholt, ist nach zwei Wochen wieder raus. Du steigst dort ein, wo du aufgehört hast - eher einen Schritt leichter."},
+    {"type":"point","counter":"SCHRITT 03 / 03","headline":"Der nächste {Termin}\nsteht heute","photo":"../../assets/fotos/DSC06534.jpeg","body":"Bevor du einen neuen Plan suchst: Trag die nächste Einheit in den Kalender ein. 1x 30 Minuten reichen für den Wiedereinstieg. Der Rest kommt, wenn der Rhythmus wieder steht."}
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "ernaehrung",
+  "title": "4 Wochen ehrlich essen",
+  "handle": "@deinhandle",
+  "format": "portrait",
+  "theme": "clean",
+  "footer": false,
+  "slides": [
+    {
+      "type": "photo",
+      "title": "Wenn du dich vier Wochen lang so ernährst …",
+      "image": "search:buddha bowl chickpeas vegetables",
+      "anchor": 0.52,
+      "size": 78
+    },
+    {
+      "type": "photo",
+      "title": "Wirst du dich deutlich leichter fühlen",
+      "image": "search:chicken breast rice broccoli plate",
+      "anchor": 0.5
+    },
+    {
+      "type": "photo",
+      "title": "Mehr Energie am Nachmittag",
+      "image": "search:steak fried eggs avocado breakfast#2",
+      "anchor": 0.5
+    },
+    {
+      "type": "photo",
+      "title": "Weniger Heißhunger am Abend",
+      "image": "search:salmon fillets baking sheet asparagus oven#1",
+      "anchor": 0.5
+    },
+    {
+      "type": "photo",
+      "title": "Mahlzeiten, die wirklich satt machen",
+      "image": "search:chicken curry rice plate",
+      "anchor": 0.5
+    },
+    {
+      "type": "photo",
+      "title": "Ruhigerer Schlaf",
+      "image": "search:yogurt granola berries breakfast bowl table",
+      "anchor": 0.5
+    },
+    {
+      "type": "photo",
+      "title": "Und du verzichtest auf nichts",
+      "image": "search:burger fries plate restaurant",
+      "anchor": 0.5
+    },
+    {
+      "type": "summary",
+      "title": "Dein Körper mag einfache Entscheidungen",
+      "lines": [
+        "Weniger Verarbeitetes.",
+        "Mehr echte Zutaten.",
+        "Mehr Energie im Alltag.",
+        "Ein ruhigerer Kopf."
+      ],
+      "closing": [
+        "Kleine Schritte.",
+        "Große Wirkung."
+      ],
+      "image": "search:buddha bowl chickpeas vegetables#3",
+      "anchor": 0.44
+    },
+    {
+      "type": "photo",
+      "title": "Speicher dir das für Montag",
+      "image": "search:buddha bowl chickpeas vegetables",
+      "anchor": 0.5,
+      "size": 76
+    }
+  ],
+  "caption": "Vier Wochen. Kein Verzicht, keine Verbote – nur echtes Essen auf dem Teller.\n\nWelcher Punkt fällt dir am schwersten?",
+  "hashtags": [
+    "ernaehrung",
+    "gesundessen",
+    "mealprep",
+    "abnehmen",
+    "energie",
+    "healthyfood"
+  ]
+}

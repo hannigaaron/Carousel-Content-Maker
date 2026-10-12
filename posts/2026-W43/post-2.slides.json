@@ -1,0 +1,8 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/4","headline":"3 Dinge in deiner\n{Küche}, die abends\nfür dich entscheiden.","subline":"Bevor Willenskraft überhaupt\nins Spiel kommt.","photo":"../../assets/fotos/IMG_9805.jpeg"},
+    {"type":"point","counter":"REGEL 01 / 03","headline":"Was vorne steht,\nwird {gegessen}","photo":"../../assets/fotos/IMG_7838.jpeg","body":"Skyr, Obst und vorgeschnittenes Gemüse nach vorn auf Augenhöhe. Alles andere nach hinten oder gar nicht erst ins Haus. Abends entscheidet nicht dein Wille, sondern die kürzeste Strecke. Einmal umräumen, 5 Minuten."},
+    {"type":"point","counter":"REGEL 02 / 03","headline":"Sichtbar liegt nur,\nwas du {essen} willst","photo":"../../assets/fotos/IMG_7836.jpeg","body":"Auf der Arbeitsplatte gehören Obst und ein Shaker hin. Süßes gehört in den Schrank. Was du siehst, isst du - ohne darüber nachzudenken. Das ist kein Charakterthema, das ist Anordnung."},
+    {"type":"point","counter":"REGEL 03 / 03","headline":"Entscheide {morgens},\nnicht um 20 Uhr","photo":"../../assets/fotos/IMG_7835.jpeg","body":"Zwei Minuten am Morgen: Was kommt heute Abend auf den Teller? Wer erst nach Feierabend überlegt, nimmt, was am schnellsten geht. Die Entscheidung gehört vor den Stress, nicht mitten hinein."}
+  ]
+}
