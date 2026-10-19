@@ -14,7 +14,7 @@ die neu verwendeten Dateien ein.
 | 2026-W35 | IMG_0003.jpeg | P1 Cover |
 | 2026-W35 | AFDE5A60-3B78-4458-8004-9EA875F3ABF1_1_105_c.jpeg | P1 Isolationsübungen |
 | 2026-W35 | 72A71EF2-38DE-4DEE-A501-DD3F4DD0E980_1_105_c.jpeg | P1 Cardio |
-| 2026-W35 | 5BAC2A36-B6D3-48AC-A85E-EF9B5209E6B3_1_105_c.jpeg | P1 Plan-Suche |
+| 2026-W35 | laptop-handy-sprechen.jpeg | P1 Plan-Suche |
 | 2026-W35 | IMG_7691.jpeg | P3 Cover |
 | 2026-W35 | 9A9B4B84-C1E8-491C-B08E-83D49C89A138_1_105_c.jpeg | P3 Gewichte leichter |
 | 2026-W35 | D1E8CC26-1A66-4182-A98E-A73289B48406_1_105_c.jpeg | P3 Keine Überwindung |
@@ -150,7 +150,7 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W44 | 1 Cover | 671CCEAB-51F2-49C6-B945-FD7CB465F033_1_105_c.jpeg |
 | 2026-W44 | 1 Regel 01 | AFDE5A60-3B78-4458-8004-9EA875F3ABF1_1_105_c.jpeg |
 | 2026-W44 | 1 Regel 02 | BDBFE79F-3BB7-49F7-A73A-54E69D5DA1D5.jpeg |
-| 2026-W44 | 1 Regel 03 | 5BAC2A36-B6D3-48AC-A85E-EF9B5209E6B3_1_105_c.jpeg |
+| 2026-W44 | 1 Regel 03 | laptop-handy-sprechen.jpeg |
 | 2026-W44 | 1 Regel 04 | D1E8CC26-1A66-4182-A98E-A73289B48406_1_105_c.jpeg |
 | 2026-W44 | 2 Cover | IMG_0003.jpeg |
 | 2026-W44 | 2 Abend | E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg |

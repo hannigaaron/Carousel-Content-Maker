@@ -22,7 +22,7 @@ fester Plan, Rhythmus) und was 30 Minuten nicht leisten (den Rhythmus ersetzen).
 | 1 | `1/5` | 30 Minuten Training: was sie *wirklich* bringen. | Kreuzheben im Gym (671CCEAB…) |
 | 2 | `REGEL 01 / 04` | Vier Übungen *schlagen* zehn | Aaron am Langhantelständer (AFDE5A60…) |
 | 3 | `REGEL 02 / 04` | Steigern *statt* verlängern | Kurzhanteln und Schuh (BDBFE79F….jpeg) |
-| 4 | `REGEL 03 / 04` | Der Plan steht *vorher* | Aaron mit Plan auf dem Tablet (5BAC2A36…) |
+| 4 | `REGEL 03 / 04` | Der Plan steht *vorher* | Aaron am Laptop, Handy in der Hand (laptop-handy-sprechen) |
 | 5 | `REGEL 04 / 04` | Zweimal die Woche *schlägt* einmal perfekt | Aaron bindet Schuh auf der Bahn (D1E8CC26…) |
 
 **Foto-Begründungen (Foto zeigt / Slide spricht):**
@@ -30,7 +30,7 @@ fester Plan, Rhythmus) und was 30 Minuten nicht leisten (den Rhythmus ersetzen).
 1. Cover — Kreuzheben; Slide spricht von Training in kurzer Zeit.
 2. Grundübungen — Aaron an der Hantel, Grundübung.
 3. Steigern — Kurzhanteln, Gewicht ist das Thema.
-4. Plan — Aaron schreibt auf dem Tablet am Trainingsplan.
+4. Plan — Aaron mit Handy am Laptop, der Plan wird vorher festgelegt (Slide sagt: Plan aufs Handy).
 5. Rhythmus — Aaron beginnt die Einheit (Schuhe binden).
 
 Alle Fotos stammen aus W35 und sind damit älter als 8 Wochen.

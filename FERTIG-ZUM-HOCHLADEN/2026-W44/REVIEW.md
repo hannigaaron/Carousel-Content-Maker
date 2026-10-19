@@ -12,7 +12,7 @@ Nur **zwei Posts**: Der Pool gibt nicht mehr her.
 - Alle Texte sind Coaching-Haltung ohne Studienzahlen.
 
 ## Verwendete Fotos
-Post 1: 671CCEAB…, AFDE5A60…, BDBFE79F…, 5BAC2A36…, D1E8CC26… (alle aus W35)
+Post 1: 671CCEAB…, AFDE5A60…, BDBFE79F…, laptop-handy-sprechen, D1E8CC26… (alle aus W35)
 Post 2: IMG_0003.jpeg, E84D9EF4…, 270088E9… (alle aus W35)
 
 ## Ehrlich
