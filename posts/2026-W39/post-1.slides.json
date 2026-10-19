@@ -20,13 +20,15 @@
       "type": "point",
       "counter": "GRUND 02 / 04",
       "headline": "Du rechnest mit\nder {falschen} Zahl",
-      "body": "Fünf Einheiten die Woche sind für einen vollen Job-Alltag selten realistisch - deshalb scheitern sie meist am dritten Wochenende. Zwei feste Termine sind planbar und halten auch in einer stressigen Woche."
+      "body": "Fünf Einheiten die Woche sind für einen vollen Job-Alltag selten realistisch - deshalb scheitern sie meist am dritten Wochenende. Zwei feste Termine sind planbar und halten auch in einer stressigen Woche.",
+      "photo": "../../assets/fotos/gym-rack-fitseveneleven.jpeg",
+      "focus": "center"
     },
     {
       "type": "point",
       "counter": "GRUND 03 / 04",
       "headline": "Der Umweg über\ndie {Perfektion}",
-      "body": "Wer auf den perfekten Tag mit viel Zeit wartet, trainiert am seltensten. Die 20-Minuten-Einheit, die tatsächlich stattfindet, schlägt die 90-Minuten-Einheit, die nur geplant war.",
+      "body": "Wer auf den perfekten Tag mit viel Zeit wartet, trainiert am seltensten. Die 30-Minuten-Einheit, die tatsächlich stattfindet, schlägt die 90-Minuten-Einheit, die nur geplant war.",
       "photo": "../../assets/fotos/IMG_8261.jpeg",
       "focus": "center"
     },
@@ -35,7 +37,7 @@
       "counter": "GRUND 04 / 04",
       "headline": "Am Ende zählt\nder {Kalender}",
       "body": "Nicht die Absicht, sondern der Termin, der wirklich im Kalender steht. Was nicht geblockt ist, verliert gegen alles andere, das an diesem Tag passiert.",
-      "photo": "../../assets/fotos/stock/frei-handy-01.jpeg",
+      "photo": "../../assets/fotos/studio-raum.jpeg",
       "focus": "center"
     }
   ]

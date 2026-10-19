@@ -1,5 +1,27 @@
 # Review — Woche 2026-W39
 
+## Update 19.10.2026: Nachbesserungen auf deine Rückmeldung
+
+- **Post 1, Slide 4:** "20-Minuten-Einheit" → **30-Minuten-Einheit**. 30 Minuten
+  sind dein Minimum, 20 Minuten hätten deinen eigenen Ansatz unterboten
+  (steht seit dem 19.10. auch in `config/profile.md` und `config/lessons.md`).
+- **Post 1, Slide 3** (falsche Zahl) hatte gar kein Foto und rendert jetzt auf
+  einem freien Rack im Gym (`gym-rack-fitseveneleven.jpeg`).
+- **Post 1, Slide 5** (Kalender) lief auf einem Stock-Bild mit Handy und
+  Notizbuch, das zum Thema nichts beitrug. Jetzt: dein aufgebautes, leeres
+  Studio (`studio-raum.jpeg`) — der geblockte Termin als Bild.
+- **Post 2, Cover:** "3 Regeln fürs Auswärtsessen, die keine Woche ruinieren"
+  → **"3 Regeln fürs Auswärtsessen, wenn du abnehmen willst"**. Titel, Ordner
+  und Backlog-Eintrag sind mitgezogen.
+
+Ein eigenes Kalender- oder Planer-Foto gibt es im Pool weiterhin nicht, und in
+den freien Quellen (Wikimedia/Openverse, CC0) kam zu "Kalender" nichts
+Brauchbares — nur mittelalterliche Handschriften. Falls du mal einen Blick in
+deinen geblockten Wochenkalender fotografierst, wäre das für solche Slides das
+richtige Bild.
+
+Die Abschnitte unten beschreiben den Stand davor.
+
 ## Update 30.09.2026: Fotos neu zugeordnet
 
 Auf deine Vorgabe hin muss jedes Foto die Situation zeigen, über die der
@@ -26,7 +48,7 @@ Zwei Posts statt drei. Grund: der Fotopool ist praktisch leer — siehe unten.
 | Post | Thema | Warum |
 |---|---|---|
 | 1 | Warum "keine Zeit" fast nie an der Zeit liegt | Adressiert direkt die häufigste Selbstdiagnose der Zielgruppe ("keine Zeit für Training") und verschiebt sie auf Priorität statt Zeitmenge |
-| 2 | 3 Regeln fürs Auswärtsessen, die keine Woche ruinieren | Nimmt die Alles-oder-nichts-Angst vorm Essengehen — normaler Alltag der Zielgruppe, kein Sonderfall |
+| 2 | 3 Regeln fürs Auswärtsessen, wenn du abnehmen willst | Nimmt die Alles-oder-nichts-Angst vorm Essengehen — normaler Alltag der Zielgruppe, kein Sonderfall |
 
 Beide neu, unterschiedliche Kategorien (Zeit und Aufwand / Ernährung im
 Alltag), keine Überschneidung mit W35, W37 oder W38. Bewusst NICHT gewählt:

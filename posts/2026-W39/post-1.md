@@ -22,9 +22,9 @@ verschwindet, ohne den Leser der Faulheit zu bezichtigen. Ziel: die Diagnose von
 |---|---|---|---|
 | 1 | `1/5` | Warum "keine Zeit" fast nie an der *Zeit* liegt. | Am Kartenautomaten, abends unterwegs |
 | 2 | `GRUND 01 / 04` | Es ist eine *Prioritäten*-Frage | Wohnzimmer mit Sofa am Abend (IMG_9811, eigenes Foto) |
-| 3 | `GRUND 02 / 04` | Du rechnest mit der *falschen* Zahl | KEIN PASSENDES FOTO |
+| 3 | `GRUND 02 / 04` | Du rechnest mit der *falschen* Zahl | Freies Rack im Gym, im Hintergrund trainiert jemand (eigenes Foto) |
 | 4 | `GRUND 03 / 04` | Der Umweg über die *Perfektion* | Bereitstehende Bank mit Handtuch im Gym (IMG_8261, eigenes Foto) |
-| 5 | `GRUND 04 / 04` | Am Ende zählt der *Kalender* | Handy, Notizbuch und Stift auf dem Schreibtisch — Foto: Stock (CC0, Wikimedia) |
+| 5 | `GRUND 04 / 04` | Am Ende zählt der *Kalender* | Aarons Studio, aufgebaut und leer (eigenes Foto) |
 
 **Foto-Begründungen:**
 
@@ -35,16 +35,19 @@ verschwindet, ohne den Leser der Faulheit zu bezichtigen. Ziel: die Diagnose von
    den Ort, an dem dieser Abend verbracht wird. Ersetzt das Stock-Bild mit dem
    Fernseher. (`IMG_9811.jpeg`)
 3. Grund 03 — Zu sehen: eine bereitstehende Bank mit Handtuch, Scheiben
-   aufgelegt. Slide: "Die 20-Minuten-Einheit, die tatsächlich stattfindet,
+   aufgelegt. Slide: "Die 30-Minuten-Einheit, die tatsächlich stattfindet,
    schlägt die 90-Minuten-Einheit, die nur geplant war." Das Foto zeigt genau
    die Einheit, die stattfindet. (`IMG_8261.jpeg`)
-4. Grund 04 — Zu sehen: Handy, Notizbuch und Stift auf einem Holztisch.
-   Slide: Termine, die wirklich im Kalender stehen. Bleibt Stock, weil im Pool
-   kein eigenes Kalender- oder Planer-Foto liegt. (`stock/frei-handy-01.jpeg`)
-5. Grund 02 — Weiterhin kein passendes Foto. Gebraucht würde eine gepackte
-   Sporttasche an der Wohnungstür oder ein Kalender mit zwei eingetragenen
-   Terminen. Beides liegt nicht im Pool; ein halb passendes Bild wäre hier
-   schlechter als der Verlauf.
+4. Grund 04 — Zu sehen: Aarons Studio, aufgebaut und leer, Tisch und Stuhl
+   stehen bereit. Slide: "Nicht die Absicht, sondern der Termin, der wirklich
+   im Kalender steht." Der Raum ist der geblockte Termin — er wartet, ob jemand
+   kommt oder nicht. Ersetzt das Stock-Bild mit Handy und Notizbuch, das zum
+   Thema Kalender nichts beigetragen hat. (`studio-raum.jpeg`)
+5. Grund 02 — Zu sehen: ein freies Rack im Gym, im Hintergrund trainiert
+   jemand. Slide: "Fünf Einheiten die Woche sind selten realistisch, zwei feste
+   Termine sind planbar." Das Foto zeigt die Einheit, die tatsächlich
+   eingeplant werden kann. Ersetzt den grauen Verlauf.
+   (`gym-rack-fitseveneleven.jpeg`)
 
 ## Caption
 
@@ -74,8 +77,8 @@ keine
 
 ## Offene Punkte
 
-- Slides 3 und 4 haben kein Foto und rendern auf grauem Verlauf. Was fehlt,
-  steht oben bei den Foto-Begründungen.
+- Jetzt sind alle fünf Slides bebildert, alle mit deinen eigenen Fotos. Die
+  beiden Stock-Bilder sind raus.
 - Grund 02 nennt "fünf Einheiten die Woche" als unrealistisch und "zwei feste
   Termine" als Alternative — das ist deine Coaching-Erfahrung, keine
   Studienaussage. Falls du andere Zahlen nennst, sag Bescheid.

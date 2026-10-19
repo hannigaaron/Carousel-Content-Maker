@@ -52,7 +52,7 @@ oben steht, wird zuerst genommen.
 | 2026-W38 | 4 Situationen im Bürotag, die dich ausbremsen | posts/2026-W38/post-1.md |
 | 2026-W38 | Motivation oder System | posts/2026-W38/post-2.md |
 | 2026-W39 | Warum "keine Zeit" fast nie an der Zeit liegt | posts/2026-W39/post-1.md |
-| 2026-W39 | 3 Regeln fürs Auswärtsessen, die keine Woche ruinieren | posts/2026-W39/post-2.md |
+| 2026-W39 | 3 Regeln fürs Auswärtsessen, wenn du abnehmen willst | posts/2026-W39/post-2.md |
 | 2026-W41 | Was du auf Geschäftsreise wirklich brauchst | posts/2026-W41/post-1.md |
 | 2026-W41 | 4 Wege, Bewegung in den Bürotag zu schmuggeln | posts/2026-W41/post-2.md |
 | 2026-W42 | 3 Frühstücke, die unter 5 Minuten fertig sind | posts/2026-W42/post-1.md |

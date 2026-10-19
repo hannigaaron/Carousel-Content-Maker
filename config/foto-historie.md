@@ -45,7 +45,8 @@ die neu verwendeten Dateien ein.
 
 | 2026-W39 | alltag-automat-abends.jpeg | P1 Cover |
 | 2026-W39 | stock/frei-bildschirm-03.jpeg | P1 Grund 01 (Prioritäten) |
-| 2026-W39 | stock/frei-handy-01.jpeg | P1 Grund 04 (Kalender) |
+| 2026-W39 | studio-raum.jpeg | P1 Grund 04 (Kalender), Nachbesserung 19.10. |
+| 2026-W39 | gym-rack-fitseveneleven.jpeg | P1 Grund 02 (falsche Zahl), Nachbesserung 19.10. |
 | 2026-W39 | stock/frei-restaurant-05.jpeg | P2 Cover |
 | 2026-W39 | stock/frei-skyr-02.jpeg | P2 Regel 01 |
 | 2026-W39 | stock/frei-kuchen-01.jpeg | P2 Regel 02 |

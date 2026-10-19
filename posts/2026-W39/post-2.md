@@ -7,7 +7,7 @@ zielgruppen-schmerz: "Ich trainiere ja — warum passiert trotzdem nichts?"
 render: post-2.slides.json → post-2-slides/
 ---
 
-# 3 Regeln fürs Auswärtsessen, die keine Woche ruinieren
+# 3 Regeln fürs Auswärtsessen, wenn du abnehmen willst
 
 ## Warum dieses Thema
 
@@ -21,7 +21,7 @@ nächsten Tag.
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, die keine Woche *ruinieren*. | Aaron unterwegs mit Getränk in der Hand (DSC06682, eigenes Foto) |
+| 1 | `1/4` | 3 Regeln fürs Auswärtsessen, wenn du *abnehmen* willst. | Aaron unterwegs mit Getränk in der Hand (DSC06682, eigenes Foto) |
 | 2 | `REGEL 01 / 03` | Vorher nicht *hungrig* hinsetzen | Skyr mit Brombeeren in dunkler Schale — Foto: Stock (CC0, Wikimedia) |
 | 3 | `REGEL 02 / 03` | Eine *Entscheidung*, nicht der ganze Abend | Ein Stück Torte im Café — Foto: Stock (CC0, Wikimedia) |
 | 4 | `REGEL 03 / 03` | Der *nächste* Tag zählt mehr als der Abend | Normales Frühstück mit Toast, Saft und Kaffee — Foto: Stock (CC0, Wikimedia) |
