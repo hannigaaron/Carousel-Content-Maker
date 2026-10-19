@@ -100,7 +100,8 @@ Quelle und Regeln: `config/photo-sources.md`.
 7. Vorher prüfen: Ist das untere Drittel ruhig genug für den Text? Wenn nicht,
    `focus` setzen oder ein anderes Foto nehmen.
 8. Für jedes Foto eine Ein-Satz-Begründung in den Post schreiben.
-9. Findet sich im eigenen Pool nichts Passendes, für Slides **ohne Person**
+9. **Seit 19.10.2026 gilt: Internetbilder sind ein gleichwertiger Weg, kein Notbehelf.** Aaron will, dass der Lauf aktiv passendes Material aus dem Netz holt, statt Slides mit halb passenden eigenen Fotos oder grauem Platzhalter zu liefern. Wenn kein freies eigenes Foto den Test aus Punkt 6 besteht, zuerst suchen (mehrere Suchbegriffe, Kontaktbogen), dann erst `KEIN PASSENDES FOTO`. Grenzen bleiben: nur CC0/Public Domain, keine erkennbaren fremden Gesichter, Kennzeichnung im Post.
+   Findet sich im eigenen Pool nichts Passendes, für Slides **ohne Person**
    (Essen, Küche, Schreibtisch, Details) lizenzfreie Fotos holen. Aaron hat
    das am 30.09.2026 freigegeben. Keine Obergrenze pro Post, aber nie mit
    fremden Gesichtern, und im Post als `Foto: Stock (CC0, Wikimedia)`
