@@ -21,6 +21,7 @@ WIDTH, HEIGHT = 1080, 1350  # Instagram 4:5
 # weiße Schrift darauf unter — dann wird der Verlauf verstärkt und neu
 # gerendert, statt zu hoffen, dass es schon passt.
 TEXT_ZONE = dict(top_frac=.62, bottom_frac=.97, left_frac=.06, right_frac=.94)
+TEXT_ZONE_TOP = dict(top_frac=.03, bottom_frac=.38, left_frac=.06, right_frac=.94)
 MAX_TEXT_LUMINANCE = 82        # 0-255; darüber ist weiße Schrift nicht mehr ruhig lesbar
 VEIL_STEPS = [(.35, .82), (.48, .90), (.60, .95)]  # (Mitte, unten)
 
@@ -101,7 +102,16 @@ def embed_photo(path, base_dir):
     return f'<img class="photo" src="data:{mime};base64,{data}">'
 
 
+def veil_css(veil, top):
+    if top:  # Text oben: Verlauf von oben dunkel nach unten transparent
+        return (f"linear-gradient(to top, rgba(0,0,0,.30) 0%, rgba(0,0,0,.05) 30%,"
+                f"rgba(0,0,0,{veil[0]:.2f}) 62%, rgba(0,0,0,{veil[1]:.2f}) 100%)")
+    return ("linear-gradient(to bottom, rgba(0,0,0,.45) 0%, rgba(0,0,0,.10) 28%,"
+            f"rgba(0,0,0,{veil[0]:.2f}) 58%, rgba(0,0,0,{veil[1]:.2f}) 100%)")
+
+
 def build_html(slide, base_dir, veil=VEIL_STEPS[0]):
+    top = slide.get("textpos") == "top"
     kind = slide.get("type", "point")
     style = dict(STYLE.get(kind, STYLE["point"]))
     body = slide.get("body") or slide.get("subline") or ""
@@ -112,8 +122,8 @@ def build_html(slide, base_dir, veil=VEIL_STEPS[0]):
         "COUNTER": html.escape(slide.get("counter", "")),
         "HEADLINE": accent(slide.get("headline", "")),
         "BODY": f"<p>{accent(body)}</p>" if body else "",
-        "MID": f"{veil[0]:.2f}",
-        "BOTTOM": f"{veil[1]:.2f}",
+        "VEIL": veil_css(veil, top),
+        "BLOCKPOS": "top:11vh" if top else "bottom:7.1vh",
     }
     for key, val in {**style, **fields}.items():
         tpl = tpl.replace(f"__{key}__", val)
@@ -144,7 +154,8 @@ def main():
                     build_html(slide, base_dir, veil))
                 shoot(chrome, page, png, window_height)
             png_tools.crop_height(png, HEIGHT)
-            luminance = png_tools.mean_luminance(png, **TEXT_ZONE)
+            zone = TEXT_ZONE_TOP if slide.get("textpos") == "top" else TEXT_ZONE
+            luminance = png_tools.mean_luminance(png, **zone)
             if luminance <= MAX_TEXT_LUMINANCE:
                 if step:
                     note = f"  (Verlauf verstärkt, Stufe {step + 1})"

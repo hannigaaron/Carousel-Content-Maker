@@ -11,14 +11,11 @@
            -webkit-font-smoothing:antialiased; }
   .photo { position:absolute; inset:0; width:100%; height:100%;
            object-fit:cover; object-position:__FOCUS__; }
-  .veil  { position:absolute; inset:0;
-           background:linear-gradient(to bottom,
-             rgba(0,0,0,.45) 0%, rgba(0,0,0,.10) 28%,
-             rgba(0,0,0,__MID__) 58%, rgba(0,0,0,__BOTTOM__) 100%); }
+  .veil  { position:absolute; inset:0; background:__VEIL__; }
   .counter { position:absolute; top:4.6vh; left:6.3vw; font-weight:700;
              font-size:__CSIZE__; letter-spacing:__CTRACK__;
              color:__CCOLOR__; text-shadow:0 .15vh 1vh rgba(0,0,0,.5); }
-  .block { position:absolute; left:6.3vw; right:6.3vw; bottom:7.1vh; }
+  .block { position:absolute; left:6.3vw; right:6.3vw; __BLOCKPOS__; }
   h1 { color:#fff; font-weight:700; font-size:__HSIZE__; line-height:1.06;
        letter-spacing:-.015em; text-shadow:0 .15vh 1.8vh rgba(0,0,0,.55); }
   h1 em { color:var(--accent); font-style:italic; }

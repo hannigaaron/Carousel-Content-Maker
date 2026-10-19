@@ -1,6 +1,3 @@
-- Slide 4: Foto passt nur lose (siehe Begründung). Besser wäre ein Handy mit
-  Notiz oder Essensplan.
-- Auf Foto 2 liegen Lebensmittel sichtbar im Kühlschrank, darunter eine grüne
-  Flasche. Prüfen, ob dir das auf dem Bild recht ist.
-- Inhaltlich: Aussagen sind Verhaltens-Coaching ohne Zahlen, nichts belegt
-  nötig. "5 Minuten" ist eine Schätzung für das Umräumen.
+- Slides 2 bis 4 sind Stock-Fotos (CC0, ohne Personen). Quelle je Bild in
+  `assets/fotos/stock/*.json`. Bildbreite 960 px, auf 1080 hochskaliert, leicht weich.
+- Inhaltlich: Verhaltens-Coaching ohne Zahlen. "5 Minuten" ist eine Schätzung.

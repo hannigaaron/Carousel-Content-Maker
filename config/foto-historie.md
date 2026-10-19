@@ -155,3 +155,5 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W44 | 2 Cover | IMG_0003.jpeg |
 | 2026-W44 | 2 Abend | E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg |
 | 2026-W44 | 2 Plan | 270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg |
+
+**2026-W44 Nachtrag (19.10.2026):** W44 Post 2 neu: fruehstueck-tablett-laptop.jpeg (Slide 3), 72A71EF2… (Slide 2), stock/frei-heisshunger-kuchen.jpeg (Slide 4). W43 Post 2: Slides 2 bis 4 ersetzt durch stock/frei-obst-wassermelone.jpeg, stock/frei-obst-blaubeeren.jpeg, stock/frei-teller-salat.jpeg. Die Fotos IMG_7838, IMG_7836 und IMG_7835 (alte Küche) sind auf Aarons Wunsch nicht mehr zu verwenden.

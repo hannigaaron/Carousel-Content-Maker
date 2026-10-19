@@ -2,24 +2,45 @@
  "slides": [
   {
    "type": "cover",
-   "counter": "1/3",
-   "headline": "Warum ich am\nAnfang {nicht}\nüber Training\nrede.",
-   "subline": "Was in den ersten Wochen\nstattdessen passiert.",
-   "photo": "../../assets/fotos/IMG_0003.jpeg"
+   "counter": "1/6",
+   "headline": "Warum ich am\nAnfang {nicht}\nüber Training rede.",
+   "photo": "../../assets/fotos/IMG_0003.jpeg",
+   "textpos": "top"
   },
   {
    "type": "point",
-   "counter": "GRUND 01 / 02",
+   "counter": "GRUND 01 / 05",
+   "headline": "Training ist selten\nder {Hebel}",
+   "photo": "../../assets/fotos/72A71EF2-38DE-4DEE-A501-DD3F4DD0E980_1_105_c.jpeg",
+   "body": "Die meisten trainieren längst und sehen trotzdem nichts. Training ist nur ein kleiner Teil des Ergebnisses. Wer dort anfängt, optimiert die falsche Stelle."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 02 / 05",
+   "headline": "Ernährung beginnt\nam {Morgen}",
+   "photo": "../../assets/fotos/fruehstueck-tablett-laptop.jpeg",
+   "body": "Frühstück, Mittagessen, Abendessen: Wir schauen auf alle drei. Startest du überhaupt in den Tag? Was kommt mittags auf den Teller, was abends? Die Gewohnheiten dort entscheiden mehr als jede Übung."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 03 / 05",
+   "headline": "Heißhunger hat\neinen {Auslöser}",
+   "photo": "../../assets/fotos/stock/frei-heisshunger-kuchen.jpeg",
+   "body": "Wann kommen die Attacken, und was geht ihnen voraus? Zu wenig gegessen, zu spät gegessen, Stress, Müdigkeit. Erst analysieren, dann verändern. Verbote lösen das Problem nicht."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 04 / 05",
    "headline": "Dein Abend\n{entscheidet}",
    "photo": "../../assets/fotos/E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg",
-   "body": "Die meisten scheitern nicht im Gym. Sie scheitern am Abend: Rechner bis spät, Essen nebenbei, kaum Schlaf. Chronischer Schlafmangel = mehr Hunger, weniger Erholung. Wir setzen dort an, wo es kippt."
+   "body": "Rechner bis spät, Essen nebenbei, keine Grenze zum Arbeitstag. Chronischer Schlafmangel = mehr Hunger, weniger Erholung. Wir setzen dort an, wo es kippt."
   },
   {
    "type": "point",
-   "counter": "GRUND 02 / 02",
+   "counter": "GRUND 05 / 05",
    "headline": "Ein Plan, der\nStress {überlebt}",
    "photo": "../../assets/fotos/270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg",
-   "body": "Erst wenn Schlaf und Abend stehen, kommt das Training. Und dann der kleinste Plan, den du auch in der schlechtesten Woche hältst, zum Beispiel 2x 30 Minuten."
+   "body": "Erst wenn Ernährung und Abend stehen, kommt das Training. Und dann der kleinste Plan, den du auch in der schlechtesten Woche hältst, zum Beispiel 2x 30 Minuten."
   }
  ]
 }
