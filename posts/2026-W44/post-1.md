@@ -1,25 +1,25 @@
 ---
 status: entwurf
 woche: 2026-W44
-thema: Was 20 Minuten Training wirklich bringen — und was nicht
+thema: Was 30 Minuten Training wirklich bringen — und was nicht
 kategorie: Zeit und Aufwand
-zielgruppen-schmerz: "Ich habe schlicht keine Zeit für fünf Trainings die Woche." — 20 Minuten als ehrliche Untergrenze, nicht als Wundermittel.
+zielgruppen-schmerz: "Ich habe schlicht keine Zeit für fünf Trainings die Woche." — 30 Minuten als ehrliche Untergrenze, nicht als Wundermittel.
 render: post-1.slides.json → post-1-slides/
 ---
 
-# 20 Minuten Training: was sie wirklich bringen
+# 30 Minuten Training: was sie wirklich bringen
 
 ## Warum dieses Thema
 
 Oberstes offenes Backlog-Thema (Zeit und Aufwand). Der Post sagt der
 Zielgruppe, was in knapper Zeit funktioniert (wenige Grundübungen, Steigerung,
-fester Plan, Rhythmus) und was 20 Minuten nicht leisten (den Rhythmus ersetzen).
+fester Plan, Rhythmus) und was 30 Minuten nicht leisten (den Rhythmus ersetzen).
 
 ## Slides
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/5` | 20 Minuten Training: was sie *wirklich* bringen. | Kreuzheben im Gym (671CCEAB…) |
+| 1 | `1/5` | 30 Minuten Training: was sie *wirklich* bringen. | Kreuzheben im Gym (671CCEAB…) |
 | 2 | `REGEL 01 / 04` | Vier Übungen *schlagen* zehn | Aaron am Langhantelständer (AFDE5A60…) |
 | 3 | `REGEL 02 / 04` | Steigern *statt* verlängern | Kurzhanteln und Schuh (BDBFE79F….jpeg) |
 | 4 | `REGEL 03 / 04` | Der Plan steht *vorher* | Aaron mit Plan auf dem Tablet (5BAC2A36…) |
@@ -38,7 +38,7 @@ Alle Fotos stammen aus W35 und sind damit älter als 8 Wochen.
 ## Offene Punkte
 
 - Inhaltlich Coaching-Haltung, keine belegten Studienzahlen. Bitte prüfen, ob
-  "Vier Übungen, je 3 Sätze in 20 Minuten" so zu deinem Vorgehen passt.
+  "Vier Übungen, je 3 Sätze in 30 Minuten" so zu deinem Vorgehen passt.
 - Cover: Text liegt über Aarons Beinen/Gewichten, lesbar.
 
 ## Caption
@@ -49,7 +49,7 @@ Aber ich kann dir sagen: In 99% aller Fälle scheitert es nicht an der Länge de
 
 Fehlende Zeit, zu viele Übungen, kein Plan, kein fester Rhythmus, Stress, der Gedanke "ganz oder gar nicht", usw.
 
-❌ Eine kurze Einheit, die du hältst, schlägt die perfekte, die du nach drei Wochen abbrichst.
+❌ Eine Einheit von 30 Minuten, die du hältst, schlägt die perfekte, die du nach drei Wochen abbrichst.
 
 👉 Deshalb arbeite ich im Coaching mit wenigen Grundübungen, klarer Steigerung und einem Plan, der auch in stressigen Wochen funktioniert.
 

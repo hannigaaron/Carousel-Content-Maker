@@ -15,6 +15,7 @@ weiteren Post besser.
   kostenlose Analyse der größten Hebel.
 - **Tooling im Coaching:** nutrilize (Coaching-Zone, Gewichts- und
   Kalorienverlauf), DaFiTs PT-Studio Ludwigsburg
+- **USP / Ansatz:** 30 Minuten pro Trainingseinheit — das ist das absolute Minimum. Alles darunter (z. B. "20 Minuten") wird in Posts nie als Lösung genannt.
 - **Positionierung:** Training ist nur ein kleiner Teil. Der Fokus liegt am
   Anfang auf Lebensstil, Ernährungsgewohnheiten, Planung/Struktur und mentalen
   Blockaden — weil diese Dinge entscheiden, ob das Ergebnis *bleibt*.
