@@ -1,0 +1,25 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "counter": "1/3",
+   "headline": "Warum ich am\nAnfang {nicht}\nüber Training\nrede.",
+   "subline": "Was in den ersten Wochen\nstattdessen passiert.",
+   "photo": "../../assets/fotos/IMG_0003.jpeg"
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 01 / 02",
+   "headline": "Dein Abend\n{entscheidet}",
+   "photo": "../../assets/fotos/E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg",
+   "body": "Die meisten scheitern nicht im Gym. Sie scheitern am Abend: Rechner bis spät, Essen nebenbei, kaum Schlaf. Chronischer Schlafmangel = mehr Hunger, weniger Erholung. Wir setzen dort an, wo es kippt."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 02 / 02",
+   "headline": "Ein Plan, der\nStress {überlebt}",
+   "photo": "../../assets/fotos/270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg",
+   "body": "Erst wenn Schlaf und Abend stehen, kommt das Training. Und dann der kleinste Plan, den du auch in der schlechtesten Woche hältst, zum Beispiel 2x 30 Minuten."
+  }
+ ]
+}

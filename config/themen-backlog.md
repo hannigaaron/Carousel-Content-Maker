@@ -22,7 +22,7 @@ Aaron: streich raus, was dir nicht passt, und schreib eigene dazu. Was hier
 oben steht, wird zuerst genommen.
 
 **Zeit und Aufwand**
-- [ ] Was 20 Minuten Training wirklich bringen — und was nicht
+- [x] Was 20 Minuten Training wirklich bringen — und was nicht
 - [x] 4 Wege, Bewegung in einen Bürotag zu schmuggeln, ohne Sport zu treiben
 
 **Ernährung im Alltag**
@@ -32,7 +32,7 @@ oben steht, wird zuerst genommen.
 **Mindset und Struktur**
 - [x] Warum du nach 3 Wochen aufhörst — und was dagegen hilft
 - [x] Was ich mache, wenn ein Kunde eine Woche komplett verpasst
-- [ ] Warum ich am Anfang nicht über Training rede
+- [x] Warum ich am Anfang nicht über Training rede
 
 **Anlassbezogen**
 - [ ] Dezember: die Feiertage überstehen, ohne im Januar neu anzufangen
@@ -59,3 +59,5 @@ oben steht, wird zuerst genommen.
 | 2026-W42 | Warum du nach 3 Wochen aufhörst | posts/2026-W42/post-2.md |
 | 2026-W43 | Woche komplett verpasst? So geht es weiter | posts/2026-W43/post-1.md |
 | 2026-W43 | 3 Dinge in deiner Küche, die abends für dich entscheiden | posts/2026-W43/post-2.md |
+| 2026-W44 | 20 Minuten Training: was sie wirklich bringen | posts/2026-W44/post-1.md |
+| 2026-W44 | Warum ich am Anfang nicht über Training rede | posts/2026-W44/post-2.md |

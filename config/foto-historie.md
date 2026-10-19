@@ -140,3 +140,18 @@ IMG_8238.jpeg (Laptop und Kartenetui auf Asphalt). Nicht verwendbar: die drei
 dunklen Laptop-/Pool-Bilder (2E0D18AE..., 330D55ED..., IMG_0005.JPG), weil
 Bildschirminhalt lesbar ist bzw. kein Motiv erkennbar.
 
+
+## 2026-W44 (nachgetragen am 19.10.2026)
+
+Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
+
+| Woche | Post | Datei |
+|---|---|---|
+| 2026-W44 | 1 Cover | 671CCEAB-51F2-49C6-B945-FD7CB465F033_1_105_c.jpeg |
+| 2026-W44 | 1 Regel 01 | AFDE5A60-3B78-4458-8004-9EA875F3ABF1_1_105_c.jpeg |
+| 2026-W44 | 1 Regel 02 | BDBFE79F-3BB7-49F7-A73A-54E69D5DA1D5.jpeg |
+| 2026-W44 | 1 Regel 03 | 5BAC2A36-B6D3-48AC-A85E-EF9B5209E6B3_1_105_c.jpeg |
+| 2026-W44 | 1 Regel 04 | D1E8CC26-1A66-4182-A98E-A73289B48406_1_105_c.jpeg |
+| 2026-W44 | 2 Cover | IMG_0003.jpeg |
+| 2026-W44 | 2 Abend | E84D9EF4-F086-4935-8370-418EBB301617_1_102_o.jpeg |
+| 2026-W44 | 2 Plan | 270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg |
