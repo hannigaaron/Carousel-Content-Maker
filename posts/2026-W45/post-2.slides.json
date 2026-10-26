@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "counter": "1/5",
+   "headline": "Du trainierst\nja. Warum passiert\ntrotzdem {nichts}?",
+   "photo": "../../assets/fotos/alltag-arkaden.jpeg"
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 01 / 04",
+   "headline": "Ohne Zahl\nkeine {Richtung}",
+   "photo": "../../assets/fotos/nutrilize-gewichtsverlauf.png",
+   "focus": "left bottom",
+   "body": "Dein Gewicht schwankt von Tag zu Tag. Was zählt, ist der Verlauf über Wochen. Wer nicht misst, kämpft gegen das falsche Problem."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 02 / 04",
+   "headline": "Ohne Plan keine\n{Steigerung}",
+   "photo": "../../assets/fotos/5BAC2A36-B6D3-48AC-A85E-EF9B5209E6B3_1_105_c.jpeg",
+   "body": "Wer nicht aufschreibt, was er letzte Woche bewegt hat, kann es diese Woche nicht überbieten. Plan führen, Gewicht oder Wiederholungen steigern. So einfach."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 03 / 04",
+   "headline": "Erholung ist\nTeil des {Trainings}",
+   "photo": "../../assets/fotos/9A9B4B84-C1E8-491C-B08E-83D49C89A138_1_105_c.jpeg",
+   "body": "Training setzt den Reiz, das Ergebnis kommt in der Pause. Schlaf und Abstand zwischen den Einheiten sind kein Luxus. Mehr Trainings ersetzen sie nicht."
+  },
+  {
+   "type": "point",
+   "counter": "GRUND 04 / 04",
+   "headline": "Der Rest deines Tages\nbewegt sich {nicht}",
+   "photo": "../../assets/fotos/aufzug-rueckansicht.jpeg",
+   "body": "30 Minuten Training gleichen einen Tag im Sitzen nicht aus. Aufzug gegen Treppe, Telefonat im Gehen: Das sind die Hebel, die dein Alltag wirklich hergibt."
+  }
+ ]
+}

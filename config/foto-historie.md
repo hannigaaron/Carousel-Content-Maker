@@ -158,3 +158,19 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W44 | 2 Plan | 270088E9-AA16-4BDB-BC5D-72F993B45463.jpeg |
 
 **2026-W44 Nachtrag (19.10.2026):** W44 Post 2 neu: fruehstueck-tablett-laptop.jpeg (Slide 3), 72A71EF2… (Slide 2), stock/frei-heisshunger-kuchen.jpeg (Slide 4). W43 Post 2: Slides 2 bis 4 ersetzt durch stock/frei-obst-wassermelone.jpeg, stock/frei-obst-blaubeeren.jpeg, stock/frei-teller-salat.jpeg. Die Fotos IMG_7838, IMG_7836 und IMG_7835 (alte Küche) sind auf Aarons Wunsch nicht mehr zu verwenden.
+
+
+## 2026-W45 (nachgetragen am 26.10.2026)
+
+| Woche | Post | Datei |
+|---|---|---|
+| 2026-W45 | 1 Cover | alltag-schloss-abendlicht.jpeg |
+| 2026-W45 | 1 Regel 01 | stock/frei-healthy-food-k-02.jpeg |
+| 2026-W45 | 1 Regel 02 | gym-spiegelselfie-hantelscheiben.jpeg |
+| 2026-W45 | 1 Regel 03 | koffer-flughafen.jpeg |
+| 2026-W45 | 1 Regel 04 | stock/frei-handy-01.jpeg |
+| 2026-W45 | 2 Cover | alltag-arkaden.jpeg |
+| 2026-W45 | 2 Grund 01 | nutrilize-gewichtsverlauf.png |
+| 2026-W45 | 2 Grund 02 | 5BAC2A36-B6D3-48AC-A85E-EF9B5209E6B3_1_105_c.jpeg |
+| 2026-W45 | 2 Grund 03 | 9A9B4B84-C1E8-491C-B08E-83D49C89A138_1_105_c.jpeg |
+| 2026-W45 | 2 Grund 04 | aufzug-rueckansicht.jpeg |

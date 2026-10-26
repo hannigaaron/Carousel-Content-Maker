@@ -35,7 +35,7 @@ oben steht, wird zuerst genommen.
 - [x] Warum ich am Anfang nicht über Training rede
 
 **Anlassbezogen**
-- [ ] Dezember: die Feiertage überstehen, ohne im Januar neu anzufangen
+- [x] Dezember: die Feiertage überstehen, ohne im Januar neu anzufangen
 - [ ] Januar: warum Vorsätze scheitern und was stattdessen funktioniert
 
 ## Bereits gepostet
@@ -61,3 +61,5 @@ oben steht, wird zuerst genommen.
 | 2026-W43 | 3 Dinge in deiner Küche, die abends für dich entscheiden | posts/2026-W43/post-2.md |
 | 2026-W44 | 30 Minuten Training: was sie wirklich bringen | posts/2026-W44/post-1.md |
 | 2026-W44 | Warum ich am Anfang nicht über Training rede | posts/2026-W44/post-2.md |
+| 2026-W45 | Die Feiertage überstehen, ohne im Januar neu anzufangen | posts/2026-W45/post-1.md |
+| 2026-W45 | Du trainierst ja. Warum passiert trotzdem nichts? | posts/2026-W45/post-2.md |

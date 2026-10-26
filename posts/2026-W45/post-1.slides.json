@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "counter": "1/5",
+   "headline": "Die Feiertage\nüberstehen, ohne im\nJanuar {neu} anzufangen.",
+   "photo": "../../assets/fotos/alltag-schloss-abendlicht.jpeg"
+  },
+  {
+   "type": "point",
+   "counter": "REGEL 01 / 04",
+   "headline": "Protein first,\nauch am {Buffet}",
+   "photo": "../../assets/fotos/stock/frei-healthy-food-k-02.jpeg",
+   "body": "Fang am Tisch mit dem Eiweiß an, dann kommt der Rest. Wer satt ist, entscheidet ruhiger über Plätzchen und Beilagen. Verbote brauchst du dafür keine."
+  },
+  {
+   "type": "point",
+   "counter": "REGEL 02 / 04",
+   "headline": "Zwei Einheiten halten den {Rhythmus}",
+   "photo": "../../assets/fotos/gym-spiegelselfie-hantelscheiben.jpeg",
+   "body": "Auch zwischen den Feiertagen: 2x 30 Minuten pro Woche. Mehr ist nicht nötig, weniger ist nicht dein Plan. Wer den Rhythmus hält, muss im Januar nicht neu anfangen."
+  },
+  {
+   "type": "point",
+   "counter": "REGEL 03 / 04",
+   "headline": "Plane die Reise\nwie einen {Termin}",
+   "photo": "../../assets/fotos/koffer-flughafen.jpeg",
+   "body": "Familie, Hotel, Zugfahrt: Leg vor der Abreise fest, wann deine 30 Minuten stattfinden. Was nicht eingeplant ist, fällt bei Besuch zuerst raus."
+  },
+  {
+   "type": "point",
+   "counter": "REGEL 04 / 04",
+   "headline": "Trag die Tage\nzwischen den Jahren {ein}",
+   "photo": "../../assets/fotos/stock/frei-handy-01.jpeg",
+   "body": "Handy raus, Termine rein, solange die Wochen noch ruhig sind. Der Dezember wird voll. Wer erst im Dezember plant, plant gegen den Stress."
+  }
+ ]
+}
