@@ -15,6 +15,7 @@ dauerhaft gesperrt — ohne Ausnahme, in keinem Post, für keinen Slide.**
 | `87393D62-D634-4356-85DF-8B87116619BB_1_105_c.jpeg` | Logo-Grafik, Panorama — Text auf Text | 2026-09-14 |
 | `A4558469-7E76-4EA1-9455-8FC9EF0F0CDD_1_105_c.jpeg` | Logo-Grafik auf Weiß — Text nicht lesbar | 2026-09-14 |
 | `IMG_7777.jpeg` | Aufzug-Selfie, Werbeschild „SEXY." oben links im Bild — als Slide-Hintergrund unbrauchbar | 2026-09-14 |
+| `stock/frei-handy-01.jpeg` | Veraltetes iPhone-Modell im Bild — jeder erkennt sofort, dass es kein echtes Foto von Aaron ist. Dazu schwaches Motiv. Aaron: „Bitte nie wieder dieses Foto.“ | 2026-11-02 |
 
 ## Nicht in den Pool aufgenommen
 

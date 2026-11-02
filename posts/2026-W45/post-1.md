@@ -21,15 +21,14 @@ Oberstes offenes Backlog-Thema (Anlassbezogen). Posting Ende Oktober als Vorlauf
 | 2 | `REGEL 01 / 04` | Protein first, auch am *Buffet* | Teller mit Gemüse-Pfanne (Stock, Wikimedia). Zeigt: Essen am Tisch. |
 | 3 | `REGEL 02 / 04` | Zwei Einheiten halten den *Rhythmus* | Aaron im Gym zwischen Hantelscheiben (gym-spiegelselfie-hantelscheiben). Zeigt: Training. |
 | 4 | `REGEL 03 / 04` | Plane die Reise wie einen *Termin* | Koffer auf Gehweg (koffer-flughafen). Zeigt: Reise. |
-| 5 | `REGEL 04 / 04` | Trag die Tage zwischen den Jahren *ein* | Handy, Notizbuch, Laptop auf Holztisch (Stock, Wikimedia). Zeigt: Planung. |
+| 5 | `REGEL 04 / 04` | Trag die Tage zwischen den Jahren *ein* | Aaron im Strickpolo, Spiegelaufnahme (eigenes Foto). Persönlicher Abschluss. |
 
 ## Offene Punkte
 
-- Slide 2 und 5 sind Stock-Fotos (CC0/PD, Wikimedia), im Slide-Text nicht gekennzeichnet.
-- Slide 5: Stock-Foto ist Querformat und wird hochskaliert, wirkt etwas weich.
+- Slide 2 ist ein Stock-Foto (CC0/PD, Wikimedia), im Slide-Text nicht gekennzeichnet.
 - Slide 2: Das Teller-Foto ist ein Amateurfoto, kein Feiertagsessen.
 - Slide 3: Das Foto ist ein Spiegel-Selfie im Gym (T-Shirt, Trainingskleidung), Fensterschrift oben im Bild liegt außerhalb des Textbereichs.
-- Der Post erscheint im Oktober für ein Dezember-Thema. Wenn er dir zu früh ist, in vier Wochen posten.
+- Der Post erscheint im November für ein Dezember-Thema. Wenn er dir zu früh ist, in drei bis vier Wochen posten.
 - Aussagen sind Coaching-Haltung, keine Studienangaben.
 
 ## Caption

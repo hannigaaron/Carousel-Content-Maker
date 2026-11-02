@@ -1,5 +1,25 @@
 # Review 2026-W45
 
+## Update 02.11.2026: Abschluss-Slide von Post 1 neu
+
+Das Stock-Foto auf Slide 5 (Handy und Notizbuch auf dem Tisch) ist raus und
+**dauerhaft gesperrt** (`config/gesperrte-fotos.md`): Das Handy darauf ist
+mehrere Generationen alt, damit ist der Slide sofort als Stock erkennbar.
+Neu: Aaron im Strickpolo, Spiegelaufnahme aus dem eigenen Pool
+(`spiegel-pullover.jpeg`) — persönlicher Abschluss statt Symbolbild.
+
+Der Slide-Text lautete „Handy raus, Termine rein, solange die Wochen noch
+ruhig sind“ und sagte nicht, was eingetragen werden soll. Neu:
+
+> Such dir jetzt die zwei Tage pro Woche aus, an denen du zwischen Weihnachten
+> und Neujahr trainierst, und schreib sie in den Kalender. Im Dezember ist
+> jeder Abend vergeben - dann zählt nur, was schon drinsteht.
+
+Das knüpft an Regel 02 an (2x 30 Minuten pro Woche) und nennt eine konkrete
+Handlung statt einer Geste.
+
+Die Abschnitte unten beschreiben den Stand davor.
+
 ## Themen
 1. **Feiertage überstehen, ohne im Januar neu anzufangen** (Anlassbezogen) — oberstes offenes Backlog-Thema, trifft "drei Wochen, dann kommt Stress dazwischen".
 2. **Du trainierst ja. Warum passiert trotzdem nichts?** (Mindset und Struktur) — Schmerz 3 aus dem Profil, Messen, Plan, Erholung, Alltag.
