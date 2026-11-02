@@ -18,14 +18,14 @@ Neues Thema (nicht in den letzten 8 Wochen). Trifft den Zeit-Schmerz aus einer a
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
 | 1 | `1/4` | Aufwärmen: so startest du in *5 Minuten* ohne Zeitverlust. | Aaron bindet Schuh auf der Bahn (B1B63913…) |
-| 2 | `REGEL 01 / 03` | Locker *anfangen* | Aaron auf dem Rad (70BA48D8…) |
+| 2 | `REGEL 01 / 03` | Locker *anfangen* | Aaron kniend auf dem Kunstrasen, bindet den Schuh (46B6A8FC…) |
 | 3 | `REGEL 02 / 03` | Erst *leicht*, dann schwer | Aaron an der Langhantel (EC5861F7…) |
 | 4 | `REGEL 03 / 03` | Die Uhr *läuft* mit | Fuß hoch neben der Gerätebank (53943123…) |
 
 **Foto-Begründungen (Foto zeigt / Slide spricht):**
 
 1. Cover — Aaron beginnt die Einheit, Schuhe binden; Slide spricht vom Start.
-2. Locker anfangen — Aaron auf dem Rad; Slide nennt Rad/Laufband.
+2. Locker anfangen — Aaron kniend auf der Bahn, kurz vor dem Start. Der Slide sagt jetzt, dass das beste Warm-up die Übung selbst ist; ein Rad-Foto hätte dem widersprochen. (`46B6A8FC-D835-4CB4-8F79-31F3F906CD3E_1_105_c.jpeg`)
 3. Erst leicht — Aaron an der Langhantel; Slide spricht vom leichten Satz vor dem Arbeitsgewicht.
 4. Uhr läuft mit — Gerätebank, Fuß liegt entspannt (Satzpause); Passung nur mittelmäßig.
 
@@ -33,7 +33,7 @@ Alle Fotos stammen aus W37 (älter als 8 Wochen), keine gesperrten Motive, Train
 
 ## Offene Punkte
 
-- Inhaltlich Coaching-Haltung ohne Studienzahlen: "3 Minuten locker", "leichter Satz vor Arbeitsgewicht" — bitte prüfen, ob das zu deinem Vorgehen passt.
+- Slide 2 am 02.11. auf Aarons Ansatz umgestellt: das beste Warm-up ist die Übung selbst, Ganzkörper-Mobility nur optional für Vielsitzer.
 - Slide 4: Foto passt nur halb (Pause statt Uhr).
 - Cover und Slide 4 haben dasselbe Studio-Setting wie W44, andere Bilder.
 

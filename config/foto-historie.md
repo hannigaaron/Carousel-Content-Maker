@@ -188,3 +188,4 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W46 | 2 Regel 01 | DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg |
 | 2026-W46 | IMG_8344.jpeg | P2 Regel 02 (drei Anker), nachgetragen 02.11. |
 | 2026-W45 | spiegel-pullover.jpeg | P1 Regel 04 (Termine eintragen), ersetzt Stock am 02.11. |
+| 2026-W46 | 46B6A8FC-D835-4CB4-8F79-31F3F906CD3E_1_105_c.jpeg | P1 Regel 01 (locker anfangen), ersetzt Rad-Foto am 02.11. |

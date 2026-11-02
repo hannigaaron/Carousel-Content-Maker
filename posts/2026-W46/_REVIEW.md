@@ -7,12 +7,12 @@
 Nur **zwei Posts**: Das einzige offene Backlog-Thema (Januar-Vorsätze) ist dieselbe Kategorie wie die Feiertage aus KW 45; der Pool gibt für einen dritten Post keine passenden freien Motive her.
 
 ## Du musst prüfen
-- Post 1: Passen "3 Minuten locker auf Rad/Laufband" und "leichter Satz vor Arbeitsgewicht" zu deinem Vorgehen? Slide 4: Foto nur halb passend.
+- Post 1, Slide 2 am 02.11. korrigiert: "3 Minuten locker auf Rad/Laufband" war nicht Aarons Ansatz. Neu: das beste Warm-up ist die Übung selbst, 3 bis 5 Minuten Ganzkörper-Mobility nur optional, wenn man viel sitzt. Foto von Aaron auf dem Rad ist dadurch raus (hätte dem Text widersprochen), neu: kniend auf der Bahn. Slide 4: Foto nur halb passend.
 - Post 2, Slide 3: **ohne Foto** (grauer Verlauf). Fehlt: Einkaufsliste auf dem Handy oder Küchenarbeitsplatte mit Eiern/Gemüse/Reis. Foto ergänzen oder Slide weglassen.
 - Post 2, Cover: Camping-Luftbett und Skyr-Marke im Wagen sichtbar.
 
 ## Verwendete Fotos
-Post 1: B1B63913…, 70BA48D8…, EC5861F7…, 53943123… (alle `_1_105_c.jpeg`)
+Post 1: B1B63913…, 46B6A8FC…, EC5861F7…, 53943123… (alle `_1_105_c.jpeg`)
 Post 2: CE727A64…, DD106EE6… (`_1_105_c.jpeg`)
 
 ## Ehrlich
