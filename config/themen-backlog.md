@@ -63,3 +63,5 @@ oben steht, wird zuerst genommen.
 | 2026-W44 | Warum ich am Anfang nicht über Training rede | posts/2026-W44/post-2.md |
 | 2026-W45 | Die Feiertage überstehen, ohne im Januar neu anzufangen | posts/2026-W45/post-1.md |
 | 2026-W45 | Du trainierst ja. Warum passiert trotzdem nichts? | posts/2026-W45/post-2.md |
+| 2026-W46 | Aufwärmen in 5 Minuten, ohne Zeitverlust | posts/2026-W46/post-1.md |
+| 2026-W46 | Dein Einkauf entscheidet, was du abends isst | posts/2026-W46/post-2.md |
