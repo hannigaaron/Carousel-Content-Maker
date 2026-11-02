@@ -65,3 +65,5 @@ oben steht, wird zuerst genommen.
 | 2026-W45 | Du trainierst ja. Warum passiert trotzdem nichts? | posts/2026-W45/post-2.md |
 | 2026-W46 | Aufwärmen in 5 Minuten, ohne Zeitverlust | posts/2026-W46/post-1.md |
 | 2026-W46 | Dein Einkauf entscheidet, was du abends isst | posts/2026-W46/post-2.md |
+| 2026-W47 | Schlaf ist der Hebel, den fast niemand nutzt | posts/2026-W47/post-1.md |
+| 2026-W48 | Wie viel Cardio brauchst du wirklich? | posts/2026-W48/post-1.md |

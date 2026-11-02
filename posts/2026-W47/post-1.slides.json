@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/5",
+      "headline": "Schlaf ist der Hebel,\nden fast niemand\n{nutzt}.",
+      "subline": "Vier Stellen, an denen er verloren geht.",
+      "photo": "../../assets/fotos/abends-schreibtisch-fuesse-hoch.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 01 / 04",
+      "headline": "Sieben bis acht,\nnicht {sechs}",
+      "photo": "../../assets/fotos/IMG_8386.png",
+      "focus": "center",
+      "body": "Unter 7 Stunden steigen Hunger und Cortisol, die Erholung zwischen den Einheiten fehlt. Das Defizit merkst du nicht - du siehst es erst, wenn du eine Woche mitmisst."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 02 / 04",
+      "headline": "Der {Abend} entscheidet,\nnicht das Bett",
+      "photo": "../../assets/fotos/330D55ED-759A-4962-A867-BBB40A2727CE.JPG",
+      "focus": "center",
+      "body": "Wer bis 23 Uhr am Rechner sitzt, liegt danach wach. Nicht die Matratze ist das Problem, sondern die letzte Stunde davor. Rechner zu, Licht runter, 30 Minuten vor dem Bett."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 03 / 04",
+      "headline": "Spätes Essen kostet\ndich {Tiefschlaf}",
+      "photo": "../../assets/fotos/8E10E23B-148E-4145-9634-062520AC7E06_1_105_c.jpeg",
+      "focus": "center",
+      "body": "Volle Mahlzeit kurz vor dem Schlafen: Du schläfst ein, aber flacher. Zwei Stunden Abstand reichen meistens. Beim Abendessen auswärts: dafür am nächsten Tag nichts nachholen."
+    },
+    {
+      "type": "point",
+      "counter": "PUNKT 04 / 04",
+      "headline": "Feste Zeit schlägt\njeden {Trick}",
+      "photo": "../../assets/fotos/auto-nacht-lenkrad-display.jpeg",
+      "focus": "center",
+      "body": "Immer um dieselbe Zeit ins Bett, auch am Wochenende. Das bringt mehr als jedes Supplement und jede App. Wer jeden Abend anders schlafen geht, hat jeden Morgen Jetlag."
+    }
+  ]
+}

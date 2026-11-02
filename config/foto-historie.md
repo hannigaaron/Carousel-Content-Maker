@@ -189,3 +189,13 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W46 | IMG_8344.jpeg | P2 Regel 02 (drei Anker), nachgetragen 02.11. |
 | 2026-W45 | spiegel-pullover.jpeg | P1 Regel 04 (Termine eintragen), ersetzt Stock am 02.11. |
 | 2026-W46 | 46B6A8FC-D835-4CB4-8F79-31F3F906CD3E_1_105_c.jpeg | P1 Regel 01 (locker anfangen), ersetzt Rad-Foto am 02.11. |
+| 2026-W47 | abends-schreibtisch-fuesse-hoch.jpeg | P1 Cover |
+| 2026-W47 | IMG_8386.png | P1 Punkt 01 (Schlafdauer) |
+| 2026-W47 | 330D55ED-759A-4962-A867-BBB40A2727CE.JPG | P1 Punkt 02 (Abend) |
+| 2026-W47 | 8E10E23B-148E-4145-9634-062520AC7E06_1_105_c.jpeg | P1 Punkt 03 (spätes Essen) |
+| 2026-W47 | auto-nacht-lenkrad-display.jpeg | P1 Punkt 04 (feste Zeit) |
+| 2026-W48 | CE270836-924E-42ED-9452-82EF65F37946_1_105_c.jpeg | P1 Cover |
+| 2026-W48 | AE9C55CF-EC5C-426F-8D43-F41FFCD76933_1_105_c.jpeg | P1 Antwort 01 |
+| 2026-W48 | C604F6F2-1B4E-460C-A0EB-65A4FCE22D1E_1_105_c.jpeg | P1 Antwort 02 |
+| 2026-W48 | 70BA48D8-41D1-4457-86C2-761A13DD9924_1_105_c.jpeg | P1 Antwort 03 |
+| 2026-W48 | 92F89440-EFBF-4D9B-8649-2C9385C8627E_1_105_c.jpeg | P1 Antwort 04 |
