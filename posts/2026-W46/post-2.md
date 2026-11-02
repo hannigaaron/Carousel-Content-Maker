@@ -20,17 +20,17 @@ Neues Thema (Einkauf/Mittagsplanung lief in den letzten 8 Wochen nicht). Schmerz
 |---|---|---|---|
 | 1 | `1/3` | Dein Einkauf entscheidet, was du *abends* isst. | Einkaufswagen (CE727A64…) |
 | 2 | `REGEL 01 / 02` | Mittag *planen*, nicht suchen | Teller mit Rührei und Gemüse am Laptop (DD106EE6…) |
-| 3 | `REGEL 02 / 02` | Drei *Anker* statt langer Liste | **KEIN PASSENDES FOTO** |
+| 3 | `REGEL 02 / 02` | Drei *Anker* statt langer Liste | Rührei auf Brot mit Karotten und Kiwi (eigenes Foto) |
 
 **Foto-Begründungen (Foto zeigt / Slide spricht):**
 
 1. Cover — gefüllter Einkaufswagen; Slide spricht vom Einkauf.
 2. Mittag — fertiger Teller mit Eiweiß, Gemüse, Beilage; Slide beschreibt genau diesen Teller.
-3. KEIN PASSENDES FOTO — es fehlt: Einkaufsliste auf dem Handy oder gedeckte Vorräte (Küchenarbeitsplatte mit Eiern, Gemüse, Reis). Stock-Abruf war in diesem Lauf nicht erreichbar (Bad Gateway/Timeout).
+3. Zu sehen: Rührei auf Brot, daneben Karotten und Kiwi. Slide: "Eiweißquelle, Gemüse, eine Beilage." Das Foto zeigt genau diese drei Anker auf einem Teller. Nachgetragen am 02.11., im Lauf selbst war der Stock-Abruf nicht erreichbar. (`IMG_8344.jpeg`)
 
 ## Offene Punkte
 
-- Slide 3 ist ohne Foto (grauer Verlauf). Motiv fehlt, siehe oben. Entweder Foto ergänzen oder den Slide weglassen — der Post trägt auch mit 2 Slides, dann Zähler anpassen.
+- Slide 3 hat jetzt ein Foto: Rührei auf Brot mit Karotten und Kiwi (`IMG_8344.jpeg`) — Eiweiß, Gemüse, Beilage genau wie im Slide-Text.
 - Cover: im Wagen liegt ein Camping-Luftbett, wirkt zufällig; Text liegt über Obst/Gemüse, lesbar.
 - Im Cover ist ein Skyr-Becher mit lesbarer Marke sichtbar.
 - Inhaltlich Coaching-Haltung, keine Studienzahlen.

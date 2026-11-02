@@ -1,7 +1,27 @@
 {
   "slides": [
-    {"type":"cover","counter":"1/3","headline":"Dein Einkauf\nentscheidet, was du\n{abends} isst.","subline":"Bevor du am Abend Hunger hast.","photo":"../../assets/fotos/CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg","focus":"top"},
-    {"type":"point","counter":"REGEL 01 / 02","headline":"Mittag {planen},\nnicht suchen","photo":"../../assets/fotos/DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg","body":"Wer um 13 Uhr noch überlegt, was es gibt, isst, was gerade da ist. Ein Teller mit Eiweiß, Gemüse und einer Beilage, einmal festgelegt, spart dir die tägliche Entscheidung."},
-    {"type":"point","counter":"REGEL 02 / 02","headline":"Drei {Anker}\nstatt langer Liste","body":"Eiweißquelle, Gemüse, eine Beilage, die satt macht. Mehr braucht dein Einkauf nicht. Alles darüber hinaus ist Spontaneität, die du abends bezahlst."}
+    {
+      "type": "cover",
+      "counter": "1/3",
+      "headline": "Dein Einkauf\nentscheidet, was du\n{abends} isst.",
+      "subline": "Bevor du am Abend Hunger hast.",
+      "photo": "../../assets/fotos/CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg",
+      "focus": "top"
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 01 / 02",
+      "headline": "Mittag {planen},\nnicht suchen",
+      "photo": "../../assets/fotos/DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg",
+      "body": "Wer um 13 Uhr noch überlegt, was es gibt, isst, was gerade da ist. Ein Teller mit Eiweiß, Gemüse und einer Beilage, einmal festgelegt, spart dir die tägliche Entscheidung."
+    },
+    {
+      "type": "point",
+      "counter": "REGEL 02 / 02",
+      "headline": "Drei {Anker}\nstatt langer Liste",
+      "body": "Eiweißquelle, Gemüse, eine Beilage, die satt macht. Mehr braucht dein Einkauf nicht. Alles darüber hinaus ist Spontaneität, die du abends bezahlst.",
+      "photo": "../../assets/fotos/IMG_8344.jpeg",
+      "focus": "center"
+    }
   ]
 }

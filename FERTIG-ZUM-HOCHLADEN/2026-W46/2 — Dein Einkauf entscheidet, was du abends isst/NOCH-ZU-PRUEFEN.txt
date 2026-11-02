@@ -1,4 +1,4 @@
-- Slide 3 ist ohne Foto (grauer Verlauf). Motiv fehlt, siehe oben. Entweder Foto ergänzen oder den Slide weglassen — der Post trägt auch mit 2 Slides, dann Zähler anpassen.
+- Slide 3 hat jetzt ein Foto: Rührei auf Brot mit Karotten und Kiwi (`IMG_8344.jpeg`) — Eiweiß, Gemüse, Beilage genau wie im Slide-Text.
 - Cover: im Wagen liegt ein Camping-Luftbett, wirkt zufällig; Text liegt über Obst/Gemüse, lesbar.
 - Im Cover ist ein Skyr-Becher mit lesbarer Marke sichtbar.
 - Inhaltlich Coaching-Haltung, keine Studienzahlen.

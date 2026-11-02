@@ -186,3 +186,4 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W46 | 1 Regel 03 | 53943123-DDE7-48BA-AAB1-AF15C8DD50AC_1_105_c.jpeg |
 | 2026-W46 | 2 Cover | CE727A64-EA84-460C-BB9C-76DE37F5F4A3_1_105_c.jpeg |
 | 2026-W46 | 2 Regel 01 | DD106EE6-47E6-43DE-8240-197AB42A3258_1_105_c.jpeg |
+| 2026-W46 | IMG_8344.jpeg | P2 Regel 02 (drei Anker), nachgetragen 02.11. |
