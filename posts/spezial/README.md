@@ -12,6 +12,7 @@ einem abgedunkelten Foto. Vorbild war ein Referenz-Post, den Aaron geschickt hat
 |---|---|
 | `80-20-balance/` | 80 % unterwegs & arbeiten, 20 % chillen (Urlaub/Alltag) |
 | `80-20-essen/` | 80 % gesund essen, 20 % Genuss |
+| `es-ist-cringe/` | Storytelling „Es ist cringe, bis…“, weiße Konturschrift |
 
 Neu bauen (aus dem Repo-Wurzelverzeichnis):
 
@@ -20,3 +21,8 @@ python3 posts/spezial/80-20-essen/bau.py
 ```
 
 Die fertigen Slides liegen in `slides/01.jpg` … `05.jpg`, die Caption in `post.md`.
+
+`es-ist-cringe/` folgt einem anderen Vorbild: Aarons eigenen
+Storytelling-Slides. Weiße Poppins ExtraBold mit schwarzer Kontur über dem
+formatfüllenden Foto, ein Textblock oben, auf Cover und Abschluss zusätzlich
+einer unten. Gebaut mit `posts/spezial/es-ist-cringe/bau.py`.
