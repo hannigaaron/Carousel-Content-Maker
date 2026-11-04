@@ -16,6 +16,7 @@ dauerhaft gesperrt — ohne Ausnahme, in keinem Post, für keinen Slide.**
 | `A4558469-7E76-4EA1-9455-8FC9EF0F0CDD_1_105_c.jpeg` | Logo-Grafik auf Weiß — Text nicht lesbar | 2026-09-14 |
 | `IMG_7777.jpeg` | Aufzug-Selfie, Werbeschild „SEXY." oben links im Bild — als Slide-Hintergrund unbrauchbar | 2026-09-14 |
 | `stock/frei-handy-01.jpeg` | Veraltetes iPhone-Modell im Bild — jeder erkennt sofort, dass es kein echtes Foto von Aaron ist. Dazu schwaches Motiv. Aaron: „Bitte nie wieder dieses Foto.“ | 2026-11-02 |
+| `CE270836-924E-42ED-9452-82EF65F37946_1_105_c.jpeg` | Aaron kniend mit Tablet im Gym. Aaron: „Da seh ich zu jung aus.“ | 2026-11-04 |
 
 ## Nicht in den Pool aufgenommen
 

@@ -14,11 +14,11 @@ Alltagsschritte und das Essen.
 
 | # | Zähler | Headline | Foto |
 |---|---|---|---|
-| 1 | `1/5` | Wie viel Cardio brauchst du *wirklich*? | Aaron kniend mit Tablet im Gym (eigenes Foto) |
+| 1 | `1/5` | Wie viel Cardio brauchst du *wirklich*? | Aaron am Battle Rope (eigenes Foto) |
 | 2 | `ANTWORT 01 / 04` | *Kraft* zuerst, Cardio danach | Aaron außer Atem auf der Bahn (eigenes Foto) |
 | 3 | `ANTWORT 02 / 04` | Schritte schlagen das *Laufband* | Aaron auf dem Laufband (eigenes Foto) |
 | 4 | `ANTWORT 03 / 04` | Wenn Cardio, dann ans *Ende* | Aaron auf dem Air Bike (eigenes Foto) |
-| 5 | `ANTWORT 04 / 04` | Cardio ersetzt kein *Defizit* | Aaron am Battle Rope (eigenes Foto) |
+| 5 | `ANTWORT 04 / 04` | Cardio ersetzt kein *Defizit* | Obstschale von oben (eigenes Foto) |
 
 Alle fünf Fotos aus Aarons eigenem Pool, keins davon in den letzten 8 Wochen
 gelaufen. Kein Stock.

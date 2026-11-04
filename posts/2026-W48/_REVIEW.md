@@ -22,7 +22,12 @@ W41–W46.
 
 ## Verwendete Fotos
 
-CE270836…, AE9C55CF…, C604F6F2…, 70BA48D8…, 92F89440… (alle `_1_105_c.jpeg`)
+92F89440…, AE9C55CF…, C604F6F2…, 70BA48D8… (alle `_1_105_c.jpeg`) und IMG_7773.jpeg
+
+**Update 04.11.:** Das Cover zeigte Aaron kniend mit Tablet (CE270836). Das Foto
+ist auf Aarons Wunsch dauerhaft gesperrt („da seh ich zu jung aus“). Neues Cover:
+Battle Rope. Slide 5 („Cardio ersetzt kein Defizit“) bekam dafür die Obstschale —
+passt zum Satz „das löst du am Esstisch“ ohnehin besser als ein Gym-Foto.
 
 Alle aus Aarons Pool, keins in den letzten 8 Wochen gelaufen, kein Stock.
 Das Air-Bike-Foto (70BA48D8) war kurz in KW 46 Post 1 und ist dort am 02.11.
