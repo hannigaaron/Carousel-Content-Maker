@@ -33,6 +33,11 @@ Namen, Profilbilder oder Chat-Kopf** nachgebaut. Gezeichnet als Chat-Blasen
 (weiß, abgerundet, Uhrzeit unten rechts) über dem abgedunkelten Foto, so wie
 man es in Canva zusammenbauen würde — kein Screenshot.
 
+Die Blasen stehen **nicht bündig untereinander**, sondern als Collage: jede
+bringt ihren eigenen Versatz nach links oder rechts und eine leichte Drehung
+(± 1,5 bis 2,6 Grad) mit, dazu einen eigenen Schlagschatten. Die Reihenfolge
+von oben nach unten bleibt, damit es lesbar bleibt.
+
 | Slide | Text in der Blase |
 |---|---|
 | 2 | „Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!" |

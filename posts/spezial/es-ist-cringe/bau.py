@@ -165,51 +165,75 @@ def umbrechen_emoji(d, text, f, max_breite, groesse):
     return zeilen
 
 
-def blase(blatt, text, y, zeit="", x=58, groesse=34, max_breite=0.74, radius=30):
-    """Zeichnet eine Chat-Blase wie in einem Messenger. Gibt die Unterkante zurueck."""
-    d = ImageDraw.Draw(blatt)
+def blase_bild(text, zeit="", groesse=34, max_breite=0.74, radius=30):
+    """Baut eine Chat-Blase als freistehendes Bild mit Schatten."""
+    mess = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     f = ImageFont.truetype(INTER, groesse)
     fz = ImageFont.truetype(INTER, 22)
     innen = 30
     zeilen = []
     for absatz in text.split("\n"):
-        zeilen += umbrechen_emoji(d, absatz, f, int(W * max_breite) - 2 * innen, groesse) if absatz.strip() else [""]
+        zeilen += umbrechen_emoji(mess, absatz, f, int(W * max_breite) - 2 * innen, groesse) if absatz.strip() else [""]
     zh = int(groesse * 1.38)
-    breite = max(_breite(d, z, f, groesse) for z in zeilen) + 2 * innen
+    breite = max(_breite(mess, z, f, groesse) for z in zeilen) + 2 * innen
     if zeit:
-        breite = max(breite, d.textlength(zeit, font=fz) + 2 * innen + 40)
+        breite = max(breite, mess.textlength(zeit, font=fz) + 2 * innen + 40)
     breite = int(min(breite, W * max_breite))
     hoehe = len(zeilen) * zh + 2 * innen + (26 if zeit else 0)
 
-    schatten = Image.new("L", blatt.size, 0)
-    ImageDraw.Draw(schatten).rounded_rectangle([x, y, x + breite, y + hoehe], radius, fill=140)
-    schatten = schatten.filter(ImageFilter.GaussianBlur(14))
-    blatt.paste(Image.new("RGB", blatt.size, (0, 0, 0)), (0, 12), schatten)
+    rand = 34                      # Platz fuer Schatten und Zipfel
+    bild = Image.new("RGBA", (breite + 2 * rand, hoehe + 2 * rand), (0, 0, 0, 0))
+    x0, y0 = rand, rand
 
-    d = ImageDraw.Draw(blatt)
-    d.rounded_rectangle([x, y, x + breite, y + hoehe], radius, fill=BLASE)
-    d.polygon([(x + 6, y + radius - 4), (x - 16, y + 6), (x + 22, y + 8)], fill=BLASE)
-    ty = y + innen
+    schatten = Image.new("L", bild.size, 0)
+    sd = ImageDraw.Draw(schatten)
+    sd.rounded_rectangle([x0, y0 + 10, x0 + breite, y0 + hoehe + 10], radius, fill=130)
+    schatten = schatten.filter(ImageFilter.GaussianBlur(13))
+    bild.paste(Image.new("RGBA", bild.size, (0, 0, 0, 255)), (0, 0), schatten)
+
+    d = ImageDraw.Draw(bild)
+    d.rounded_rectangle([x0, y0, x0 + breite, y0 + hoehe], radius, fill=BLASE)
+    d.polygon([(x0 + 6, y0 + radius - 4), (x0 - 16, y0 + 6), (x0 + 22, y0 + 8)], fill=BLASE)
+    ty = y0 + innen
     for zeile in zeilen:
-        _zeichne(blatt, d, x + innen, ty, zeile, f, groesse, BLASE_TEXT)
+        _zeichne(bild, d, x0 + innen, ty, zeile, f, groesse, BLASE_TEXT)
         ty += zh
     if zeit:
         zb = d.textlength(zeit, font=fz)
-        d.text((x + breite - innen - zb, y + hoehe - innen - 14), zeit, font=fz, fill=BLASE_ZEIT)
-    return y + hoehe
+        d.text((x0 + breite - innen - zb, y0 + hoehe - innen - 14), zeit, font=fz, fill=BLASE_ZEIT)
+    return bild, hoehe
+
+
+def blase(blatt, text, y, zeit="", x=58, groesse=34, max_breite=0.74,
+          radius=30, winkel=0.0):
+    """Setzt eine Blase schraeg ins Bild. Gibt die Unterkante zurueck."""
+    bild, hoehe = blase_bild(text, zeit, groesse, max_breite, radius)
+    if winkel:
+        bild = bild.rotate(winkel, resample=Image.BICUBIC, expand=True)
+    px = int(x - 34)
+    py = int(y - 34)
+    px = max(-20, min(px, W - bild.width + 20))
+    blatt.paste(bild, (px, py), bild)
+    return y + hoehe + abs(winkel) * 6
 
 
 def nachrichten(foto, ziel, kopf_text, blasen, mitte=(0.5, 0.5), gr_oben=64,
                 oben_y=0.055, start=0.30, abstand=26, abdunkeln=0.42):
-    """Kopfzeile oben, darunter echte Nachrichten als Chat-Blasen."""
+    """Kopfzeile oben, darunter die Nachrichten als lose Collage.
+
+    Jede Blase bringt ihren eigenen Versatz nach links/rechts und eine leichte
+    Drehung mit, damit es nach aufgeklebten Schnipseln aussieht statt nach
+    Liste. Die Reihenfolge von oben nach unten bleibt, damit es lesbar bleibt.
+    """
     blatt = fuellen(os.path.join(POOL, foto), mitte)
     if abdunkeln:
         dunkel = Image.new("RGB", blatt.size, (0, 0, 0))
         blatt = Image.blend(blatt, dunkel, abdunkeln)
     block(blatt, kopf_text, oben_y, gr_oben, 0.86)
     y = int(H * start)
-    for text, zeit, gr in blasen:
-        y = blase(blatt, text, y, zeit, groesse=gr) + abstand
+    for text, zeit, gr, x_anteil, winkel in blasen:
+        y = blase(blatt, text, y, zeit, x=int(W * x_anteil), groesse=gr,
+                  winkel=winkel) + abstand
     blatt.save(ziel, quality=95, subsampling=0)
     print("  ", os.path.basename(ziel))
 
@@ -221,20 +245,20 @@ slide("DSC06534.jpeg", os.path.join(OUT, "01.jpg"),
 
 nachrichten("DSC06671.jpeg", os.path.join(OUT, "02.jpg"),
             "…dir Kunden täglich\nsolche Nachrichten\nschicken.",
-            [("Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!", "10:41", 33),
-             ("Ich habe die 67 auf der Waage \U0001F60C, was ich schon lange nicht mehr hatte.", "15:15", 33),
-             ("War irgendwie cool heute – hatte nach dem Training die ganze Zeit gute Laune!", "20:08", 33),
-             ("Danke dir, dass du es tatsächlich schaffst, mich seit 2 Jahren bei der Stange zu halten!", "14:42", 33)],
-            mitte=(0.5, 0.45), gr_oben=64, start=0.275, abstand=22)
+            [("Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!", "10:41", 33, 0.05, 2.4),
+             ("Ich habe die 67 auf der Waage \U0001F60C, was ich schon lange nicht mehr hatte.", "15:15", 33, 0.19, -2.0),
+             ("War irgendwie cool heute – hatte nach dem Training die ganze Zeit gute Laune!", "20:08", 33, 0.03, 1.5),
+             ("Danke dir, dass du es tatsächlich schaffst, mich seit 2 Jahren bei der Stange zu halten!", "14:42", 33, 0.16, -2.6)],
+            mitte=(0.5, 0.45), gr_oben=64, start=0.265, abstand=16)
 
 nachrichten("laptop-handy-sprechen.jpeg", os.path.join(OUT, "03.jpg"),
             "…du immer wieder\nhörst: „Du hast mein\nLeben verändert.“",
-            [("Du hast es wirklich geschafft, mein Leben zu verändern! DANKE!\U0001F64F\U0001F3FD\u2764\uFE0F", "09:12", 33),
+            [("Du hast es wirklich geschafft, mein Leben zu verändern! DANKE!\U0001F64F\U0001F3FD\u2764\uFE0F", "09:12", 33, 0.17, -2.2),
              ("Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. "
               "Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast es zu "
-              "meinem Lebensstil gemacht.", "20:08", 33),
-             ("Dank dir habe ich meinen neuen Weg gefunden.", "15:15", 33)],
-            mitte=(0.5, 0.30), gr_oben=64, start=0.285, abstand=22)
+              "meinem Lebensstil gemacht.", "20:08", 33, 0.04, 1.8),
+             ("Dank dir habe ich meinen neuen Weg gefunden.", "15:15", 33, 0.22, -1.6)],
+            mitte=(0.5, 0.30), gr_oben=64, start=0.28, abstand=18)
 
 slide("DSC06621.jpeg", os.path.join(OUT, "04.jpg"),
       "…die Leute, die dich\nanfangs ausgelacht\nhaben, dich nach\ndeinem Rat fragen.",
