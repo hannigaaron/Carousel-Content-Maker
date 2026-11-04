@@ -20,8 +20,8 @@ Inhalt kommt aus Aarons Notiz vom 03.11.
 | # | Text | Foto | Nachrichten |
 |---|---|---|---|
 | 1 | Ja, auf Instagram zu posten, als wäre man Influencer, ist cringe… / Aber nur solange, bis… | Von hinten am Brunnen (`DSC06534`) | — |
-| 2 | …dir Kunden täglich solche Nachrichten schicken. | Am Handy vor dem Schloss (`DSC06671`) | 3 kurze Blasen |
-| 3 | …du immer wieder hörst: „Du hast mein Leben verändert." | Sprachnachricht am Laptop (`laptop-handy-sprechen`) | 1 lange Blase |
+| 2 | …dir Kunden täglich solche Nachrichten schicken. | Am Handy vor dem Schloss (`DSC06671`) | 4 kurze Blasen |
+| 3 | …du immer wieder hörst: „Du hast mein Leben verändert." | Sprachnachricht am Laptop (`laptop-handy-sprechen`) | 3 Blasen |
 | 4 | …die Leute, die dich anfangs ausgelacht haben, dich nach deinem Rat fragen. | Vor dem Schloss, Blick in die Kamera (`DSC06621`) | — |
 | 5 | …die Leute sehen, wie glücklich dich das Ganze macht. | Am Laptop mit Handystativ, lachend (`laptop-stativ-lachen`) | — |
 | 6 | Den ersten Schritt zu machen wird immer unangenehm sein. / Aber wenn aus Anfangen lang genug Dranbleiben wird… | Durch die Arkaden auf die Kamera zu (`DSC06785`) | — |
@@ -36,12 +36,17 @@ man es in Canva zusammenbauen würde — kein Screenshot.
 | Slide | Text in der Blase |
 |---|---|
 | 2 | „Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!" |
-| 2 | „Ich habe die 67 auf der Waage, was ich schon lange nicht mehr hatte." |
+| 2 | „Ich habe die 67 auf der Waage 😌, was ich schon lange nicht mehr hatte." |
+| 2 | „War irgendwie cool heute – hatte nach dem Training die ganze Zeit gute Laune!" |
 | 2 | „Danke dir, dass du es tatsächlich schaffst, mich seit 2 Jahren bei der Stange zu halten!" |
-| 3 | „Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast mir nicht nur gesagt, was ich essen soll – du hast es zu meinem Lebensstil gemacht." |
+| 3 | „Du hast es wirklich geschafft, mein Leben zu verändern! DANKE!🙏🏽❤️" |
+| 3 | „Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast es zu meinem Lebensstil gemacht." |
+| 3 | „Dank dir habe ich meinen neuen Weg gefunden." |
 
-Die Uhrzeiten sind aus den Originalnachrichten übernommen. Das 😌 aus der
-Waage-Nachricht ist raus: die Schrift der Blasen hat keine Emoji-Glyphen.
+Die Uhrzeiten sind aus den Originalnachrichten übernommen. Die Emoji sind
+PNG-Grafiken aus `assets/emoji/`, weil die Blasen-Schrift (Inter) keine
+Emoji-Glyphen hat und Pillow die Color-Emoji-Fonts von Google nicht zeichnen
+kann. Herkunft und Lizenz: `assets/emoji/HERKUNFT.md`.
 
 Alle sechs Fotos aus dem eigenen Pool. Slide 3 zeigt bewusst eine
 Sprachnachricht — der Laptop-Bildschirm ist unscharf und nicht lesbar.
@@ -53,7 +58,9 @@ oben und unten abgeschnitten).
 - Die Original-Screenshots sind **nicht** verbaut. Die Nachrichten sind als
   Blasen nachgebaut, ohne Namen, Profilbilder und Chat-Kopf. Trotzdem sind es
   echte Sätze echter Kundinnen — zwei davon nennen Zahlen (67 kg, 2 Jahre).
-  Wenn eine der beiden das nicht öffentlich sehen will, raus damit.
+  Wenn eine davon das nicht öffentlich sehen will, raus damit.
+- Die Emoji-Grafiken stehen unter CC-BY 4.0 (Twemoji). Für einen Instagram-Post
+  unkritisch, formal verlangt die Lizenz aber eine Nennung.
 - Die Caption endet nicht auf den festen PLAN-CTA, weil der Post persönlich
   erzählt und nicht verkauft. Wenn der CTA trotzdem drunter soll, drankleben.
 

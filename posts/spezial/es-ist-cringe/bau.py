@@ -101,6 +101,70 @@ BLASE_TEXT = (17, 27, 33)
 BLASE_ZEIT = (134, 150, 160)
 
 
+EMOJI = {
+    "\U0001F64F\U0001F3FD": "1f64f-1f3fd",
+    "\u2764\uFE0F": "2764",
+    "\u2764": "2764",
+    "\U0001F60C": "1f60c",
+}
+EMOJI_DIR = os.path.join(os.path.dirname(FONT), "..", "emoji")
+
+
+def zerlegen(text):
+    """Zerlegt einen String in ('t', Text) und ('e', Emoji-Datei)."""
+    teile, puffer, i = [], "", 0
+    while i < len(text):
+        for zeichen in sorted(EMOJI, key=len, reverse=True):
+            if text.startswith(zeichen, i):
+                if puffer:
+                    teile.append(("t", puffer))
+                    puffer = ""
+                teile.append(("e", EMOJI[zeichen]))
+                i += len(zeichen)
+                break
+        else:
+            puffer += text[i]
+            i += 1
+    if puffer:
+        teile.append(("t", puffer))
+    return teile
+
+
+def _breite(d, text, f, groesse):
+    b = 0
+    for art, wert in zerlegen(text):
+        b += d.textlength(wert, font=f) if art == "t" else groesse * 1.18
+    return b
+
+
+def _zeichne(blatt, d, x, y, text, f, groesse, farbe):
+    for art, wert in zerlegen(text):
+        if art == "t":
+            d.text((x, y), wert, font=f, fill=farbe)
+            x += d.textlength(wert, font=f)
+        else:
+            kante = int(groesse * 1.05)
+            bild = Image.open(os.path.join(EMOJI_DIR, wert + ".png")).convert("RGBA")
+            bild = bild.resize((kante, kante), Image.LANCZOS)
+            blatt.paste(bild, (int(x + groesse * 0.06), int(y + groesse * 0.08)), bild)
+            x += groesse * 1.18
+    return x
+
+
+def umbrechen_emoji(d, text, f, max_breite, groesse):
+    zeilen, zeile = [], ""
+    for wort in text.split():
+        probe = f"{zeile} {wort}".strip()
+        if _breite(d, probe, f, groesse) <= max_breite or not zeile:
+            zeile = probe
+        else:
+            zeilen.append(zeile)
+            zeile = wort
+    if zeile:
+        zeilen.append(zeile)
+    return zeilen
+
+
 def blase(blatt, text, y, zeit="", x=58, groesse=34, max_breite=0.74, radius=30):
     """Zeichnet eine Chat-Blase wie in einem Messenger. Gibt die Unterkante zurueck."""
     d = ImageDraw.Draw(blatt)
@@ -109,9 +173,9 @@ def blase(blatt, text, y, zeit="", x=58, groesse=34, max_breite=0.74, radius=30)
     innen = 30
     zeilen = []
     for absatz in text.split("\n"):
-        zeilen += umbrechen(d, absatz, f, int(W * max_breite) - 2 * innen) if absatz.strip() else [""]
+        zeilen += umbrechen_emoji(d, absatz, f, int(W * max_breite) - 2 * innen, groesse) if absatz.strip() else [""]
     zh = int(groesse * 1.38)
-    breite = max(d.textlength(z, font=f) for z in zeilen) + 2 * innen
+    breite = max(_breite(d, z, f, groesse) for z in zeilen) + 2 * innen
     if zeit:
         breite = max(breite, d.textlength(zeit, font=fz) + 2 * innen + 40)
     breite = int(min(breite, W * max_breite))
@@ -127,7 +191,7 @@ def blase(blatt, text, y, zeit="", x=58, groesse=34, max_breite=0.74, radius=30)
     d.polygon([(x + 6, y + radius - 4), (x - 16, y + 6), (x + 22, y + 8)], fill=BLASE)
     ty = y + innen
     for zeile in zeilen:
-        d.text((x + innen, ty), zeile, font=f, fill=BLASE_TEXT)
+        _zeichne(blatt, d, x + innen, ty, zeile, f, groesse, BLASE_TEXT)
         ty += zh
     if zeit:
         zb = d.textlength(zeit, font=fz)
@@ -157,18 +221,20 @@ slide("DSC06534.jpeg", os.path.join(OUT, "01.jpg"),
 
 nachrichten("DSC06671.jpeg", os.path.join(OUT, "02.jpg"),
             "…dir Kunden täglich\nsolche Nachrichten\nschicken.",
-            [("Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!", "10:41", 34),
-             ("Ich habe die 67 auf der Waage, was ich schon lange nicht mehr hatte.", "15:15", 34),
-             ("Danke dir, dass du es tatsächlich schaffst, mich seit 2 Jahren bei der Stange zu halten!", "14:42", 34)],
-            mitte=(0.5, 0.45), gr_oben=64, start=0.305)
+            [("Ich hab grad endlich mal wieder richtig gute Laune – danke dafür!", "10:41", 33),
+             ("Ich habe die 67 auf der Waage \U0001F60C, was ich schon lange nicht mehr hatte.", "15:15", 33),
+             ("War irgendwie cool heute – hatte nach dem Training die ganze Zeit gute Laune!", "20:08", 33),
+             ("Danke dir, dass du es tatsächlich schaffst, mich seit 2 Jahren bei der Stange zu halten!", "14:42", 33)],
+            mitte=(0.5, 0.45), gr_oben=64, start=0.275, abstand=22)
 
 nachrichten("laptop-handy-sprechen.jpeg", os.path.join(OUT, "03.jpg"),
             "…du immer wieder\nhörst: „Du hast mein\nLeben verändert.“",
-            [("Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. "
-              "Ich fühle mich besser, habe mehr Energie, bin nicht müde.\n\n"
-              "Du hast mir nicht nur gesagt, was ich essen soll – du hast es zu meinem "
-              "Lebensstil gemacht.", "20:08", 37)],
-            mitte=(0.5, 0.30), gr_oben=64, start=0.40)
+            [("Du hast es wirklich geschafft, mein Leben zu verändern! DANKE!\U0001F64F\U0001F3FD\u2764\uFE0F", "09:12", 33),
+             ("Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. "
+              "Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast es zu "
+              "meinem Lebensstil gemacht.", "20:08", 33),
+             ("Dank dir habe ich meinen neuen Weg gefunden.", "15:15", 33)],
+            mitte=(0.5, 0.30), gr_oben=64, start=0.285, abstand=22)
 
 slide("DSC06621.jpeg", os.path.join(OUT, "04.jpg"),
       "…die Leute, die dich\nanfangs ausgelacht\nhaben, dich nach\ndeinem Rat fragen.",
