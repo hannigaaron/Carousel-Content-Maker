@@ -1,10 +1,17 @@
 # Es ist cringe, bis…
 
-Spezialformat, **nicht** das Wochen-Layout. Nachgebaut nach Aarons eigenen
-Storytelling-Slides: weiße Fettschrift (Poppins ExtraBold) mit schwarzer
-Kontur über dem formatfüllenden Foto, ein Block oben, auf Cover und
+Spezialformat, **nicht** das Wochen-Layout. Weiße Fettschrift (Poppins
+ExtraBold) über dem formatfüllenden Foto, ein Block oben, auf Cover und
 Abschluss zusätzlich einer unten. Kein Zähler, keine Akzentfarbe, kein
 blaues Kursiv-Wort.
+
+**Keine Kontur um die Schrift** (Stand 04.11., auf Aarons Wunsch). Damit der
+Text trotzdem auf hellen Stellen lesbar bleibt, liegt ein weicher, breit
+gestreuter Schatten darunter — als Rand ist er nicht zu sehen.
+
+**Kein Text vor Aarons Gesicht.** Die Ausschnitte sind so gesetzt, dass Kopf
+und Gesicht frei bleiben; auf Slide 5 ist der Ausschnitt dafür nach oben
+gezogen.
 
 Inhalt kommt aus Aarons Notiz vom 03.11.
 
@@ -12,7 +19,7 @@ Inhalt kommt aus Aarons Notiz vom 03.11.
 
 | # | Text | Foto | Nachrichten |
 |---|---|---|---|
-| 1 | Es ist cringe, Sachen im Internet zu posten. / Bis… | Von hinten am Brunnen (`DSC06534`) | — |
+| 1 | Ja, auf Instagram zu posten, als wäre man Influencer, ist cringe… / Aber nur solange, bis… | Von hinten am Brunnen (`DSC06534`) | — |
 | 2 | …dir Kunden täglich solche Nachrichten schicken. | Am Handy vor dem Schloss (`DSC06671`) | 3 kurze Blasen |
 | 3 | …du immer wieder hörst: „Du hast mein Leben verändert." | Sprachnachricht am Laptop (`laptop-handy-sprechen`) | 1 lange Blase |
 | 4 | …die Leute, die dich anfangs ausgelacht haben, dich nach deinem Rat fragen. | Vor dem Schloss, Blick in die Kamera (`DSC06621`) | — |
@@ -52,7 +59,7 @@ oben und unten abgeschnitten).
 
 ## Caption
 
-Es ist cringe, Sachen im Internet zu posten.
+Ja, auf Instagram zu posten, als wäre man Influencer, ist cringe.
 
 Das hab ich mir selbst zwei Jahre lang gesagt. Und ehrlich: Am Anfang war es das auch. Niemand schaut zu, ein paar Leute machen Witze, und du fragst dich jedes Mal, ob das hier jemals irgendwohin führt.
 

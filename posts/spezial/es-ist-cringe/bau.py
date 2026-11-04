@@ -37,8 +37,13 @@ def umbrechen(d, text, font, max_breite):
     return zeilen
 
 
-def block(blatt, text, oben, groesse=62, breite=0.86, mitte_x=0.5, kontur=7):
-    """Zeichnet einen zentrierten Textblock. `oben` ist der y-Anteil der ersten Zeile."""
+def block(blatt, text, oben, groesse=62, breite=0.86, mitte_x=0.5, kontur=0):
+    """Zentrierter Textblock, weiss ohne Rahmen.
+
+    Statt einer Kontur liegt ein weicher, breit gestreuter Schatten unter der
+    Schrift. Er ist als Rand nicht zu sehen, haelt den Text aber auch auf
+    hellen Stellen lesbar.
+    """
     d = ImageDraw.Draw(blatt)
     f = ImageFont.truetype(FONT, groesse)
     max_b = int(W * breite)
@@ -46,12 +51,25 @@ def block(blatt, text, oben, groesse=62, breite=0.86, mitte_x=0.5, kontur=7):
     for absatz in text.split("\n"):
         zeilen += umbrechen(d, absatz, f, max_b) if absatz.strip() else [""]
     zeilenhoehe = int(groesse * 1.22)
+
+    maske = Image.new("L", blatt.size, 0)
+    md = ImageDraw.Draw(maske)
+    y = int(H * oben)
+    for zeile in zeilen:
+        if zeile:
+            b = md.textlength(zeile, font=f)
+            md.text((W * mitte_x - b / 2, y), zeile, font=f, fill=255)
+        y += zeilenhoehe
+    for radius, deckkraft in ((max(8, groesse // 3), 150), (max(3, groesse // 9), 120)):
+        ebene = maske.filter(ImageFilter.GaussianBlur(radius))
+        blatt.paste(Image.new("RGB", blatt.size, (0, 0, 0)), (0, 0),
+                    ebene.point(lambda v: v * deckkraft // 255))
+
     y = int(H * oben)
     for zeile in zeilen:
         if zeile:
             b = d.textlength(zeile, font=f)
-            d.text((W * mitte_x - b / 2, y), zeile, font=f, fill=WEISS,
-                   stroke_width=kontur, stroke_fill=SCHWARZ)
+            d.text((W * mitte_x - b / 2, y), zeile, font=f, fill=WEISS)
         y += zeilenhoehe
     return y
 
@@ -69,7 +87,7 @@ def slide(foto, ziel, oben_text, unten_text="", mitte=(0.5, 0.5),
             zeilen += umbrechen(d, absatz, f, int(W * breite_unten)) if absatz.strip() else [""]
         hoehe = len(zeilen) * int(gr_unten * 1.22)
         start = unten_y if unten_y is not None else (H - 80 - hoehe) / H
-        block(blatt, unten_text, start, gr_unten, breite_unten, unten_x, 6)
+        block(blatt, unten_text, start, gr_unten, breite_unten, unten_x)
     blatt.save(ziel, quality=95, subsampling=0)
     print("  ", os.path.basename(ziel))
 
@@ -133,9 +151,9 @@ def nachrichten(foto, ziel, kopf_text, blasen, mitte=(0.5, 0.5), gr_oben=64,
 
 
 slide("DSC06534.jpeg", os.path.join(OUT, "01.jpg"),
-      "Es ist cringe,\nSachen im Internet\nzu posten.",
-      "Bis…", mitte=(0.5, 0.45), gr_oben=74, gr_unten=66, oben_y=0.06,
-      unten_y=0.78, unten_x=0.5)
+      "Ja, auf Instagram zu\nposten, als wäre man\nInfluencer, ist cringe…",
+      "Aber nur solange, bis…", mitte=(0.5, 0.45), gr_oben=60, gr_unten=52,
+      oben_y=0.055, unten_y=0.80, unten_x=0.5)
 
 nachrichten("DSC06671.jpeg", os.path.join(OUT, "02.jpg"),
             "…dir Kunden täglich\nsolche Nachrichten\nschicken.",
@@ -158,7 +176,7 @@ slide("DSC06621.jpeg", os.path.join(OUT, "04.jpg"),
 
 slide("laptop-stativ-lachen.jpeg", os.path.join(OUT, "05.jpg"),
       "…die Leute sehen,\nwie glücklich dich\ndas Ganze macht.",
-      mitte=(0.5, 0.42), gr_oben=66, oben_y=0.06)
+      mitte=(0.5, 0.12), gr_oben=66, oben_y=0.06)
 
 slide("DSC06785.jpeg", os.path.join(OUT, "06.jpg"),
       "Den ersten Schritt zu\nmachen wird immer\nunangenehm sein.",
