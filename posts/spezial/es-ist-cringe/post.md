@@ -23,8 +23,9 @@ Inhalt kommt aus Aarons Notiz vom 03.11.
 | 2 | …dir Kunden täglich solche Nachrichten schicken. | Am Handy vor dem Schloss (`DSC06671`) | 4 kurze Blasen |
 | 3 | …du immer wieder hörst: „Du hast mein Leben verändert." | Sprachnachricht am Laptop (`laptop-handy-sprechen`) | 3 Blasen |
 | 4 | …die Leute, die dich anfangs ausgelacht haben, dich nach deinem Rat fragen. | Vor dem Schloss, Blick in die Kamera (`DSC06621`) | — |
-| 5 | …die Leute sehen, wie glücklich dich das Ganze macht. | Am Laptop mit Handystativ, lachend (`laptop-stativ-lachen`) | — |
+| 5 | …die Leute sehen, wie viel Spaß du an der Sache hast. | Am Laptop mit Handystativ, lachend (`laptop-stativ-lachen`) | — |
 | 6 | Den ersten Schritt zu machen wird immer unangenehm sein. / Aber wenn aus Anfangen lang genug Dranbleiben wird… | Durch die Arkaden auf die Kamera zu (`DSC06785`) | — |
+| 7 | Willkommen auf meinem Profil. / Wenn du täglich motiviert werden willst und alltagstaugliche, realistische Tipps suchst, folg mir gerne rein. | An der Betonwand mit Kamera (`DSC06172`) | — |
 
 ## Die Nachrichten
 
@@ -48,7 +49,10 @@ von oben nach unten bleibt, damit es lesbar bleibt.
 | 3 | „Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast es zu meinem Lebensstil gemacht." |
 | 3 | „Dank dir habe ich meinen neuen Weg gefunden." |
 
-Die Uhrzeiten sind aus den Originalnachrichten übernommen. Die Emoji sind
+Jede Blase hat eine **eigene Uhrzeit**, keine kommt zweimal vor — über alle
+Slides hinweg. So wirkt es wie sieben verschiedene Leute und nicht wie ein
+Chat. Vier Uhrzeiten stammen aus den Originalnachrichten, drei sind
+angepasst, damit sich keine wiederholt. Die Emoji sind
 PNG-Grafiken aus `assets/emoji/`, weil die Blasen-Schrift (Inter) keine
 Emoji-Glyphen hat und Pillow die Color-Emoji-Fonts von Google nicht zeichnen
 kann. Herkunft und Lizenz: `assets/emoji/HERKUNFT.md`.
@@ -85,3 +89,5 @@ Den ersten Schritt zu machen wird immer unangenehm sein. Daran ändert sich nich
 Aber wenn aus Anfangen lang genug Dranbleiben wird, ist der Erfolg so gut wie sicher.
 
 Also: Fang an. Und stick to the plan. 🤝
+
+Und wenn du täglich motiviert werden willst und alltagstaugliche, realistische Tipps suchst: folg mir gerne rein.

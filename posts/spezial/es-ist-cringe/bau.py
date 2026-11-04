@@ -241,7 +241,7 @@ def nachrichten(foto, ziel, kopf_text, blasen, mitte=(0.5, 0.5), gr_oben=64,
 slide("DSC06534.jpeg", os.path.join(OUT, "01.jpg"),
       "Ja, auf Instagram zu\nposten, als wäre man\nInfluencer, ist cringe…",
       "Aber nur solange, bis…", mitte=(0.5, 0.45), gr_oben=60, gr_unten=52,
-      oben_y=0.055, unten_y=0.80, unten_x=0.5)
+      oben_y=0.135, unten_y=0.80, unten_x=0.5)
 
 nachrichten("DSC06671.jpeg", os.path.join(OUT, "02.jpg"),
             "…dir Kunden täglich\nsolche Nachrichten\nschicken.",
@@ -256,8 +256,8 @@ nachrichten("laptop-handy-sprechen.jpeg", os.path.join(OUT, "03.jpg"),
             [("Du hast es wirklich geschafft, mein Leben zu verändern! DANKE!\U0001F64F\U0001F3FD\u2764\uFE0F", "09:12", 33, 0.17, -2.2),
              ("Ich habe mit dir so viele kg abgenommen, aber viel viel mehr gewonnen. "
               "Ich fühle mich besser, habe mehr Energie, bin nicht müde. Du hast es zu "
-              "meinem Lebensstil gemacht.", "20:08", 33, 0.04, 1.8),
-             ("Dank dir habe ich meinen neuen Weg gefunden.", "15:15", 33, 0.22, -1.6)],
+              "meinem Lebensstil gemacht.", "21:34", 33, 0.04, 1.8),
+             ("Dank dir habe ich meinen neuen Weg gefunden.", "18:27", 33, 0.22, -1.6)],
             mitte=(0.5, 0.30), gr_oben=64, start=0.28, abstand=18)
 
 slide("DSC06621.jpeg", os.path.join(OUT, "04.jpg"),
@@ -265,7 +265,7 @@ slide("DSC06621.jpeg", os.path.join(OUT, "04.jpg"),
       mitte=(0.5, 0.42), gr_oben=62, oben_y=0.055)
 
 slide("laptop-stativ-lachen.jpeg", os.path.join(OUT, "05.jpg"),
-      "…die Leute sehen,\nwie glücklich dich\ndas Ganze macht.",
+      "…die Leute sehen,\nwie viel Spaß du an\nder Sache hast.",
       mitte=(0.5, 0.12), gr_oben=66, oben_y=0.06)
 
 slide("DSC06785.jpeg", os.path.join(OUT, "06.jpg"),
@@ -273,3 +273,9 @@ slide("DSC06785.jpeg", os.path.join(OUT, "06.jpg"),
       "Aber wenn aus Anfangen lang genug\nDranbleiben wird, ist der Erfolg so\ngut wie sicher.\n\nAlso: Fang an. Und stick to the plan.",
       mitte=(0.5, 0.42), gr_oben=62, gr_unten=48, oben_y=0.055,
       breite_unten=0.88, unten_y=0.66)
+
+slide("DSC06172.jpeg", os.path.join(OUT, "07.jpg"),
+      "Willkommen auf\nmeinem Profil.",
+      "Wenn du täglich motiviert werden willst\nund alltagstaugliche, realistische Tipps\nsuchst, folg mir gerne rein.",
+      mitte=(0.5, 0.45), gr_oben=62, gr_unten=42, oben_y=0.60,
+      breite_unten=0.88, unten_y=0.775)
