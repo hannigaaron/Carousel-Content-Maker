@@ -1,0 +1,9 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/5","headline":"Dunkle Monate,\nvolle Wochen: So\nbleibst du {dran}","subline":"Vier Regeln für die Zeit nach Feierabend.","photo":"../../assets/fotos/alltag-automat-abends.jpeg","focus":"top"},
+    {"type":"point","counter":"REGEL 01 / 04","headline":"Schlechtes Wetter ist\nein {Wegproblem}","photo":"../../assets/fotos/4BC1E0EA-7E2F-49D0-AC5A-127E3250E5F2.jpeg","focus":"center","body":"Regen und Dunkelheit ändern nicht, ob du trainierst, nur wie du hinkommst. Leg die Einheit auf den Weg zwischen Arbeit und Zuhause. Wer erst heimfährt, geht abends selten noch mal los."},
+    {"type":"point","counter":"REGEL 02 / 04","headline":"Ein Plan B im\n{Wohnzimmer}","photo":"../../assets/fotos/IMG_0001.jpeg","focus":"center","body":"Hanteln oder Körpergewicht, 30 Minuten, kein Weg. Der Plan B ersetzt nicht das Gym, er rettet die Woche an dem Tag, an dem das Gym nicht klappt."},
+    {"type":"point","counter":"REGEL 03 / 04","headline":"Gleiche Tage,\ngleiche {Uhrzeit}","photo":"../../assets/fotos/gym-rack-fitseveneleven.jpeg","focus":"top","body":"2x 30 Minuten pro Woche, fest im Kalender wie ein Termin mit dem Chef. Wer jeden Abend neu entscheidet, entscheidet im Winter öfter dagegen."},
+    {"type":"point","counter":"REGEL 04 / 04","headline":"Die kleinste Version\nbleibt {stehen}","photo":"../../assets/fotos/BBB3EC33-7F16-4F3B-9A89-7C1315BFAE82_1_105_c.jpeg","focus":"center","body":"Matte und Rolle liegen bereit. Ist der Tag zu voll, gibt es die Minimalversion: 30 Minuten, nicht 0. Eine kleine Einheit hält die Routine am Leben, eine ausgefallene Woche nicht."}
+  ]
+}

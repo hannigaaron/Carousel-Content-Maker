@@ -67,3 +67,5 @@ oben steht, wird zuerst genommen.
 | 2026-W46 | Dein Einkauf entscheidet, was du abends isst | posts/2026-W46/post-2.md |
 | 2026-W47 | Schlaf ist der Hebel, den fast niemand nutzt | posts/2026-W47/post-1.md |
 | 2026-W48 | Wie viel Cardio brauchst du wirklich? | posts/2026-W48/post-1.md |
+| 2026-W49 | Dunkle Monate, volle Wochen: So bleibst du dran | posts/2026-W49/post-1.md |
+| 2026-W49 | Du musst nicht mehr wissen | posts/2026-W49/post-2.md |

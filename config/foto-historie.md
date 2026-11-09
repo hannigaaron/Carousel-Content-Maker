@@ -200,3 +200,18 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W48 | 70BA48D8-41D1-4457-86C2-761A13DD9924_1_105_c.jpeg | P1 Antwort 03 |
 | 2026-W48 | IMG_7773.jpeg | P1 Antwort 04 (ab 04.11.) |
 | Spezial | laptop-stativ-lachen.jpeg | Es ist cringe, Slide 05 (neu im Pool 04.11.) |
+
+
+## 2026-W49 (nachgetragen am 09.11.2026)
+
+| Woche | Datei | Slide |
+|---|---|---|
+| 2026-W49 | alltag-automat-abends.jpeg | P1 Cover |
+| 2026-W49 | 4BC1E0EA-7E2F-49D0-AC5A-127E3250E5F2.jpeg | P1 Regel 01 |
+| 2026-W49 | IMG_0001.jpeg | P1 Regel 02 |
+| 2026-W49 | gym-rack-fitseveneleven.jpeg | P1 Regel 03 |
+| 2026-W49 | BBB3EC33-7F16-4F3B-9A89-7C1315BFAE82_1_105_c.jpeg | P1 Regel 04 |
+| 2026-W49 | IMG_0002.jpeg | P2 Cover |
+| 2026-W49 | 3A2F8738-FAED-4568-ACC6-D0C8690205CB_1_105_c.jpeg | P2 Grund 01 |
+| 2026-W49 | 38AAFEDB-A2C2-4D16-B56F-82B62D81DB8F_1_105_c.jpeg | P2 Grund 02 |
+| 2026-W49 | studio-raum.jpeg | P2 Grund 03 |

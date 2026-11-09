@@ -1,0 +1,36 @@
+{
+  "slides": [
+    {
+      "type": "cover",
+      "counter": "1/4",
+      "headline": "Du musst nicht\nmehr {wissen}",
+      "subline": "Drei Gründe, warum dir Wissen nicht fehlt.",
+      "photo": "../../assets/fotos/IMG_0002.jpeg",
+      "focus": "center"
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 01 / 03",
+      "headline": "Noch ein Buch ändert\n{nichts}",
+      "photo": "../../assets/fotos/3A2F8738-FAED-4568-ACC6-D0C8690205CB_1_105_c.jpeg",
+      "focus": "center",
+      "body": "Du kennst Protein, Schlaf und Krafttraining längst. Was fehlt, ist selten Wissen. Es ist der Moment, in dem du es diese Woche wirklich umsetzt."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 02 / 03",
+      "headline": "Eine {Entscheidung},\nkein Plan",
+      "photo": "../../assets/fotos/38AAFEDB-A2C2-4D16-B56F-82B62D81DB8F_1_105_c.jpeg",
+      "focus": "center",
+      "body": "Kein neuer Ernährungsplan. Eine Entscheidung im Supermarkt: pro Einkauf eine Proteinquelle mehr in den Wagen. Das kostet null Minuten extra und läuft jede Woche mit."
+    },
+    {
+      "type": "point",
+      "counter": "GRUND 03 / 03",
+      "headline": "Dein blinder\n{Fleck}",
+      "photo": "../../assets/fotos/studio-raum.jpeg",
+      "focus": "top",
+      "body": "Von innen siehst du nicht, was dich bremst. Ein Blick von außen findet den Hebel in einem Gespräch, statt dass du ein weiteres Quartal selbst suchst."
+    }
+  ]
+}
