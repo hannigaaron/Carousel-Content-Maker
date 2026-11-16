@@ -83,9 +83,7 @@ li:before{content:'•';position:absolute;left:0;color:#7CC7EC}
 
 
 def avatar():
-    im = ImageOps.exif_transpose(Image.open(os.path.join(WURZEL, "assets/fotos/IMG_0004.jpeg"))).convert("RGB")
-    w, h = im.size
-    im = im.crop((int(w * .30), int(h * .30), int(w * .70), int(h * .30) + int(w * .40))).resize((240, 240))
+    im = Image.open(os.path.join(WURZEL, "assets", "profilbild.jpeg")).convert("RGB").resize((240, 240))
     buf = io.BytesIO(); im.save(buf, "JPEG", quality=90)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
