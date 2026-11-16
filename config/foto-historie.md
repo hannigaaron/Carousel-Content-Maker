@@ -215,3 +215,14 @@ Pool war leer; nur W35-Bilder (älter als 8 Wochen) waren frei.
 | 2026-W49 | 3A2F8738-FAED-4568-ACC6-D0C8690205CB_1_105_c.jpeg | P2 Grund 01 |
 | 2026-W49 | 38AAFEDB-A2C2-4D16-B56F-82B62D81DB8F_1_105_c.jpeg | P2 Grund 02 |
 | 2026-W49 | studio-raum.jpeg | P2 Grund 03 |
+
+
+## 2026-W50 (nachgetragen am 16.11.2026)
+
+| Woche | Datei | Slide |
+|---|---|---|
+| 2026-W50 | stock/neu-grilled-chicken-03.jpeg | P1 Cover |
+| 2026-W50 | stock/neu-scrambled-eggs-02.jpeg | P1 Regel 01 |
+| 2026-W50 | stock/neu-grilled-chicken-02.jpeg | P1 Regel 02 |
+| 2026-W50 | stock/neu-tuna-salad-03.jpeg | P1 Regel 03 |
+| 2026-W50 | stock/frei-lentils-bowl-01.jpeg | P1 Regel 04 |

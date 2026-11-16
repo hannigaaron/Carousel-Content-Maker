@@ -1,0 +1,9 @@
+{
+  "slides": [
+    {"type":"cover","counter":"1/5","headline":"Protein first,\n{ohne} Rechnen","subline":"4 Regeln, die auch in vollen Wochen halten.","photo":"../../assets/fotos/stock/neu-grilled-chicken-03.jpeg","focus":"center"},
+    {"type":"point","counter":"REGEL 01 / 04","headline":"Das Frühstück setzt den\n{Anker}","photo":"../../assets/fotos/stock/neu-scrambled-eggs-02.jpeg","focus":"center","body":"Drei Eier, Skyr oder Quark: unter 5 Minuten fertig, null Extra-Zeit. Wer morgens Protein isst, muss tagsüber weniger aufholen. Das ist die billigste Umstellung, die es gibt."},
+    {"type":"point","counter":"REGEL 02 / 04","headline":"Eine {Handfläche}\npro Mahlzeit","photo":"../../assets/fotos/stock/neu-grilled-chicken-02.jpeg","focus":"center","body":"Eine Portion Fleisch, Fisch oder Tofu in Handflächengröße. Drei Mahlzeiten plus ein Snack bringen dich in die Nähe von 1,5-2g pro Kilo Körpergewicht. Kein Wiegen, kein Tracking-Zwang."},
+    {"type":"point","counter":"REGEL 03 / 04","headline":"Ein {Vorrat} schlägt\ngute Vorsätze","photo":"../../assets/fotos/stock/neu-tuna-salad-03.jpeg","focus":"center","body":"Thunfisch aus der Dose, Skyr, Eier: drei Proteinquellen, die immer da sind. Wer abends erst nachdenken muss, bestellt. Kein Meal Prep am Sonntag nötig."},
+    {"type":"point","counter":"REGEL 04 / 04","headline":"Die {Lücke} schließt\ndas Abendessen","photo":"../../assets/fotos/stock/frei-lentils-bowl-01.jpeg","focus":"center","body":"Fehlt tagsüber Protein, passt du eine Mahlzeit an, nicht den ganzen Tag. Linsen, Quark oder Fisch am Abend reichen oft. Eine Stellschraube hält länger durch als ein perfekter Plan."}
+  ]
+}
