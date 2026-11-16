@@ -26,7 +26,7 @@ SUB = "Fit &amp; stark als Mama"
 # Jeder Slide: Liste von Zeilen (h = Headline, b = Box, t = Text, l = Liste)
 SLIDES = [
     ("cover", [("h", "Ich suche"), ("h", "2–3 Mamas,"),
-               ("t", "die 10+ kg loswerden wollen.<br>Und das nicht erst ab Januar,<br>"
+               ("t", "die 5+ kg loswerden wollen.<br>Und das nicht erst ab Januar,<br>"
                      "<mark class='t'>sondern ab sofort!</mark>")]),
     ("p", [("h", "Bis Silvester"), ("h", "sind es"), ("b", "6 Wochen…"),
            ("t", "Du kannst warten, oder bis dahin<br>das Fundament legen und bereits<br>"

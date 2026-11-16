@@ -4,7 +4,7 @@ Spezialformat nach Aarons Referenz-Screenshots (Tobi-Teubner-Post "Ich suche 3-5
 
 ## Offene Punkte
 
-- "10+ kg loswerden" und "die ersten Kilos verlieren" kommen aus dem Referenz-Post. Das ist ein Ergebnisversprechen. Bitte prüfen, ob du das so sagen willst.
+- "5+ kg loswerden" und "die ersten Kilos verlieren" kommen aus dem Referenz-Post. Das ist ein Ergebnisversprechen. Bitte prüfen, ob du das so sagen willst.
 - Slide 2 sagt "6 Wochen" bis Silvester (Stand Mitte November). Beim späteren Posten die Zahl anpassen.
 - Kopfzeile "Fit & stark als Mama" ist ein Vorschlag, im Referenz-Post steht "Fit & stark als Papa". Eigene Zeile bitte bestätigen.
 - Profilbild unten ist ein Ausschnitt aus IMG_0004.jpeg. Gegen dein echtes Profilbild tauschen, falls gewünscht.
