@@ -39,7 +39,7 @@ SLIDES = [
            ("l", ["Zeitsparende Methoden und Routinen<br>für deinen Mama-Alltag",
                   "Alltagstaugliche Ernährung, die die<br>ganze Familie mitisst",
                   "Jemand, der dir nicht nur zeigt, wie es geht,<br>sondern dich auch bei der Stange hält und<br>dir Lösungen für jedes Problem an die Hand gibt"])]),
-    ("p", [("h", "Ich coache"), ("b", "hauptberuflich."),
+    ("p", [("h", "Ich coache"), ("b", "dich 1:1."),
            ("t", "Mein System hat schon bei unzähligen<br>berufstätigen Müttern funktioniert,<br>"
                  "teils trotz 50 Stunden Arbeit,<br>Haushalt und Kinderbetreuung.")]),
     ("p", [("h", "Dein Kind"), ("h", "braucht ein"), ("b", "Vorbild:"),

@@ -18,7 +18,7 @@ Nicht im Januar. Nicht "wenn der Stress vorbei ist". Jetzt.
 
 Januar ist kein besserer Zeitpunkt, nur ein späterer. Und bis dahin kommen noch Weihnachtsfeiern, Plätzchen und volle Wochen dazu.
 
-Ich coache hauptberuflich. Mein System hat schon bei unzähligen berufstätigen Müttern funktioniert, teils trotz 50 Stunden Arbeit, Haushalt und Kinderbetreuung.
+Ich coache dich 1:1. Mein System hat schon bei unzähligen berufstätigen Müttern funktioniert, teils trotz 50 Stunden Arbeit, Haushalt und Kinderbetreuung.
 
 Du willst das nicht allein durchziehen?
 
